@@ -14,6 +14,7 @@
 		F05015E323796FFE00C27BDD /* PIkaMerchant.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F05015E123796FFE00C27BDD /* PIkaMerchant.xcdatamodeld */; };
 		F05015E523796FFF00C27BDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F05015E423796FFF00C27BDD /* Assets.xcassets */; };
 		F05015E823796FFF00C27BDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F05015E623796FFF00C27BDD /* LaunchScreen.storyboard */; };
+		F05015F02379BE9200C27BDD /* SF Pro in Resources */ = {isa = PBXBuildFile; fileRef = F05015EF2379BE9200C27BDD /* SF Pro */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		F05015E423796FFF00C27BDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F05015E723796FFF00C27BDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F05015E923796FFF00C27BDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F05015EF2379BE9200C27BDD /* SF Pro */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "SF Pro"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +46,7 @@
 			children = (
 				F05015D723796FFE00C27BDD /* PIkaMerchant */,
 				F05015D623796FFE00C27BDD /* Products */,
+				F05015EF2379BE9200C27BDD /* SF Pro */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +131,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F05015F02379BE9200C27BDD /* SF Pro in Resources */,
 				F05015E823796FFF00C27BDD /* LaunchScreen.storyboard in Resources */,
 				F05015E523796FFF00C27BDD /* Assets.xcassets in Resources */,
 				F05015E023796FFE00C27BDD /* Main.storyboard in Resources */,
