@@ -1,0 +1,360 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F05015D923796FFE00C27BDD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05015D823796FFE00C27BDD /* AppDelegate.swift */; };
+		F05015DB23796FFE00C27BDD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05015DA23796FFE00C27BDD /* SceneDelegate.swift */; };
+		F05015DD23796FFE00C27BDD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05015DC23796FFE00C27BDD /* ViewController.swift */; };
+		F05015E023796FFE00C27BDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F05015DE23796FFE00C27BDD /* Main.storyboard */; };
+		F05015E323796FFE00C27BDD /* PIkaMerchant.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F05015E123796FFE00C27BDD /* PIkaMerchant.xcdatamodeld */; };
+		F05015E523796FFF00C27BDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F05015E423796FFF00C27BDD /* Assets.xcassets */; };
+		F05015E823796FFF00C27BDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F05015E623796FFF00C27BDD /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F05015D523796FFE00C27BDD /* PIkaMerchant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PIkaMerchant.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F05015D823796FFE00C27BDD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F05015DA23796FFE00C27BDD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F05015DC23796FFE00C27BDD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F05015DF23796FFE00C27BDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F05015E223796FFE00C27BDD /* PIkaMerchant.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PIkaMerchant.xcdatamodel; sourceTree = "<group>"; };
+		F05015E423796FFF00C27BDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F05015E723796FFF00C27BDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F05015E923796FFF00C27BDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F05015D223796FFE00C27BDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F05015CC23796FFE00C27BDD = {
+			isa = PBXGroup;
+			children = (
+				F05015D723796FFE00C27BDD /* PIkaMerchant */,
+				F05015D623796FFE00C27BDD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F05015D623796FFE00C27BDD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F05015D523796FFE00C27BDD /* PIkaMerchant.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F05015D723796FFE00C27BDD /* PIkaMerchant */ = {
+			isa = PBXGroup;
+			children = (
+				F05015D823796FFE00C27BDD /* AppDelegate.swift */,
+				F05015DA23796FFE00C27BDD /* SceneDelegate.swift */,
+				F05015DC23796FFE00C27BDD /* ViewController.swift */,
+				F05015DE23796FFE00C27BDD /* Main.storyboard */,
+				F05015E423796FFF00C27BDD /* Assets.xcassets */,
+				F05015E623796FFF00C27BDD /* LaunchScreen.storyboard */,
+				F05015E923796FFF00C27BDD /* Info.plist */,
+				F05015E123796FFE00C27BDD /* PIkaMerchant.xcdatamodeld */,
+			);
+			path = PIkaMerchant;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F05015D423796FFE00C27BDD /* PIkaMerchant */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F05015EC23796FFF00C27BDD /* Build configuration list for PBXNativeTarget "PIkaMerchant" */;
+			buildPhases = (
+				F05015D123796FFE00C27BDD /* Sources */,
+				F05015D223796FFE00C27BDD /* Frameworks */,
+				F05015D323796FFE00C27BDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PIkaMerchant;
+			productName = PIkaMerchant;
+			productReference = F05015D523796FFE00C27BDD /* PIkaMerchant.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F05015CD23796FFE00C27BDD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Apple Developer Academy";
+				TargetAttributes = {
+					F05015D423796FFE00C27BDD = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = F05015D023796FFE00C27BDD /* Build configuration list for PBXProject "PIkaMerchant" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F05015CC23796FFE00C27BDD;
+			productRefGroup = F05015D623796FFE00C27BDD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F05015D423796FFE00C27BDD /* PIkaMerchant */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F05015D323796FFE00C27BDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F05015E823796FFF00C27BDD /* LaunchScreen.storyboard in Resources */,
+				F05015E523796FFF00C27BDD /* Assets.xcassets in Resources */,
+				F05015E023796FFE00C27BDD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F05015D123796FFE00C27BDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F05015E323796FFE00C27BDD /* PIkaMerchant.xcdatamodeld in Sources */,
+				F05015DD23796FFE00C27BDD /* ViewController.swift in Sources */,
+				F05015D923796FFE00C27BDD /* AppDelegate.swift in Sources */,
+				F05015DB23796FFE00C27BDD /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F05015DE23796FFE00C27BDD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F05015DF23796FFE00C27BDD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F05015E623796FFF00C27BDD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F05015E723796FFF00C27BDD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F05015EA23796FFF00C27BDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F05015EB23796FFF00C27BDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F05015ED23796FFF00C27BDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3DX58RSQ5M;
+				INFOPLIST_FILE = PIkaMerchant/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ADA.PIkaMerchant;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F05015EE23796FFF00C27BDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3DX58RSQ5M;
+				INFOPLIST_FILE = PIkaMerchant/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ADA.PIkaMerchant;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F05015D023796FFE00C27BDD /* Build configuration list for PBXProject "PIkaMerchant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F05015EA23796FFF00C27BDD /* Debug */,
+				F05015EB23796FFF00C27BDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F05015EC23796FFF00C27BDD /* Build configuration list for PBXNativeTarget "PIkaMerchant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F05015ED23796FFF00C27BDD /* Debug */,
+				F05015EE23796FFF00C27BDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F05015E123796FFE00C27BDD /* PIkaMerchant.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F05015E223796FFE00C27BDD /* PIkaMerchant.xcdatamodel */,
+			);
+			currentVersion = F05015E223796FFE00C27BDD /* PIkaMerchant.xcdatamodel */;
+			path = PIkaMerchant.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F05015CD23796FFE00C27BDD /* Project object */;
+}
