@@ -10,6 +10,12 @@ import UIKit
 
 class PesananTableViewCell: UITableViewCell {
 
+    @IBOutlet weak var lblName: UILabel!
+    @IBOutlet weak var lblPickupTime: UILabel!
+    @IBOutlet weak var lblItems: UILabel!
+    @IBOutlet weak var lblTime: UILabel!
+    @IBOutlet weak var imgLogo: UIImageView!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
