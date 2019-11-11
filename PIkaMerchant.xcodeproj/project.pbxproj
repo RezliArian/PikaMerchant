@@ -15,6 +15,8 @@
 		F05015E523796FFF00C27BDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F05015E423796FFF00C27BDD /* Assets.xcassets */; };
 		F05015E823796FFF00C27BDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F05015E623796FFF00C27BDD /* LaunchScreen.storyboard */; };
 		F05015F02379BE9200C27BDD /* SF Pro in Resources */ = {isa = PBXBuildFile; fileRef = F05015EF2379BE9200C27BDD /* SF Pro */; };
+		F05015F32379C2C900C27BDD /* PesananTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05015F12379C2C900C27BDD /* PesananTableViewCell.swift */; };
+		F05015F42379C2C900C27BDD /* PesananTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F05015F22379C2C900C27BDD /* PesananTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		F05015E723796FFF00C27BDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F05015E923796FFF00C27BDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F05015EF2379BE9200C27BDD /* SF Pro */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "SF Pro"; sourceTree = "<group>"; };
+		F05015F12379C2C900C27BDD /* PesananTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PesananTableViewCell.swift; sourceTree = "<group>"; };
+		F05015F22379C2C900C27BDD /* PesananTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PesananTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +73,8 @@
 				F05015E623796FFF00C27BDD /* LaunchScreen.storyboard */,
 				F05015E923796FFF00C27BDD /* Info.plist */,
 				F05015E123796FFE00C27BDD /* PIkaMerchant.xcdatamodeld */,
+				F05015F12379C2C900C27BDD /* PesananTableViewCell.swift */,
+				F05015F22379C2C900C27BDD /* PesananTableViewCell.xib */,
 			);
 			path = PIkaMerchant;
 			sourceTree = "<group>";
@@ -134,6 +140,7 @@
 				F05015F02379BE9200C27BDD /* SF Pro in Resources */,
 				F05015E823796FFF00C27BDD /* LaunchScreen.storyboard in Resources */,
 				F05015E523796FFF00C27BDD /* Assets.xcassets in Resources */,
+				F05015F42379C2C900C27BDD /* PesananTableViewCell.xib in Resources */,
 				F05015E023796FFE00C27BDD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -148,6 +155,7 @@
 				F05015E323796FFE00C27BDD /* PIkaMerchant.xcdatamodeld in Sources */,
 				F05015DD23796FFE00C27BDD /* ViewController.swift in Sources */,
 				F05015D923796FFE00C27BDD /* AppDelegate.swift in Sources */,
+				F05015F32379C2C900C27BDD /* PesananTableViewCell.swift in Sources */,
 				F05015DB23796FFE00C27BDD /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
