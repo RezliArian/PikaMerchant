@@ -11,21 +11,28 @@ import UIKit
 class PesananViewController: UIViewController {
     
     var cekPesanan:[PesananModel]=[]
+    var cekSelesai:[SelesaiModel]=[]
     
     @IBOutlet weak var pesananTableView: UITableView!
-
+    @IBOutlet weak var seqmen: UISegmentedControl!
+    
+    var proses: UITableViewCell!
+    var selesai: UITableViewCell!
+    
     override func viewDidLoad() {
         
         super.viewDidLoad()
-        
-//        cekPesanan = [PesananModel(name: "Randy Cagur", estimation: "16:20", items: "3 items", time: "08.20", logo: "Go Pay")]
         
         let pesan = PesananModel(name: "Randy Cagur", estimation: "16:20", items: "3 items", time: "08.20", logo: "Go Pay")
         
         let pesan1 = PesananModel(name: "Randy cingur", estimation: "10:20", items: "10 items", time: "10.20", logo: "Ovo")
         
+        let done = SelesaiModel(name: "Randy Noel", items: "3 items", status: "Sudah diambil", time: "09.11", logo: "Go Pay")
+        
         cekPesanan.append(pesan)
         cekPesanan.append(pesan1)
+        
+        cekSelesai.append(done)
         
         let nib2 = UINib(nibName: "PesananTableViewCell", bundle: nil)
         self.pesananTableView.register(nib2, forCellReuseIdentifier: "pesananCell")
@@ -33,7 +40,10 @@ class PesananViewController: UIViewController {
         pesananTableView.delegate = self
         pesananTableView.dataSource = self
         
-
+        
+        var proses = PesananTableViewCell()
+        var selesai = SelesaiTableViewCell()
+        
     }
     
     func tableView(_ tableView: UITableView, trailingSwipeActionsConfigurationForRowAt indexPath: IndexPath) -> UISwipeActionsConfiguration? {
@@ -83,6 +93,11 @@ class PesananViewController: UIViewController {
         return action
     }
     
+    @IBAction func UISegmentedControl(_ sender: UISegmentedControl) {
+
+    }
+    
+    
 }
 
 extension PesananViewController: UITableViewDelegate,UITableViewDataSource{
@@ -93,17 +108,42 @@ extension PesananViewController: UITableViewDelegate,UITableViewDataSource{
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "pesananCell", for: indexPath) as! PesananTableViewCell
         
-        let ngetes = cekPesanan[indexPath.row]
-        
-        cell.lblName.text = ngetes.name
-        cell.lblPickupTime.text = ngetes.estimation
-        cell.lblItems.text = ngetes.items
-        cell.lblTime.text = ngetes.time
-        cell.imgLogo.image = UIImage(named: ngetes.logo)
         
         tableView.rowHeight = 100
-        return cell
+        
+        if seqmen.selectedSegmentIndex == 0{
+            let ngetes = cekPesanan[indexPath.row]
+            let cell = tableView.dequeueReusableCell(withIdentifier: "pesananCell", for: indexPath) as! PesananTableViewCell
+            
+            cell.lblName.text = ngetes.name
+            cell.lblPickupTime.text = ngetes.estimation
+            cell.lblItems.text = ngetes.items
+            cell.lblTime.text = ngetes.time
+            cell.imgLogo.image = UIImage(named: ngetes.logo)
+            return cell
+            
+        }else{
+            let ngetes1 = cekSelesai[indexPath.row]
+            let cell1 = tableView.dequeueReusableCell(withIdentifier: "pesananCell", for: indexPath) as! SelesaiTableViewCell
+            
+            cell1.lblName.text = ngetes1.name
+            cell1.lblItems.text = ngetes1.items
+            cell1.lblStatus.text = ngetes1.status
+            cell1.lblTime.text = ngetes1.time
+            cell1.imgLogo.image = UIImage(named: ngetes1.logo)
+            
+            return cell1
+        }
+            
+       
+        
+        
+        
+       
+        
+        
+        
+        
     }
 }

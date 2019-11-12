@@ -21,6 +21,7 @@
 		F05015F92379D55F00C27BDD /* PesananModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05015F82379D55F00C27BDD /* PesananModel.swift */; };
 		F05015FC237A65D300C27BDD /* SelesaiTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05015FA237A65D300C27BDD /* SelesaiTableViewCell.swift */; };
 		F05015FD237A65D300C27BDD /* SelesaiTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F05015FB237A65D300C27BDD /* SelesaiTableViewCell.xib */; };
+		F0501601237A892D00C27BDD /* SelesaiModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0501600237A892D00C27BDD /* SelesaiModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		F05015F82379D55F00C27BDD /* PesananModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PesananModel.swift; sourceTree = "<group>"; };
 		F05015FA237A65D300C27BDD /* SelesaiTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelesaiTableViewCell.swift; sourceTree = "<group>"; };
 		F05015FB237A65D300C27BDD /* SelesaiTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SelesaiTableViewCell.xib; sourceTree = "<group>"; };
+		F0501600237A892D00C27BDD /* SelesaiModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelesaiModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 				F05015FF237A7D5000C27BDD /* Pesanan diproses */,
 				F05015FE237A7CFD00C27BDD /* Pesanan Selesai */,
 				F05015F82379D55F00C27BDD /* PesananModel.swift */,
+				F0501600237A892D00C27BDD /* SelesaiModel.swift */,
 				F05015F62379C79100C27BDD /* PesananViewController.swift */,
 				F05015D823796FFE00C27BDD /* AppDelegate.swift */,
 				F05015DA23796FFE00C27BDD /* SceneDelegate.swift */,
@@ -182,6 +185,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F05015E323796FFE00C27BDD /* PIkaMerchant.xcdatamodeld in Sources */,
+				F0501601237A892D00C27BDD /* SelesaiModel.swift in Sources */,
 				F05015DD23796FFE00C27BDD /* ViewController.swift in Sources */,
 				F05015F92379D55F00C27BDD /* PesananModel.swift in Sources */,
 				F05015D923796FFE00C27BDD /* AppDelegate.swift in Sources */,

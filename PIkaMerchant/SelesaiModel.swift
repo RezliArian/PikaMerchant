@@ -1,5 +1,5 @@
 //
-//  PesananModel.swift
+//  SelesaiModel.swift
 //  PIkaMerchant
 //
 //  Created by Rezli Arian Perdana on 12/11/19.
@@ -8,10 +8,10 @@
 
 import Foundation
 
-struct PesananModel {
+struct SelesaiModel {
     var name:String
-    var estimation:String
     var items:String
+    var status:String
     var time:String
     var logo:String
 }
