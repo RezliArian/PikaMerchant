@@ -8,7 +8,7 @@
 
 import UIKit
 
-class PesananViewController: UIViewController {
+class PesananViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     var cekPesanan:[PesananModel]=[]
     var cekSelesai:[SelesaiModel]=[]
@@ -36,13 +36,17 @@ class PesananViewController: UIViewController {
         
         let nib2 = UINib(nibName: "PesananTableViewCell", bundle: nil)
         self.pesananTableView.register(nib2, forCellReuseIdentifier: "pesananCell")
+
+        let nib3 = UINib(nibName: "SelesaiTableViewCell", bundle: nil)
+        self.pesananTableView.register(nib3, forCellReuseIdentifier: "selesaiCell")
+        
         
         pesananTableView.delegate = self
         pesananTableView.dataSource = self
         
         
-        var proses = PesananTableViewCell()
-        var selesai = SelesaiTableViewCell()
+//        var proses = PesananTableViewCell()
+//        var selesai = SelesaiTableViewCell()
         
     }
     
@@ -94,25 +98,46 @@ class PesananViewController: UIViewController {
     }
     
     @IBAction func UISegmentedControl(_ sender: UISegmentedControl) {
-
+//        switch (seqmen.selectedSegmentIndex) {
+//        case 0:
+//            let nib2 = UINib(nibName: "PesananTableViewCell", bundle: nil)
+//            self.pesananTableView.register(nib2, forCellReuseIdentifier: "pesananCell")
+//            break
+//        case 1:
+//            let nib3 = UINib(nibName: "SelesaiTableViewCell", bundle: nil)
+//            self.pesananTableView.register(nib3, forCellReuseIdentifier: "pesananCell")
+//            break
+//        default:
+//            break
+//        }
+        
+        pesananTableView.reloadData()
     }
     
-    
-}
-
-extension PesananViewController: UITableViewDelegate,UITableViewDataSource{
-    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        print(cekPesanan.count)
-        return cekPesanan.count
+        
+        var returnValue = 0
+        
+        switch (seqmen.selectedSegmentIndex) {
+        case 0:
+            returnValue = cekPesanan.count
+            break
+        case 1:
+            returnValue = cekSelesai.count
+            break
+        default:
+            break
+        }
+        
+        return returnValue
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        
-        
+        tableView.clearsContextBeforeDrawing = true
         tableView.rowHeight = 100
         
-        if seqmen.selectedSegmentIndex == 0{
+        if seqmen.selectedSegmentIndex == 0 {
+       
             let ngetes = cekPesanan[indexPath.row]
             let cell = tableView.dequeueReusableCell(withIdentifier: "pesananCell", for: indexPath) as! PesananTableViewCell
             
@@ -122,28 +147,18 @@ extension PesananViewController: UITableViewDelegate,UITableViewDataSource{
             cell.lblTime.text = ngetes.time
             cell.imgLogo.image = UIImage(named: ngetes.logo)
             return cell
-            
-        }else{
+        }
+        
             let ngetes1 = cekSelesai[indexPath.row]
-            let cell1 = tableView.dequeueReusableCell(withIdentifier: "pesananCell", for: indexPath) as! SelesaiTableViewCell
+            
+            let cell1 = tableView.dequeueReusableCell(withIdentifier: "selesaiCell", for: indexPath) as! SelesaiTableViewCell
             
             cell1.lblName.text = ngetes1.name
             cell1.lblItems.text = ngetes1.items
             cell1.lblStatus.text = ngetes1.status
             cell1.lblTime.text = ngetes1.time
             cell1.imgLogo.image = UIImage(named: ngetes1.logo)
-            
-            return cell1
-        }
-            
-       
         
-        
-        
-       
-        
-        
-        
-        
+        return cell1
     }
 }
