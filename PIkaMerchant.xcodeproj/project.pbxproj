@@ -18,6 +18,9 @@
 		F05015F32379C2C900C27BDD /* PesananTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05015F12379C2C900C27BDD /* PesananTableViewCell.swift */; };
 		F05015F42379C2C900C27BDD /* PesananTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F05015F22379C2C900C27BDD /* PesananTableViewCell.xib */; };
 		F05015F72379C79100C27BDD /* PesananViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05015F62379C79100C27BDD /* PesananViewController.swift */; };
+		F05015F92379D55F00C27BDD /* PesananModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05015F82379D55F00C27BDD /* PesananModel.swift */; };
+		F05015FC237A65D300C27BDD /* SelesaiTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05015FA237A65D300C27BDD /* SelesaiTableViewCell.swift */; };
+		F05015FD237A65D300C27BDD /* SelesaiTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F05015FB237A65D300C27BDD /* SelesaiTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +37,9 @@
 		F05015F12379C2C900C27BDD /* PesananTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PesananTableViewCell.swift; sourceTree = "<group>"; };
 		F05015F22379C2C900C27BDD /* PesananTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PesananTableViewCell.xib; sourceTree = "<group>"; };
 		F05015F62379C79100C27BDD /* PesananViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PesananViewController.swift; sourceTree = "<group>"; };
+		F05015F82379D55F00C27BDD /* PesananModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PesananModel.swift; sourceTree = "<group>"; };
+		F05015FA237A65D300C27BDD /* SelesaiTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelesaiTableViewCell.swift; sourceTree = "<group>"; };
+		F05015FB237A65D300C27BDD /* SelesaiTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SelesaiTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,11 +73,12 @@
 		F05015D723796FFE00C27BDD /* PIkaMerchant */ = {
 			isa = PBXGroup;
 			children = (
-				F05015F12379C2C900C27BDD /* PesananTableViewCell.swift */,
-				F05015F22379C2C900C27BDD /* PesananTableViewCell.xib */,
+				F05015FF237A7D5000C27BDD /* Pesanan diproses */,
+				F05015FE237A7CFD00C27BDD /* Pesanan Selesai */,
+				F05015F82379D55F00C27BDD /* PesananModel.swift */,
+				F05015F62379C79100C27BDD /* PesananViewController.swift */,
 				F05015D823796FFE00C27BDD /* AppDelegate.swift */,
 				F05015DA23796FFE00C27BDD /* SceneDelegate.swift */,
-				F05015F62379C79100C27BDD /* PesananViewController.swift */,
 				F05015DC23796FFE00C27BDD /* ViewController.swift */,
 				F05015DE23796FFE00C27BDD /* Main.storyboard */,
 				F05015E423796FFF00C27BDD /* Assets.xcassets */,
@@ -80,6 +87,24 @@
 				F05015E123796FFE00C27BDD /* PIkaMerchant.xcdatamodeld */,
 			);
 			path = PIkaMerchant;
+			sourceTree = "<group>";
+		};
+		F05015FE237A7CFD00C27BDD /* Pesanan Selesai */ = {
+			isa = PBXGroup;
+			children = (
+				F05015FA237A65D300C27BDD /* SelesaiTableViewCell.swift */,
+				F05015FB237A65D300C27BDD /* SelesaiTableViewCell.xib */,
+			);
+			path = "Pesanan Selesai";
+			sourceTree = "<group>";
+		};
+		F05015FF237A7D5000C27BDD /* Pesanan diproses */ = {
+			isa = PBXGroup;
+			children = (
+				F05015F12379C2C900C27BDD /* PesananTableViewCell.swift */,
+				F05015F22379C2C900C27BDD /* PesananTableViewCell.xib */,
+			);
+			path = "Pesanan diproses";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +165,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F05015FD237A65D300C27BDD /* SelesaiTableViewCell.xib in Resources */,
 				F05015F02379BE9200C27BDD /* SF Pro in Resources */,
 				F05015E823796FFF00C27BDD /* LaunchScreen.storyboard in Resources */,
 				F05015E523796FFF00C27BDD /* Assets.xcassets in Resources */,
@@ -157,9 +183,11 @@
 			files = (
 				F05015E323796FFE00C27BDD /* PIkaMerchant.xcdatamodeld in Sources */,
 				F05015DD23796FFE00C27BDD /* ViewController.swift in Sources */,
+				F05015F92379D55F00C27BDD /* PesananModel.swift in Sources */,
 				F05015D923796FFE00C27BDD /* AppDelegate.swift in Sources */,
 				F05015F32379C2C900C27BDD /* PesananTableViewCell.swift in Sources */,
 				F05015DB23796FFE00C27BDD /* SceneDelegate.swift in Sources */,
+				F05015FC237A65D300C27BDD /* SelesaiTableViewCell.swift in Sources */,
 				F05015F72379C79100C27BDD /* PesananViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
