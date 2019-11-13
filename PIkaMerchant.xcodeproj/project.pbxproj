@@ -22,6 +22,8 @@
 		F05015FC237A65D300C27BDD /* SelesaiTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05015FA237A65D300C27BDD /* SelesaiTableViewCell.swift */; };
 		F05015FD237A65D300C27BDD /* SelesaiTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F05015FB237A65D300C27BDD /* SelesaiTableViewCell.xib */; };
 		F0501601237A892D00C27BDD /* SelesaiModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0501600237A892D00C27BDD /* SelesaiModel.swift */; };
+		F0501606237BAF9500C27BDD /* MakananTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0501604237BAF9500C27BDD /* MakananTableViewCell.swift */; };
+		F0501607237BAF9500C27BDD /* MakananTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0501605237BAF9500C27BDD /* MakananTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +44,8 @@
 		F05015FA237A65D300C27BDD /* SelesaiTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelesaiTableViewCell.swift; sourceTree = "<group>"; };
 		F05015FB237A65D300C27BDD /* SelesaiTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SelesaiTableViewCell.xib; sourceTree = "<group>"; };
 		F0501600237A892D00C27BDD /* SelesaiModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelesaiModel.swift; sourceTree = "<group>"; };
+		F0501604237BAF9500C27BDD /* MakananTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakananTableViewCell.swift; sourceTree = "<group>"; };
+		F0501605237BAF9500C27BDD /* MakananTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MakananTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,10 +79,10 @@
 		F05015D723796FFE00C27BDD /* PIkaMerchant */ = {
 			isa = PBXGroup;
 			children = (
+				F0501603237BAF6300C27BDD /* Makanan */,
 				F05015FF237A7D5000C27BDD /* Pesanan diproses */,
 				F05015FE237A7CFD00C27BDD /* Pesanan Selesai */,
-				F05015F82379D55F00C27BDD /* PesananModel.swift */,
-				F0501600237A892D00C27BDD /* SelesaiModel.swift */,
+				F0501602237AA84200C27BDD /* Model */,
 				F05015F62379C79100C27BDD /* PesananViewController.swift */,
 				F05015D823796FFE00C27BDD /* AppDelegate.swift */,
 				F05015DA23796FFE00C27BDD /* SceneDelegate.swift */,
@@ -108,6 +112,24 @@
 				F05015F22379C2C900C27BDD /* PesananTableViewCell.xib */,
 			);
 			path = "Pesanan diproses";
+			sourceTree = "<group>";
+		};
+		F0501602237AA84200C27BDD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F05015F82379D55F00C27BDD /* PesananModel.swift */,
+				F0501600237A892D00C27BDD /* SelesaiModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F0501603237BAF6300C27BDD /* Makanan */ = {
+			isa = PBXGroup;
+			children = (
+				F0501604237BAF9500C27BDD /* MakananTableViewCell.swift */,
+				F0501605237BAF9500C27BDD /* MakananTableViewCell.xib */,
+			);
+			path = Makanan;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -171,6 +193,7 @@
 				F05015FD237A65D300C27BDD /* SelesaiTableViewCell.xib in Resources */,
 				F05015F02379BE9200C27BDD /* SF Pro in Resources */,
 				F05015E823796FFF00C27BDD /* LaunchScreen.storyboard in Resources */,
+				F0501607237BAF9500C27BDD /* MakananTableViewCell.xib in Resources */,
 				F05015E523796FFF00C27BDD /* Assets.xcassets in Resources */,
 				F05015F42379C2C900C27BDD /* PesananTableViewCell.xib in Resources */,
 				F05015E023796FFE00C27BDD /* Main.storyboard in Resources */,
@@ -189,6 +212,7 @@
 				F05015DD23796FFE00C27BDD /* ViewController.swift in Sources */,
 				F05015F92379D55F00C27BDD /* PesananModel.swift in Sources */,
 				F05015D923796FFE00C27BDD /* AppDelegate.swift in Sources */,
+				F0501606237BAF9500C27BDD /* MakananTableViewCell.swift in Sources */,
 				F05015F32379C2C900C27BDD /* PesananTableViewCell.swift in Sources */,
 				F05015DB23796FFE00C27BDD /* SceneDelegate.swift in Sources */,
 				F05015FC237A65D300C27BDD /* SelesaiTableViewCell.swift in Sources */,
