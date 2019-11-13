@@ -10,7 +10,11 @@ import UIKit
 
 class MakananTableViewCell: UITableViewCell {
 
-    override func awakeFromNib() {
+  @IBOutlet weak var lblMakanan: UILabel!
+  @IBOutlet weak var lblDeskripsi: UILabel!
+  @IBOutlet weak var lblPorsi: UILabel!
+  
+  override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
     }

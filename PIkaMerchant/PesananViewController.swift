@@ -7,21 +7,65 @@
 //
 
 import UIKit
+//import Firebase
+
 
 class PesananViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     var cekPesanan:[PesananModel]=[]
     var cekSelesai:[SelesaiModel]=[]
-    
+    var moveToDone: PesananModel!
+  
     @IBOutlet weak var pesananTableView: UITableView!
     @IBOutlet weak var seqmen: UISegmentedControl!
     
     var proses: UITableViewCell!
     var selesai: UITableViewCell!
+  var selectedIndex: Int?
+  
+//func addDocument() {
+//
+//  var ref: DocumentReference? = nil
+//
+//  let db = Firestore.firestore()
+//
+//  ref = db.collection("Menus").addDocument(data: [
+//
+//      "address": "Green Eatery GOP9 BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15345",
+//
+//      "merchantID": "",
+//
+//      "merchantName": "Kantin La Ding",
+//
+//      "menuName": "Sop iga",
+//
+//      "price": 22000,
+//
+//      "description": "",
+//
+//      "location": GeoPoint(latitude: -6.312584, longitude: 106.642299)
+//
+//  ]) { err in
+//
+//      if let err = err {
+//
+//          print("Error adding document: \(err)")
+//
+//      } else {
+//
+//          print("Document added with ID: \(ref!.documentID)")
+//
+//      }
+//
+//  }
+//
+//}
     
     override func viewDidLoad() {
         
         super.viewDidLoad()
+      
+//      addDocument()
         
         let pesan = PesananModel(name: "Randy Cagur", estimation: "16:20", items: "3 items", time: "08.20", logo: "Go Pay")
         
@@ -49,6 +93,22 @@ class PesananViewController: UIViewController, UITableViewDelegate, UITableViewD
 //        var selesai = SelesaiTableViewCell()
         
     }
+  
+  override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+    if segue.identifier == "tesSegue"{
+      if let nextVC = segue.destination as? MakananViewController{
+        if seqmen.selectedSegmentIndex == 0{
+          nextVC.indikator = 1
+          nextVC.pesmod = self.cekPesanan[selectedIndex!]
+          nextVC.delegate = self
+        }else{
+          nextVC.indikator = 2
+          nextVC.slsmod = self.cekSelesai[selectedIndex!]
+        }
+      }
+    }
+    
+  }
     
     func tableView(_ tableView: UITableView, trailingSwipeActionsConfigurationForRowAt indexPath: IndexPath) -> UISwipeActionsConfiguration? {
         
@@ -81,6 +141,8 @@ class PesananViewController: UIViewController, UITableViewDelegate, UITableViewD
     
     func tableView(_ tableView: UITableView, leadingSwipeActionsConfigurationForRowAt indexPath: IndexPath) -> UISwipeActionsConfiguration? {
         
+      moveToDone = cekPesanan[indexPath.row]
+      moveToDoneSegmen(moveToDone: moveToDone)
         let complete = completeAction(at: indexPath)
         
         return UISwipeActionsConfiguration(actions: [complete])
@@ -96,6 +158,11 @@ class PesananViewController: UIViewController, UITableViewDelegate, UITableViewD
         
         return action
     }
+  
+  func moveToDoneSegmen(moveToDone: PesananModel){
+    let newSelesai = SelesaiModel(name: moveToDone.name, items: moveToDone.items, status: "Pesanan Selesai", time: moveToDone.time, logo: moveToDone.logo)
+    cekSelesai.append(newSelesai)
+  }
     
     @IBAction func UISegmentedControl(_ sender: UISegmentedControl) {
 //        switch (seqmen.selectedSegmentIndex) {
@@ -131,6 +198,14 @@ class PesananViewController: UIViewController, UITableViewDelegate, UITableViewD
         
         return returnValue
     }
+  
+  func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+ 
+       selectedIndex = indexPath.row
+      performSegue(withIdentifier: "tesSegue", sender: indexPath.row)
+ 
+  
+  }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         tableView.clearsContextBeforeDrawing = true
@@ -161,4 +236,17 @@ class PesananViewController: UIViewController, UITableViewDelegate, UITableViewD
         
         return cell1
     }
+  
+  
+  
+}
+
+extension PesananViewController: doneServe{
+  func delFromRow() {
+    moveToDoneSegmen(moveToDone: cekPesanan[self.selectedIndex!])
+    cekPesanan.remove(at: selectedIndex!)
+    self.pesananTableView.reloadData()
+    print("deleted!")
+  }
+  
 }

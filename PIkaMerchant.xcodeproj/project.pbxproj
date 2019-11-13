@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0EFEB944D2C41BC9974B1B70 /* Pods_PIkaMerchant.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 464D5731EB42EECCF92D062E /* Pods_PIkaMerchant.framework */; };
 		F05015D923796FFE00C27BDD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05015D823796FFE00C27BDD /* AppDelegate.swift */; };
 		F05015DB23796FFE00C27BDD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05015DA23796FFE00C27BDD /* SceneDelegate.swift */; };
 		F05015DD23796FFE00C27BDD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05015DC23796FFE00C27BDD /* ViewController.swift */; };
@@ -24,10 +25,16 @@
 		F0501601237A892D00C27BDD /* SelesaiModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0501600237A892D00C27BDD /* SelesaiModel.swift */; };
 		F0501606237BAF9500C27BDD /* MakananTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0501604237BAF9500C27BDD /* MakananTableViewCell.swift */; };
 		F0501607237BAF9500C27BDD /* MakananTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0501605237BAF9500C27BDD /* MakananTableViewCell.xib */; };
+		F0501609237BCE3200C27BDD /* MakananViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0501608237BCE3200C27BDD /* MakananViewController.swift */; };
+		F06A79ED237BD03000E940EE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F06A79EC237BD03000E940EE /* GoogleService-Info.plist */; };
+		F06A79EF237BD50C00E940EE /* MakananModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06A79EE237BD50C00E940EE /* MakananModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F05015D523796FFE00C27BDD /* PIkaMerchant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PIkaMerchant.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		464D5731EB42EECCF92D062E /* Pods_PIkaMerchant.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PIkaMerchant.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D7C79A1A7F37D9184AC8A22 /* Pods-PIkaMerchant.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PIkaMerchant.debug.xcconfig"; path = "Target Support Files/Pods-PIkaMerchant/Pods-PIkaMerchant.debug.xcconfig"; sourceTree = "<group>"; };
+		DFC4D6CEE0DF5D8ECFCB4427 /* Pods-PIkaMerchant.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PIkaMerchant.release.xcconfig"; path = "Target Support Files/Pods-PIkaMerchant/Pods-PIkaMerchant.release.xcconfig"; sourceTree = "<group>"; };
+		F05015D523796FFE00C27BDD /* PikaMerchant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PikaMerchant.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F05015D823796FFE00C27BDD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F05015DA23796FFE00C27BDD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		F05015DC23796FFE00C27BDD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -46,6 +53,9 @@
 		F0501600237A892D00C27BDD /* SelesaiModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelesaiModel.swift; sourceTree = "<group>"; };
 		F0501604237BAF9500C27BDD /* MakananTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakananTableViewCell.swift; sourceTree = "<group>"; };
 		F0501605237BAF9500C27BDD /* MakananTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MakananTableViewCell.xib; sourceTree = "<group>"; };
+		F0501608237BCE3200C27BDD /* MakananViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakananViewController.swift; sourceTree = "<group>"; };
+		F06A79EC237BD03000E940EE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F06A79EE237BD50C00E940EE /* MakananModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakananModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,25 +63,45 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0EFEB944D2C41BC9974B1B70 /* Pods_PIkaMerchant.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7FD517C81C8AF9D5D7E9943F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5D7C79A1A7F37D9184AC8A22 /* Pods-PIkaMerchant.debug.xcconfig */,
+				DFC4D6CEE0DF5D8ECFCB4427 /* Pods-PIkaMerchant.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E9CBAD3BDE4D2D000AF8482B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				464D5731EB42EECCF92D062E /* Pods_PIkaMerchant.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F05015CC23796FFE00C27BDD = {
 			isa = PBXGroup;
 			children = (
 				F05015D723796FFE00C27BDD /* PIkaMerchant */,
 				F05015D623796FFE00C27BDD /* Products */,
 				F05015EF2379BE9200C27BDD /* SF Pro */,
+				7FD517C81C8AF9D5D7E9943F /* Pods */,
+				E9CBAD3BDE4D2D000AF8482B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		F05015D623796FFE00C27BDD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F05015D523796FFE00C27BDD /* PIkaMerchant.app */,
+				F05015D523796FFE00C27BDD /* PikaMerchant.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -79,11 +109,13 @@
 		F05015D723796FFE00C27BDD /* PIkaMerchant */ = {
 			isa = PBXGroup;
 			children = (
+				F06A79EC237BD03000E940EE /* GoogleService-Info.plist */,
 				F0501603237BAF6300C27BDD /* Makanan */,
 				F05015FF237A7D5000C27BDD /* Pesanan diproses */,
 				F05015FE237A7CFD00C27BDD /* Pesanan Selesai */,
 				F0501602237AA84200C27BDD /* Model */,
 				F05015F62379C79100C27BDD /* PesananViewController.swift */,
+				F0501608237BCE3200C27BDD /* MakananViewController.swift */,
 				F05015D823796FFE00C27BDD /* AppDelegate.swift */,
 				F05015DA23796FFE00C27BDD /* SceneDelegate.swift */,
 				F05015DC23796FFE00C27BDD /* ViewController.swift */,
@@ -119,6 +151,7 @@
 			children = (
 				F05015F82379D55F00C27BDD /* PesananModel.swift */,
 				F0501600237A892D00C27BDD /* SelesaiModel.swift */,
+				F06A79EE237BD50C00E940EE /* MakananModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -139,9 +172,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F05015EC23796FFF00C27BDD /* Build configuration list for PBXNativeTarget "PIkaMerchant" */;
 			buildPhases = (
+				B07B31AB9B24DB44884BE168 /* [CP] Check Pods Manifest.lock */,
 				F05015D123796FFE00C27BDD /* Sources */,
 				F05015D223796FFE00C27BDD /* Frameworks */,
 				F05015D323796FFE00C27BDD /* Resources */,
+				5B6B8D7022149E4A766EEEAA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,7 +184,7 @@
 			);
 			name = PIkaMerchant;
 			productName = PIkaMerchant;
-			productReference = F05015D523796FFE00C27BDD /* PIkaMerchant.app */;
+			productReference = F05015D523796FFE00C27BDD /* PikaMerchant.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -191,6 +226,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F05015FD237A65D300C27BDD /* SelesaiTableViewCell.xib in Resources */,
+				F06A79ED237BD03000E940EE /* GoogleService-Info.plist in Resources */,
 				F05015F02379BE9200C27BDD /* SF Pro in Resources */,
 				F05015E823796FFF00C27BDD /* LaunchScreen.storyboard in Resources */,
 				F0501607237BAF9500C27BDD /* MakananTableViewCell.xib in Resources */,
@@ -202,15 +238,80 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5B6B8D7022149E4A766EEEAA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PIkaMerchant/Pods-PIkaMerchant-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL-GRPC/openssl_grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/CodableFirebase/CodableFirebase.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl_grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CodableFirebase.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PIkaMerchant/Pods-PIkaMerchant-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B07B31AB9B24DB44884BE168 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PIkaMerchant-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F05015D123796FFE00C27BDD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0501609237BCE3200C27BDD /* MakananViewController.swift in Sources */,
 				F05015E323796FFE00C27BDD /* PIkaMerchant.xcdatamodeld in Sources */,
 				F0501601237A892D00C27BDD /* SelesaiModel.swift in Sources */,
 				F05015DD23796FFE00C27BDD /* ViewController.swift in Sources */,
 				F05015F92379D55F00C27BDD /* PesananModel.swift in Sources */,
+				F06A79EF237BD50C00E940EE /* MakananModel.swift in Sources */,
 				F05015D923796FFE00C27BDD /* AppDelegate.swift in Sources */,
 				F0501606237BAF9500C27BDD /* MakananTableViewCell.swift in Sources */,
 				F05015F32379C2C900C27BDD /* PesananTableViewCell.swift in Sources */,
@@ -292,7 +393,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -346,7 +447,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -358,6 +459,7 @@
 		};
 		F05015ED23796FFF00C27BDD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D7C79A1A7F37D9184AC8A22 /* Pods-PIkaMerchant.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -367,8 +469,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = ADA.PIkaMerchant;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = ADA.PikaMerchant;
+				PRODUCT_NAME = PikaMerchant;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -376,6 +478,7 @@
 		};
 		F05015EE23796FFF00C27BDD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFC4D6CEE0DF5D8ECFCB4427 /* Pods-PIkaMerchant.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -385,8 +488,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = ADA.PIkaMerchant;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = ADA.PikaMerchant;
+				PRODUCT_NAME = PikaMerchant;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
