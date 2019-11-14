@@ -8,6 +8,11 @@
 
 import UIKit
 
+class SiapCell:UITableViewCell {
+  @IBOutlet weak var btnDone: UIButton!
+  
+}
+
 class MakananViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
   
   var cekMakanan:[MakananModel]=[]
@@ -46,7 +51,8 @@ class MakananViewController: UIViewController, UITableViewDelegate, UITableViewD
     } else if indikator == 2{
       nama.text = slsmod.name
       jam.text = slsmod.time
-      estimasi.text = "0"
+      estimasi.text = slsmod.estimation
+      
     }
     
   }
@@ -78,6 +84,12 @@ class MakananViewController: UIViewController, UITableViewDelegate, UITableViewD
       cell.lblMakanan.text = ngetes.makanan
       cell.lblDeskripsi.text = ngetes.deskripsi
       cell.lblPorsi.text = ngetes.porsi
+      
+      return cell
+    }else if indikator == 2{
+      let cell = tableView.dequeueReusableCell(withIdentifier: "siapCell",for: indexPath) as! SiapCell
+      
+      cell.btnDone.isHidden = true
       
       return cell
     }

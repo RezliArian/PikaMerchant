@@ -12,6 +12,7 @@ struct PesananModel {
     var name:String
     var estimation:String
     var items:String
+    var status:String
     var time:String
     var logo:String
 }

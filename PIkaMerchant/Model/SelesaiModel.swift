@@ -10,6 +10,7 @@ import Foundation
 
 struct SelesaiModel {
     var name:String
+    var estimation:String
     var items:String
     var status:String
     var time:String

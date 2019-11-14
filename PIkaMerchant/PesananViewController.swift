@@ -67,16 +67,16 @@ class PesananViewController: UIViewController, UITableViewDelegate, UITableViewD
       
 //      addDocument()
         
-        let pesan = PesananModel(name: "Randy Cagur", estimation: "16:20", items: "3 items", time: "08.20", logo: "Go Pay")
+      let pesan = PesananModel(name: "Randy Cagur", estimation: "16:20", items: "3 items", status: "", time: "08.20", logo: "Go Pay")
         
-        let pesan1 = PesananModel(name: "Randy cingur", estimation: "10:20", items: "10 items", time: "10.20", logo: "Ovo")
+      let pesan1 = PesananModel(name: "Randy cingur", estimation: "10:20", items: "10 items", status: "", time: "10.20", logo: "Ovo")
         
-        let done = SelesaiModel(name: "Randy Noel", items: "3 items", status: "Sudah diambil", time: "09.11", logo: "Go Pay")
+      //let done = SelesaiModel(name: "Randy Noel", estimation: "", items: "3 items", status: "Pesanan Selesai", time: "09.11", logo: "Go Pay")
         
         cekPesanan.append(pesan)
         cekPesanan.append(pesan1)
         
-        cekSelesai.append(done)
+        //cekSelesai.append(done)
         
         let nib2 = UINib(nibName: "PesananTableViewCell", bundle: nil)
         self.pesananTableView.register(nib2, forCellReuseIdentifier: "pesananCell")
@@ -160,7 +160,7 @@ class PesananViewController: UIViewController, UITableViewDelegate, UITableViewD
     }
   
   func moveToDoneSegmen(moveToDone: PesananModel){
-    let newSelesai = SelesaiModel(name: moveToDone.name, items: moveToDone.items, status: "Pesanan Selesai", time: moveToDone.time, logo: moveToDone.logo)
+    let newSelesai = SelesaiModel(name: moveToDone.name, estimation: moveToDone.estimation, items: moveToDone.items, status: "Pesanan Selesai", time: moveToDone.time, logo: moveToDone.logo)
     cekSelesai.append(newSelesai)
   }
     
