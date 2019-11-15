@@ -27,7 +27,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="08 Oktober 2020" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xec-jk-svG">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xec-jk-svG">
                                 <rect key="frame" x="20" y="135" width="253" height="28"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="SFProDisplay-Semibold" family="SF Pro Display" pointSize="23"/>
@@ -75,6 +75,7 @@
                     <tabBarItem key="tabBarItem" title="Item" id="NVZ-gb-lgH"/>
                     <navigationItem key="navigationItem" title="Pesanan" id="TJd-5M-JgB"/>
                     <connections>
+                        <outlet property="dateLabel" destination="xec-jk-svG" id="2nn-Ii-oGr"/>
                         <outlet property="pesananTableView" destination="j79-tK-WgJ" id="jOQ-gE-udJ"/>
                         <outlet property="seqmen" destination="NDo-Pd-z9I" id="3GV-PM-DP9"/>
                         <segue destination="kmJ-ox-zOv" kind="presentation" identifier="tesSegue" id="Z6H-hM-6qg"/>
@@ -236,6 +237,7 @@
                     </view>
                     <connections>
                         <outlet property="caraPenyajian" destination="Nd5-Zj-fus" id="qPR-sN-kuV"/>
+                        <outlet property="dateModal" destination="shX-n1-pr9" id="Y8L-QJ-gL8"/>
                         <outlet property="estimasi" destination="JlR-t2-cBW" id="bPx-GM-FbF"/>
                         <outlet property="jam" destination="QgD-sW-qi3" id="Lo5-Dj-nRs"/>
                         <outlet property="makananTableView" destination="Q2A-2g-n0U" id="qSR-KW-KXF"/>

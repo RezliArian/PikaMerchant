@@ -28,6 +28,7 @@
 		F0501609237BCE3200C27BDD /* MakananViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0501608237BCE3200C27BDD /* MakananViewController.swift */; };
 		F06A79ED237BD03000E940EE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F06A79EC237BD03000E940EE /* GoogleService-Info.plist */; };
 		F06A79EF237BD50C00E940EE /* MakananModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06A79EE237BD50C00E940EE /* MakananModel.swift */; };
+		F06A79F8237D464E00E940EE /* MenuFix.csv in Resources */ = {isa = PBXBuildFile; fileRef = F06A79F7237D464D00E940EE /* MenuFix.csv */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +57,7 @@
 		F0501608237BCE3200C27BDD /* MakananViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakananViewController.swift; sourceTree = "<group>"; };
 		F06A79EC237BD03000E940EE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		F06A79EE237BD50C00E940EE /* MakananModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakananModel.swift; sourceTree = "<group>"; };
+		F06A79F7237D464D00E940EE /* MenuFix.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = MenuFix.csv; path = ../../../Downloads/MenuFix.csv; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 		F05015D723796FFE00C27BDD /* PIkaMerchant */ = {
 			isa = PBXGroup;
 			children = (
+				F06A79F7237D464D00E940EE /* MenuFix.csv */,
 				F06A79EC237BD03000E940EE /* GoogleService-Info.plist */,
 				F0501603237BAF6300C27BDD /* Makanan */,
 				F05015FF237A7D5000C27BDD /* Pesanan diproses */,
@@ -232,6 +235,7 @@
 				F0501607237BAF9500C27BDD /* MakananTableViewCell.xib in Resources */,
 				F05015E523796FFF00C27BDD /* Assets.xcassets in Resources */,
 				F05015F42379C2C900C27BDD /* PesananTableViewCell.xib in Resources */,
+				F06A79F8237D464E00E940EE /* MenuFix.csv in Resources */,
 				F05015E023796FFE00C27BDD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

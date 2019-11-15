@@ -7,8 +7,7 @@
 //
 
 import UIKit
-//import Firebase
-
+import Firebase
 
 class PesananViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
@@ -18,34 +17,72 @@ class PesananViewController: UIViewController, UITableViewDelegate, UITableViewD
   
     @IBOutlet weak var pesananTableView: UITableView!
     @IBOutlet weak var seqmen: UISegmentedControl!
-    
+    @IBOutlet weak var dateLabel: UILabel!
+  
     var proses: UITableViewCell!
     var selesai: UITableViewCell!
-  var selectedIndex: Int?
+    var selectedIndex: Int?
   
-//func addDocument() {
+  func getCurrentDate(){
+    let formatter = DateFormatter()
+    formatter.dateFormat = "dd MMMM yyyy"
+    let str = formatter.string(from: Date())
+    dateLabel.text = str
+  }
+  
+  func addDocument(alamat: String, menuID:String, merchantID: String, merchantName: String, menuName: String, price: Int,category:String, description: String, latitude: Double, longitude: Double) {
+
+    let db = Firestore.firestore()
+    let menuRef = db.collection("Menus_rezli")
+//    var ref: DocumentReference? = nil
+
+
+    menuRef.document("\(menuID)").setData([
+      "address": "\(alamat)",
+
+      "merchantID": "\(merchantID)",
+
+      "menuID": "\(menuID)",
+
+      "merchantName": "\(merchantName)",
+
+      "menuName": "\(menuName)",
+
+      "price": price,
+
+      "category": category,
+
+      "description": "\(description)",
+
+      "location": GeoPoint(latitude: latitude, longitude: longitude)
+
+    ])
+
+
+// Random Document ID
+
+//    ref = db.collection("Menus_rezli").addDocument(data: [
 //
-//  var ref: DocumentReference? = nil
+//    "address": "\(alamat)",
 //
-//  let db = Firestore.firestore()
+//    "merchantID": "\(merchantID)",
 //
-//  ref = db.collection("Menus").addDocument(data: [
+//    "menuID": "\(menuID)",
 //
-//      "address": "Green Eatery GOP9 BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15345",
+//    "merchantName": "\(merchantName)",
 //
-//      "merchantID": "",
+//    "menuName": "\(menuName)",
 //
-//      "merchantName": "Kantin La Ding",
+//    "price": price,
 //
-//      "menuName": "Sop iga",
+//    "category": category,
 //
-//      "price": 22000,
+//    "description": "\(description)",
 //
-//      "description": "",
+//    "location": GeoPoint(latitude: latitude, longitude: longitude)
 //
-//      "location": GeoPoint(latitude: -6.312584, longitude: 106.642299)
 //
-//  ]) { err in
+//      ]) { err in
 //
 //      if let err = err {
 //
@@ -56,14 +93,17 @@ class PesananViewController: UIViewController, UITableViewDelegate, UITableViewD
 //          print("Document added with ID: \(ref!.documentID)")
 //
 //      }
-//
 //  }
-//
-//}
+
+
+    print("Masuk Database")
+}
     
     override func viewDidLoad() {
         
         super.viewDidLoad()
+      
+      getCurrentDate()
       
 //      addDocument()
         
@@ -88,11 +128,78 @@ class PesananViewController: UIViewController, UITableViewDelegate, UITableViewD
         pesananTableView.delegate = self
         pesananTableView.dataSource = self
         
-        
-//        var proses = PesananTableViewCell()
-//        var selesai = SelesaiTableViewCell()
-        
+        var data = readDataFromCSV(fileName: "MenuFix", fileType: "csv")
+        data = cleanRows(file: data!)
+        let csvRows = csv(data: data!)
+        print(csvRows[1][0]) //UXM n. 166/167.
+      //let i : Int=1
+      var alamat: String = "default"
+      var i = 1
+      for row in csvRows{
+        if i<548{
+          print(row[0])
+
+          switch row[0]{
+          case "1":
+            alamat = "Green Eatery GOP9 BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15345"
+          case "2":
+            alamat = " Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15345"
+          case "3":
+            alamat = "The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15345"
+          default:
+            break
+          }
+          print(alamat)
+          //print(row[1])
+
+
+          addDocument(alamat: alamat, menuID: row[3], merchantID: row[1], merchantName: row[3], menuName: row[4], price: Int(row[5])!, category: row[6], description: row[7], latitude: (row[8] as NSString).doubleValue, longitude: (row[9] as NSString).doubleValue)
+          i += 1
+        }
+      }
+        print("Doneee")
+      
     }
+  
+  func readDataFromCSV(fileName:String, fileType: String)-> String!{
+          guard let filepath = Bundle.main.path(forResource: fileName, ofType: fileType)
+              else {
+                print("a")
+                  return nil
+
+          }
+          do {
+              var contents = try String(contentsOfFile: filepath, encoding: .utf8)
+              contents = cleanRows(file: contents)
+              return contents
+          } catch {
+              print("File Read Error for file \(filepath)")
+              return nil
+          }
+      }
+
+
+  func cleanRows(file:String)->String{
+      var cleanFile = file
+      cleanFile = cleanFile.replacingOccurrences(of: "\r", with: "\n")
+      cleanFile = cleanFile.replacingOccurrences(of: "\n\n", with: "\n")
+      //        cleanFile = cleanFile.replacingOccurrences(of: ";;", with: "")
+      //        cleanFile = cleanFile.replacingOccurrences(of: ";\n", with: "")
+      return cleanFile
+  }
+
+  func csv(data: String) -> [[String]] {
+      var result: [[String]] = []
+      let rows = data.components(separatedBy: "\n")
+      for row in rows {
+          //print(row)
+          let columns = row.components(separatedBy: ",")
+          result.append(columns)
+
+      }
+      return result
+  }
+  
   
   override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
     if segue.identifier == "tesSegue"{

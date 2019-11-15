@@ -1,0 +1,548 @@
+Address,Merchants ID,Nama Toko,Food ID,Nama Makanan,Harga,Kategori,Description ,Latitude,Longtitude
+"Green Eatery GOP9 BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15345",CPO,Coffee Potum,CPO01,Hot Milk,10000,Minuman,,-6.301.721,106.652.312
+"Green Eatery GOP9 BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15346",CPO,Coffee Potum,CPO02,Black Coffee,10000,Minuman,,-6.301.721,106.652.312
+"Green Eatery GOP9 BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15347",CPO,Coffee Potum,CPO03,Cappucino,18000,Minuman,,-6.301.721,106.652.312
+"Green Eatery GOP9 BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15348",CPO,Coffee Potum,CPO04,Coffee Latte,17000,Minuman,,-6.301.721,106.652.312
+"Green Eatery GOP9 BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15349",CPO,Coffee Potum,CPO05,Espresso,8000,Minuman,,-6.301.721,106.652.312
+"Green Eatery GOP9 BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15350",CPO,Coffee Potum,CPO06,Ice Black Coffee,15000,Minuman,,-6.301.721,106.652.312
+"Green Eatery GOP9 BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15351",CPO,Coffee Potum,CPO07,Ice Cappucino,18000,Minuman,,-6.301.721,106.652.312
+"Green Eatery GOP9 BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15352",CPO,Coffee Potum,CPO08,Ice Coffe Latte,19000,Minuman,,-6.301.721,106.652.312
+"Green Eatery GOP9 BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15353",CPO,Coffee Potum,CPO09,Ice Milk,12000,Minuman,,-6.301.721,106.652.312
+"Green Eatery GOP9 BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15354",LAD,La Ding ,LAD01,Siomay,20000,Makanan,4 Pcs,-6.301.721,106.652.312
+"Green Eatery GOP9 BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15355",LAD,La Ding ,LAD02,Sop Iga + Nasi,25000,Makanan,,-6.301.721,106.652.312
+"Green Eatery GOP9 BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15356",LAD,La Ding ,LAD03,Soto Mie + Nasi,22000,Makanan,,-6.301.721,106.652.312
+"Green Eatery GOP9 BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15357",SFL,Salad Fella,SFL01,Chick-a-potle Bowl,35000,Makanan,,-6.301.721,106.652.312
+"Green Eatery GOP9 BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15358",SFL,Salad Fella,SFL02,Chick-a-potle Cup,18000,Makanan,,-6.301.721,106.652.312
+"Green Eatery GOP9 BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15359",SFL,Salad Fella,SFL03,Chick-A-Potle Wrap,35000,Makanan,,-6.301.721,106.652.312
+"Green Eatery GOP9 BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15360",SFL,Salad Fella,SFL04,Happy Tempe-r Bowl,30000,Makanan,,-6.301.721,106.652.312
+"Green Eatery GOP9 BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15361",SFL,Salad Fella,SFL05,Happy Tempe-r Cup,15000,Makanan,,-6.301.721,106.652.312
+"Green Eatery GOP9 BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15362",SFL,Salad Fella,SFL06,Happy Tempe-r Wrap,30000,Makanan,,-6.301.721,106.652.312
+"Green Eatery GOP9 BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15363",SFL,Salad Fella,SFL07,O-Fish-Ally Yum! Bowl,35000,Makanan,,-6.301.721,106.652.312
+"Green Eatery GOP9 BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15364",SFL,Salad Fella,SFL08,O-Fish-Ally Yum! Cup,18000,Makanan,,-6.301.721,106.652.312
+"Green Eatery GOP9 BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15365",SFL,Salad Fella,SFL09,O-Fish-Ally Yum! Wrap,35000,Makanan,,-6.301.721,106.652.312
+"Green Eatery GOP9 BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15366",SFL,Salad Fella,SFL10,Sesame Street Bowl,30000,Makanan,,-6.301.721,106.652.312
+"Green Eatery GOP9 BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15367",SFL,Salad Fella,SFL11,Sesame Street Cup,15000,Makanan,,-6.301.721,106.652.312
+"Green Eatery GOP9 BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15368",SFL,Salad Fella,SFL12,Sesame Street Wrap,30000,Makanan,,-6.301.721,106.652.312
+"Green Eatery GOP9 BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15369",WKO,Warung Kokoh,WKO01,Mie Ayam,20000,Makanan,"Mie Kecil/ Mie Lebar/ Bihun/ Kwetiau, Extra Bakso/ Pangsit/ Bakso + Pangsit 5000",-6.301.721,106.652.312
+"Green Eatery GOP9 BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15370",WKO,Warung Kokoh,WKO02,Mie Dino (Ayam/ Yamin/ Rica),30000,Makanan,"Mie Kecil/ Mie Lebar/ Bihun/ Kwetiau, Extra Bakso/ Pangsit/ Bakso + Pangsit 5000",-6.301.721,106.652.312
+"Green Eatery GOP9 BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15371",WKO,Warung Kokoh,WKO03,Mie Rica,20000,Makanan,"Mie Kecil/ Mie Lebar/ Bihun/ Kwetiau, Extra Bakso/ Pangsit/ Bakso + Pangsit 5000",-6.301.721,106.652.312
+"Green Eatery GOP9 BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15372",WKO,Warung Kokoh,WKO04,Mie Yamin,20000,Makanan,"Mie Kecil/ Mie Lebar/ Bihun/ Kwetiau, Extra Bakso/ Pangsit/ Bakso + Pangsit 5000",-6.301.721,106.652.312
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15345",SPK,6Pack,SPK01,Maui ,75000,Makanan,(Salmon w/ Mixed Salad) ,-6.301.939,106.653.659
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15346",SPK,6Pack,SPK02,Oahu ,60000,Makanan,(Tuna w/ Mixed Salad),-6.301.939,106.653.659
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15347",SPK,6Pack,SPK03,Waikiki,55000,Makanan,(Tofu w/ Mixed Salad),-6.301.939,106.653.659
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15348",SPK,6Pack,SPK04,Kailua,80000,Makanan,(Salmon & Tuna w/ Mixed Salad),-6.301.939,106.653.659
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15349",SPK,6Pack,SPK05,Mauna kea ,75000,Makanan,(Salmon w/ Brown Rice),-6.301.939,106.653.659
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15350",SPK,6Pack,SPK06,Honolulu,60000,Makanan,(Tuna w/ Brown Rice),-6.301.939,106.653.659
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15351",SPK,6Pack,SPK07,Molokini ,55000,Makanan,(Tofu w/ Brown Rice),-6.301.939,106.653.659
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15352",SPK,6Pack,SPK08,Kualoa,80000,Makanan,(Salmon & Tuna w/ Brown Rice),-6.301.939,106.653.659
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15353",SPK,6Pack,SPK09,Core Flow ,75000,Makanan,"(Tortilla, Chicken Breast, Egg Whites, Cherry Tomatoes, Parmesan, Croutons, & Caesar Dressing)",-6.301.939,106.653.659
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15354",SPK,6Pack,SPK10,Yin & Yang,95000,Makanan,"(Tortilla, Beef Bulgogi, Bell Pepper, Carrot, Kyuri, Dry Chilli, & Bulgogi Dressing)",-6.301.939,106.653.659
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15355",SPK,6Pack,SPK11,Body Balance ,80000,Makanan,"(Tortilla, Gherkin, Pineapple, Red Beans, Kyuri, Tomatoes, Bell Pepper, Quinoa, & Pink Apple/Thai )",-6.301.939,106.653.659
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15356",SPK,6Pack,SPK12,Pump It Up ,100000,Makanan,"(Tortilla, Salmon, Tobiko, Crab Stick, Avocado, Kyuri, & Truffle Mayo)",-6.301.939,106.653.659
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15357",SPK,6Pack,SPK13,Fast It ,80000,Makanan,"(Tortilla, Sweet Corn, Salmon, Bell Peppers, Cherry Tomatoes, Red Onion, & Pesto Vinaigrette )",-6.301.939,106.653.659
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15358",SPK,6Pack,SPK14,Flexibility,75000,Makanan,"(Tortilla, Chicken Thigh, Red Cabbage, Cherry Tomatoes, Edamame, Kyuri, & Barbeque )",-6.301.939,106.653.659
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15359",SPK,6Pack,SPK15,Fit Pack ,75000,Makanan,"(Cauliflower Rice, Herb Spice, Chicken Breast, Baby Corn, Red Cabbage, Wakame, & Almond Barbeque)",-6.301.939,106.653.659
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15360",SPK,6Pack,SPK16,Slim Pack ,75000,Makanan,"(Romaine Lettuce, Chicken Breast, Button Mushroom, Sweet Corn, Cherry Tomatoes, & Garlic Miso Mustard)",-6.301.939,106.653.659
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15361",SPK,6Pack,SPK17,Vegan Pack ,75000,Makanan,"(Mixed Salad, Tofu, Soba, Edamame, Button Mushroom, Mixed Seeds, & Pink Pineapple)",-6.301.939,106.653.659
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15362",SPK,6Pack,SPK18,Spice Pack ,100000,Makanan,"(Whole Wheat Pasta, Bulgogi Beef, Bell Pepper, Broccoli, Ratatouille, Horensi Dry Chili, & Bulgogi )",-6.301.939,106.653.659
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15363",SPK,6Pack,SPK19,Super Pack ,100000,Makanan,"(Quinoa, Dory, Chicken Breast, Herb Carrot, Egg White, Roasted Tempe, Button Mushrooms, Almonds, & Thai)",-6.301.939,106.653.659
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15364",SPK,6Pack,SPK20,Sweet Pack ,100000,Makanan,"(Sweet Potatoes, Chicken Thigh, Tofu, Broccoli, Ratatouille, Cherry Tomato, Sweet Corn, Mixed Seed, & Pesto Vinaigrette)",-6.301.939,106.653.659
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15345",BPJ,Bakso Pak Joko,BPJ01,Bakso Campur,29000,Makanan,,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15346",BPJ,Bakso Pak Joko,BPJ02,Bakso Isi Daging,25000,Makanan,,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15347",BPJ,Bakso Pak Joko,BPJ03,Bakso Iga,35000,Makanan,,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15348",BPJ,Bakso Pak Joko,BPJ04,Bakso Urat,20000,Makanan,,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15349",BPJ,Bakso Pak Joko,BPJ05,Bakso Daging Halus,18000,Makanan,,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15350",BPJ,Bakso Pak Joko,BPJ06,Bakso Tahu,16000,Makanan,,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15351",BPJ,Bakso Pak Joko,BPJ07,Bakso Pelangi,25000,Makanan,,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15352",BPJ,Bakso Pak Joko,BPJ08,Iga Bakar BBQ,25000,Makanan,,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15353",BPJ,Bakso Pak Joko,BPJ09,Soup Buah ,16000,Minuman,,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15354",BPJ,Bakso Pak Joko,BPJ10,Juice Jambu,15000,Minuman,,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15355",BPJ,Bakso Pak Joko,BPJ11,Es Teh Manis,5000,Minuman,,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15356",BPJ,Bakso Pak Joko,BPJ12,Juce Strawberry,15000,Minuman,,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15357",BPJ,Bakso Pak Joko,BPJ13,Juice Alpukat,15000,Minuman,,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15358",BPJ,Bakso Pak Joko,BPJ14,Juice Buah Naga,15000,Minuman,,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15359",BPJ,Bakso Pak Joko,BPJ15,Es Jeru,10000,Minuman,,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15360",BPJ,Bakso Pak Joko,BPJ16,Juice Mangga,15000,Minuman,,-6.301.541,106.655.187
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15345",BRC,Baracik (Kopi Tanah Air),BRC01,Kopi Tubruk,25000,Minuman,,-6.301.624,106.654.690
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15346",BRC,Baracik (Kopi Tanah Air),BRC02,Kopi Siram (R),25000,Minuman,,-6.301.624,106.654.690
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15346",BRC,Baracik (Kopi Tanah Air),BRC02,Kopi Siram (L),30000,Minuman,,-6.301.624,106.654.690
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15347",BRC,Baracik (Kopi Tanah Air),BRC03,Kopi Press Angin,25000,Minuman,,-6.301.624,106.654.690
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15348",BRC,Baracik (Kopi Tanah Air),BRC04,Kopi Tetes (R),25000,Minuman,,-6.301.624,106.654.690
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15348",BRC,Baracik (Kopi Tanah Air),BRC04,Kopi Tetes (L),30000,Minuman,,-6.301.624,106.654.690
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15349",BRC,Baracik (Kopi Tanah Air),BRC05,Kopi Jahe,25000,Minuman,,-6.301.624,106.654.690
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15350",BRC,Baracik (Kopi Tanah Air),BRC06,Espresso (R),25000,Minuman,,-6.301.624,106.654.690
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15350",BRC,Baracik (Kopi Tanah Air),BRC06,Espresso (L),40000,Minuman,,-6.301.624,106.654.690
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15351",BRC,Baracik (Kopi Tanah Air),BRC07,Americano,25000,Minuman,,-6.301.624,106.654.690
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15352",BRC,Baracik (Kopi Tanah Air),BRC08,Piccolo,30000,Minuman,,-6.301.624,106.654.690
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15353",BRC,Baracik (Kopi Tanah Air),BRC09,Cappucino (R),25000,Minuman,,-6.301.624,106.654.690
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15353",BRC,Baracik (Kopi Tanah Air),BRC09,Cappucino (L),30000,Minuman,,-6.301.624,106.654.690
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15354",BRC,Baracik (Kopi Tanah Air),BRC10,Latte (R),25000,Minuman,,-6.301.624,106.654.690
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15354",BRC,Baracik (Kopi Tanah Air),BRC10,Latte (L),30000,Minuman,,-6.301.624,106.654.690
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15355",BRC,Baracik (Kopi Tanah Air),BRC11,Caramel Latte (R),30000,Minuman,,-6.301.624,106.654.690
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15355",BRC,Baracik (Kopi Tanah Air),BRC11,Caramel Latte (L),35000,Minuman,,-6.301.624,106.654.690
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15356",BRC,Baracik (Kopi Tanah Air),BRC12,Hazelnut Latte (R),30000,Minuman,,-6.301.624,106.654.690
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15356",BRC,Baracik (Kopi Tanah Air),BRC12,Hazelnut Latte (L),35000,Minuman,,-6.301.624,106.654.690
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15357",BRC,Baracik (Kopi Tanah Air),BRC13,Mochaccino (R),25000,Minuman,,-6.301.624,106.654.690
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15357",BRC,Baracik (Kopi Tanah Air),BRC13,Mochaccino (L),30000,Minuman,,-6.301.624,106.654.690
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15358",BRC,Baracik (Kopi Tanah Air),BRC14,Nutellatte (R),35000,Minuman,,-6.301.624,106.654.690
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15358",BRC,Baracik (Kopi Tanah Air),BRC14,Nutellatte (L),40000,Minuman,,-6.301.624,106.654.690
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15359",BRC,Baracik (Kopi Tanah Air),BRC15,Vanilla Latte (R),30000,Minuman,,-6.301.624,106.654.690
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15359",BRC,Baracik (Kopi Tanah Air),BRC15,Vanilla Latte (L),35000,Minuman,,-6.301.624,106.654.690
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15360",BRC,Baracik (Kopi Tanah Air),BRC16,Green Tea Latte (R),30000,Minuman,,-6.301.624,106.654.690
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15360",BRC,Baracik (Kopi Tanah Air),BRC16,Green Tea Latte (L),35000,Minuman,,-6.301.624,106.654.690
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15361",BRC,Baracik (Kopi Tanah Air),BRC17,Chocolate (R),25000,Minuman,,-6.301.624,106.654.690
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15361",BRC,Baracik (Kopi Tanah Air),BRC17,Chocolate (L),30000,Minuman,,-6.301.624,106.654.690
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15362",BRC,Baracik (Kopi Tanah Air),BRC18,Bandrek,20000,Minuman,,-6.301.624,106.654.690
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15363",BRC,Baracik (Kopi Tanah Air),BRC19,Teh Kocok Baba(R),25000,Minuman,,-6.301.624,106.654.690
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15363",BRC,Baracik (Kopi Tanah Air),BRC19,Teh Kocok Baba (L),30000,Minuman,,-6.301.624,106.654.690
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15364",BRC,Baracik (Kopi Tanah Air),BRC20,Jeruk Nipis (R),20000,Minuman,,-6.301.624,106.654.690
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15364",BRC,Baracik (Kopi Tanah Air),BRC20,Jeruk Nipis (L),25000,Minuman,,-6.301.624,106.654.690
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15365",BRC,Baracik (Kopi Tanah Air),BRC21,Jeruk Borneo (R),20000,Minuman,,-6.301.624,106.654.690
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15365",BRC,Baracik (Kopi Tanah Air),BRC21,Jeruk Borneo (L),25000,Minuman,,-6.301.624,106.654.690
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15366",BRC,Baracik (Kopi Tanah Air),BRC22,Teh Tawar (R),10000,Minuman,,-6.301.624,106.654.690
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15366",BRC,Baracik (Kopi Tanah Air),BRC22,Teh Tawar (L),15000,Minuman,,-6.301.624,106.654.690
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15367",BRC,Baracik (Kopi Tanah Air),BRC23,Teh Manis (R),15000,Minuman,,-6.301.624,106.654.690
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15367",BRC,Baracik (Kopi Tanah Air),BRC23,Teh Manis (L),20000,Minuman,,-6.301.624,106.654.690
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15368",BRC,Baracik (Kopi Tanah Air),BRC24,Lemon Tea (R),20000,Minuman,,-6.301.624,106.654.690
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15368",BRC,Baracik (Kopi Tanah Air),BRC24,Lemon Tea (L),25000,Minuman,,-6.301.624,106.654.690
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15369",BRC,Baracik (Kopi Tanah Air),BRC25,Lychee Tea,30000,Minuman,,-6.301.624,106.654.690
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15370",BRC,Baracik (Kopi Tanah Air),BRC26,Saparilla Badak,18000,Minuman,,-6.301.624,106.654.690
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15371",BRC,Baracik (Kopi Tanah Air),BRC27,Air Mineral,5000,Minuman,,-6.301.624,106.654.690
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15372",BRC,Baracik (Kopi Tanah Air),BRC28,Telur Ayam Kampung (rebus1/2 matang) 15k,15000,Makanan,,-6.301.624,106.654.690
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15373",BRC,Baracik (Kopi Tanah Air),BRC29,Roti Bakar (susu/ cokelat/ keju/ campur),20000,Makanan,,-6.301.624,106.654.690
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15374",BRC,Baracik (Kopi Tanah Air),BRC30,Mpek2 Kapal Selam,25000,Makanan,,-6.301.624,106.654.690
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15375",BRC,Baracik (Kopi Tanah Air),BRC31,Roti Goreng,15000,Makanan,,-6.301.624,106.654.690
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15376",BRC,Baracik (Kopi Tanah Air),BRC32,Mie+ Telur Asin (Rebus/ Goreng),15000,Makanan,,-6.301.624,106.654.690
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15377",BRC,Baracik (Kopi Tanah Air),BRC33,Sosis Bakar,13000,Makanan,,-6.301.624,106.654.690
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15378",BRC,Baracik (Kopi Tanah Air),BRC34,Cireng,15000,Makanan,,-6.301.624,106.654.690
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15379",BRC,Baracik (Kopi Tanah Air),BRC35,Pisang Goreng,20000,Makanan,,-6.301.624,106.654.690
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15380",BRC,Baracik (Kopi Tanah Air),BRC36,Pisang Keju Susu,20000,Makanan,,-6.301.624,106.654.690
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15381",BRC,Baracik (Kopi Tanah Air),BRC37,Pisang Keju Coklat,25000,Makanan,,-6.301.624,106.654.690
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15382",BRC,Baracik (Kopi Tanah Air),BRC38,Tahu Aci,20000,Makanan,,-6.301.624,106.654.690
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15383",BRC,Baracik (Kopi Tanah Air),BRC39,Singkong Goreng,20000,Makanan,,-6.301.624,106.654.690
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15384",BRC,Baracik (Kopi Tanah Air),BRC40,Kentang Goreng,25000,Makanan,,-6.301.624,106.654.690
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15345",BRO,Bro Star,BRO01,Paket Dory Salted Egg,0,Makanan,,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15346",BRO,Bro Star,BRO02,Paket Dorry Crispy,0,Makanan,,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15347",BRO,Bro Star,BRO03,Kentang Goreng,0,Makanan,,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15348",BRO,Bro Star,BRO04,Sosis Kentang Goreng,0,Makanan,,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15349",BRO,Bro Star,BRO05,Sosis Telur,0,Makanan,,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15350",BRO,Bro Star,BRO06,Roti Bakar,0,Makanan,,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15351",BRO,Bro Star,BRO07,Roti Bakar Ice Cream,0,Makanan,,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15352",BRO,Bro Star,BRO08,Roti Gulung Sosis Keju,0,Makanan,,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15353",BRO,Bro Star,BRO09,Donut Kentang,0,Makanan,,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15354",BRO,Bro Star,BRO10,Esteh Manis,0,Minuman,,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15355",BRO,Bro Star,BRO11,Teh Tarik,0,Minuman,,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15356",BRO,Bro Star,BRO12,Lemon Tea,0,Minuman,,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15357",BRO,Bro Star,BRO13,Thai Tea,0,Minuman,,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15358",BRO,Bro Star,BRO14,Milk Tea,0,Minuman,,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15359",BRO,Bro Star,BRO15,Milo,0,Minuman,,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15360",BRO,Bro Star,BRO16,Kopi Belitung,0,Minuman,,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15361",BRO,Bro Star,BRO17,Kopi Arabika,0,Minuman,,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15362",BRO,Bro Star,BRO18,Kopi Susu,0,Minuman,,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15363",BRO,Bro Star,BRO19,Mineral Water,0,Minuman,,-6.301.541,106.655.187
+"Green Eatery GOP9 BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15345",COW,Dapur Cowek,COW01,Ayam Panggang + Nasi,0,Makanan,,-6.301.721,106.652.312
+"Green Eatery GOP9 BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15346",COW,Dapur Cowek,COW02,Nasi Bakar,0,Makanan,,-6.301.721,106.652.312
+"Green Eatery GOP9 BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15347",COW,Dapur Cowek,COW03,Nasi Gudeg,0,Makanan,,-6.301.721,106.652.312
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15345",DUM,Dum Dum,DUM01,DumDum Aren Thai Tea ,24000,Minuman,,-6.301.621,106.654.948
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15346",DUM,Dum Dum,DUM02,DumDum Aren Thai Green Tea,25000,Minuman,,-6.301.621,106.654.948
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15347",DUM,Dum Dum,DUM03,DumDum Aren Thai Coffe,24000,Minuman,,-6.301.621,106.654.948
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15348",DUM,Dum Dum,DUM04,DumDum Dark Chocolate cold,24000,Minuman,,-6.301.621,106.654.948
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15349",DUM,Dum Dum,DUM05,DumDum Dark Chocolate hot ,23000,Minuman,,-6.301.621,106.654.948
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15350",DUM,Dum Dum,DUM06,DumDum Thai Tea Hot,21000,Minuman,,-6.301.621,106.654.948
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15351",DUM,Dum Dum,DUM07,DumDum Thai Tea Cold ,20000,Minuman,,-6.301.621,106.654.948
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15352",DUM,Dum Dum,DUM08,DumDum Thai Green Tea Cold,23000,Minuman,,-6.301.621,106.654.948
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15353",DUM,Dum Dum,DUM09,DumDum Thai Green Tea Hot,22000,Minuman,,-6.301.621,106.654.948
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15354",DUM,Dum Dum,DUM10,DumDum Thai Coffee Cold,21000,Minuman,,-6.301.621,106.654.948
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15355",DUM,Dum Dum,DUM11,DumDum Thai Coffee Hot,20000,Minuman,,-6.301.621,106.654.948
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15356",DUM,Dum Dum,DUM12,DumDum Thai Black Tea Cold,18000,Minuman,,-6.301.621,106.654.948
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15357",DUM,Dum Dum,DUM13,DumDum Thai Black Tea Hot,17000,Minuman,,-6.301.621,106.654.948
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15358",DUM,Dum Dum,DUM14,DumDum Thai Black Coffee Cold,19000,Minuman,,-6.301.621,106.654.948
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15359",DUM,Dum Dum,DUM15,DumDum Thai Black Coffee Hot,18000,Minuman,,-6.301.621,106.654.948
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15360",DUM,Dum Dum,DUM16,DumDum Honey Lime Black Tea Cold,26000,Minuman,,-6.301.621,106.654.948
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15361",DUM,Dum Dum,DUM17,DumDum Honey Lime Black Tea Hot,25000,Minuman,,-6.301.621,106.654.948
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15362",DUM,Dum Dum,DUM18,DumDum Honey Lime Green Tea Cold,27000,Minuman,,-6.301.621,106.654.948
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15363",DUM,Dum Dum,DUM19,DumDum Honey Lime Green Tea Hot,26000,Minuman,,-6.301.621,106.654.948
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15364",DUM,Dum Dum,DUM20,DumDum Lime Black Tea Cold,20000,Minuman,,-6.301.621,106.654.948
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15365",DUM,Dum Dum,DUM21,DumDum Lime Black Tea Hot,19000,Minuman,,-6.301.621,106.654.948
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15366",DUM,Dum Dum,DUM22,DumDum Lime Green Tea Cold,21000,Minuman,,-6.301.621,106.654.948
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15367",DUM,Dum Dum,DUM23,DumDum Lime Green Tea Hot,20000,Minuman,,-6.301.621,106.654.948
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15368",DUM,Dum Dum,DUM24,Milo - cold Cold,23000,Minuman,,-6.301.621,106.654.948
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15369",DUM,Dum Dum,DUM25,Milo - cold Hot,22000,Minuman,,-6.301.621,106.654.948
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15345",GOO,Gooma,GOO01,Uji Matcha original,32000,Minuman,,-6.302.170,106.653.931
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15346",GOO,Gooma,GOO02,Taste of Ginza watermelon,32000,Minuman,,-6.302.170,106.653.931
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15347",GOO,Gooma,GOO03,Rose Blossom rose ,32000,Minuman,,-6.302.170,106.653.931
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15348",GOO,Gooma,GOO04,Ichigo Matcha strawberry ,32000,Minuman,,-6.302.170,106.653.931
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15349",GOO,Gooma,GOO05,Indo Matcha pandan ,32000,Minuman,,-6.302.170,106.653.931
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15350",GOO,Gooma,GOO06,Yubari King honeydew ,32000,Minuman,,-6.302.170,106.653.931
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15351",GOO,Gooma,GOO07,Kokuto Matcha brown sugar ,32000,Minuman,,-6.302.170,106.653.931
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15352",GOO,Gooma,GOO08,Mojo Matcha banana ,32000,Minuman,,-6.302.170,106.653.931
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15353",GOO,Gooma,GOO09,Aloe Matcha aloe lychee (no milk),32000,Minuman,,-6.302.170,106.653.931
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15354",GOO,Gooma,GOO10,Virgin Matcha unsweetened  (small) (no milk),20000,Minuman,,-6.302.170,106.653.931
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15355",GOO,Gooma,GOO11,GOOMA Cold Brew honey 22l (no milk),20000,Minuman,,-6.302.170,106.653.931
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15356",GOO,Gooma,GOO12,Nagasaki Milk Tea honey (S),23000,Minuman,,-6.302.170,106.653.931
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15357",GOO,Gooma,GOO13,Nagasaki Milk Tea honey (R),28000,Minuman,,-6.302.170,106.653.931
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15358",GOO,Gooma,GOO14,Royal milk tea signature (S),23000,Minuman,,-6.302.170,106.653.931
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15359",GOO,Gooma,GOO15,Royal milk tea signature (R),28000,Minuman,,-6.302.170,106.653.931
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15360",GOO,Gooma,GOO16,OKinawa milk tea jasmine (S),23000,Minuman,,-6.302.170,106.653.931
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15361",GOO,Gooma,GOO17,OKinawa milk tea jasmine (R),28000,Minuman,,-6.302.170,106.653.931
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15362",GOO,Gooma,GOO18,Maui milk tea rum jasmine (S),23000,Minuman,,-6.302.170,106.653.931
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15363",GOO,Gooma,GOO19,Maui milk tea rum jasmine (R),28000,Minuman,,-6.302.170,106.653.931
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15364",GOO,Gooma,GOO20,Nagoya milk tea roasted chesnut (S),23000,Minuman,,-6.302.170,106.653.931
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15365",GOO,Gooma,GOO21,Nagoya milk tea roasted chesnut (R),28000,Minuman,,-6.302.170,106.653.931
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15366",GOO,Gooma,GOO22,Black sea salt,32000,Minuman,,-6.302.170,106.653.931
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15367",GOO,Gooma,GOO23,Hojicha roasted green ,32000,Minuman,,-6.302.170,106.653.931
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15368",GOO,Gooma,GOO24,Irish coffee signature coffee,32000,Minuman,,-6.302.170,106.653.931
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15369",GOO,Gooma,GOO25,Chocolate toffee classic cocoa,32000,Minuman,,-6.302.170,106.653.931
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15370",GOO,Gooma,GOO26,Blue magic gelato,32000,Minuman,,-6.302.170,106.653.931
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15371",GOO,Gooma,GOO27,galaxy lemonade strawberry lemon ,25000,Minuman,,-6.302.170,106.653.931
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15372",GOO,Gooma,GOO28,Black Kumquat charcoal kumquat,25000,Minuman,,-6.302.170,106.653.931
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15373",GOO,Gooma,GOO29,Purple passion yogurt passionfruit,25000,Minuman,,-6.302.170,106.653.931
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15345",JML,Jeruk Meletus,JML01,Cocolytus ,20000,Minuman,,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15346",JML,Jeruk Meletus,JML02,Jeruk Meletus 16OZ ,15000,Minuman,,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15347",JML,Jeruk Meletus,JML03,Jeruk Meletus 22OZ ,20000,Minuman,,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15348",JML,Jeruk Meletus,JML04,Jeruk Meletus botol ,20000,Minuman,,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15349",JML,Jeruk Meletus,JML05,Jekult 22oz ,20000,Minuman,,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15350",JML,Jeruk Meletus,JML06,Jekult botol ,20000,Minuman,,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15351",JML,Jeruk Meletus,JML07,Pinnakult 22oz ,20000,Minuman,,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15352",JML,Jeruk Meletus,JML08,Pinnatus 22oz ,15000,Minuman,,-6.301.541,106.655.187
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15345",KAM,Kamu Tea,KAM01,Passion Fruit Cheese Tea (S),29000,Minuman,,-6.302.345,106.654.616
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15345",KAM,Kamu Tea,KAM01,Passion Fruit Cheese Tea (L),32000,Minuman,,-6.302.345,106.654.616
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15346",JUM,Kamu Tea,KAM02,Black Cheese Tea (S),29000,Minuman,,-6.302.345,106.654.616
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15346",JUM,Kamu Tea,KAM02,Black Cheese Tea (M),32000,Minuman,,-6.302.345,106.654.616
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15347",SAB,Kamu Tea,KAM03,Matcha Cheese Tea (S),33000,Minuman,,-6.302.345,106.654.616
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15347",SAB,Kamu Tea,KAM03,Matcha Cheese Tea (M),36000,Minuman,,-6.302.345,106.654.616
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15348",MIN,Kamu Tea,KAM04,Houjicha Cheese Tea (S),33000,Minuman,,-6.302.345,106.654.616
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15348",MIN,Kamu Tea,KAM04,Houjicha Cheese Tea (M),36000,Minuman,,-6.302.345,106.654.616
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15349",SEN,Kamu Tea,KAM05,Genmaicha Cheese Tea (S),33000,Minuman,,-6.302.345,106.654.616
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15349",SEN,Kamu Tea,KAM05,Genmaicha Cheese Tea (M),36000,Minuman,,-6.302.345,106.654.616
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15350",SEL,Kamu Tea,KAM06,Dark Cocoa Cheese Tea (S),29000,Minuman,,-6.302.345,106.654.616
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15350",SEL,Kamu Tea,KAM06,Dark Cocoa Cheese Tea (M),32000,Minuman,,-6.302.345,106.654.616
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15351",RAB,Kamu Tea,KAM07,Thai Cheese Tea (S),29000,Minuman,,-6.302.345,106.654.616
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15351",RAB,Kamu Tea,KAM07,Thai Cheese Tea (M),32000,Minuman,,-6.302.345,106.654.616
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15352",KAM,Kamu Tea,KAM08,Milo Cheese Tea (S),29000,Minuman,,-6.302.345,106.654.616
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15352",KAM,Kamu Tea,KAM08,Milo Cheese Tea (M),32000,Minuman,,-6.302.345,106.654.616
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15353",JUM,Kamu Tea,KAM09,Shizuoka Matcha Milk Tea (M),29000,Minuman,,-6.302.345,106.654.616
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15353",JUM,Kamu Tea,KAM09,Shizuoka Matcha Milk Tea (L),36000,Minuman,,-6.302.345,106.654.616
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15354",SAB,Kamu Tea,KAM10,Shizuoka Matcha Milk Tea With Fresh Milk (M),33000,Minuman,,-6.302.345,106.654.616
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15354",SAB,Kamu Tea,KAM10,Shizuoka Matcha Milk Tea With Fresh Milk (L),39000,Minuman,,-6.302.345,106.654.616
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15355",MIN,Kamu Tea,KAM11,Houjicha Milk Tea (M),29000,Minuman,,-6.302.345,106.654.616
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15355",MIN,Kamu Tea,KAM11,Houjicha Milk Tea (L),36000,Minuman,,-6.302.345,106.654.616
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15356",SEN,Kamu Tea,KAM12,Houjicha Milk Tea With Fresh Milk (M),33000,Minuman,,-6.302.345,106.654.616
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15356",SEN,Kamu Tea,KAM12,Houjicha Milk Tea With Fresh Milk (L),39000,Minuman,,-6.302.345,106.654.616
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15357",SEL,Kamu Tea,KAM13,Kamu Milk Tea (M),18000,Minuman,,-6.302.345,106.654.616
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15357",SEL,Kamu Tea,KAM13,Kamu Milk Tea (L),23000,Minuman,,-6.302.345,106.654.616
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15358",RAB,Kamu Tea,KAM14,Kamu Milk Tea With Fresh Milk (M),21000,Minuman,,-6.302.345,106.654.616
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15358",RAB,Kamu Tea,KAM14,Kamu Milk Tea With Fresh Milk (L),26000,Minuman,,-6.302.345,106.654.616
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15359",KAM,Kamu Tea,KAM15,Thai Milk Tea (M),19000,Minuman,,-6.302.345,106.654.616
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15359",KAM,Kamu Tea,KAM15,Thai Milk Tea (L),26000,Minuman,,-6.302.345,106.654.616
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15360",JUM,Kamu Tea,KAM16,Thai Milk Tea With Fresh Milk (M),24000,Minuman,,-6.302.345,106.654.616
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15360",JUM,Kamu Tea,KAM16,Thai Milk Tea With Fresh Milk (L),29000,Minuman,,-6.302.345,106.654.616
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15361",SAB,Kamu Tea,KAM17,Americano (M),20000,Minuman,,-6.302.345,106.654.616
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15361",SAB,Kamu Tea,KAM17,Americano (L),28000,Minuman,,-6.302.345,106.654.616
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15362",MIN,Kamu Tea,KAM18,Super Black Latte (M),26000,Minuman,,-6.302.345,106.654.616
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15362",MIN,Kamu Tea,KAM18,Super Black Latte (L),35000,Minuman,,-6.302.345,106.654.616
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15363",SEN,Kamu Tea,KAM19,Coffe Mocha (M),26000,Minuman,,-6.302.345,106.654.616
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15363",SEN,Kamu Tea,KAM19,Coffe Mocha (L),35000,Minuman,,-6.302.345,106.654.616
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15364",SEL,Kamu Tea,KAM20,Cappucino (M),26000,Minuman,,-6.302.345,106.654.616
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15364",SEL,Kamu Tea,KAM20,Cappucino (L),35000,Minuman,,-6.302.345,106.654.616
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15365",RAB,Kamu Tea,KAM21,Caramel Machiato (M),26000,Minuman,,-6.302.345,106.654.616
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15365",RAB,Kamu Tea,KAM21,Caramel Machiato (L),35000,Minuman,,-6.302.345,106.654.616
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15366",KAM,Kamu Tea,KAM22,Dark Cocoa Milk (M),20000,Minuman,,-6.302.345,106.654.616
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15366",KAM,Kamu Tea,KAM22,Dark Cocoa Milk (L),24000,Minuman,,-6.302.345,106.654.616
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15367",JUM,Kamu Tea,KAM23,Milo Milk (M),22000,Minuman,,-6.302.345,106.654.616
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15367",JUM,Kamu Tea,KAM23,Milo Milk (L),26000,Minuman,,-6.302.345,106.654.616
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15368",SAB,Kamu Tea,KAM24,Horlicks Milk (M),24000,Minuman,,-6.302.345,106.654.616
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15368",SAB,Kamu Tea,KAM24,Horlicks Milk (L),28000,Minuman,,-6.302.345,106.654.616
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15369",MIN,Kamu Tea,KAM25,Dark Cocoa Magma Lava,32000,Minuman,,-6.302.345,106.654.616
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15345",KDD,Kantin 28,KDD01,Chicken Katsu,20000,Makanan,Paket Nasi + Minum,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15346",KDD,Kantin 28,KDD02,Dori Katsu,20000,Makanan,Paket Nasi + Minum,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15347",KDD,Kantin 28,KDD03,Ebi Furai,20000,Makanan,Paket Nasi + Minum,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15348",KDD,Kantin 28,KDD04,Chicken Teriyaki,20000,Makanan,Paket Nasi + Minum,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15349",KDD,Kantin 28,KDD05,Kaarage,20000,Makanan,Paket Nasi + Minum,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15350",KDD,Kantin 28,KDD06,Katsu + Ebi Furai,25000,Makanan,,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15351",KDD,Kantin 28,KDD07,Katsu + Scramble Egg,25000,Makanan,,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15352",KDD,Kantin 28,KDD08,Beef Teriyaki,25000,Makanan,,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15353",KDD,Kantin 28,KDD09,Kaarage Salted Egg,25000,Makanan,,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15354",KDD,Kantin 28,KDD10,Chicken Katsu Don,30000,Makanan,,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15355",KDD,Kantin 28,KDD11,Chicken Steak,30000,Makanan,,-6.301.541,106.655.187
+"Green Eatery GOP9 BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15345",KAS,Kantin Kasturi,KAS01,Ikan Cakalang,0,Makanan,,-6.301.721,106.652.312
+"Green Eatery GOP9 BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15346",KAS,Kantin Kasturi,KAS02,Ikan Asam Manis,0,Makanan,,-6.301.721,106.652.312
+"Green Eatery GOP9 BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15347",KAS,Kantin Kasturi,KAS03,Ikan Masak Cabai,0,Makanan,,-6.301.721,106.652.312
+"Green Eatery GOP9 BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15348",KAS,Kantin Kasturi,KAS04,Ikan Sarden,0,Makanan,,-6.301.721,106.652.312
+"Green Eatery GOP9 BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15349",KAS,Kantin Kasturi,KAS05,Ayam Suwir Cabe,0,Makanan,,-6.301.721,106.652.312
+"Green Eatery GOP9 BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15350",KAS,Kantin Kasturi,KAS06,Ayam Kecap,0,Makanan,,-6.301.721,106.652.312
+"Green Eatery GOP9 BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15351",KAS,Kantin Kasturi,KAS07,Ayam Woku,0,Makanan,,-6.301.721,106.652.312
+"Green Eatery GOP9 BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15352",KAS,Kantin Kasturi,KAS08,Sapi Lada Hitam,0,Makanan,,-6.301.721,106.652.312
+"Green Eatery GOP9 BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15353",KAS,Kantin Kasturi,KAS09,Sosis Cah Telur,0,Makanan,,-6.301.721,106.652.312
+"Green Eatery GOP9 BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15354",KAS,Kantin Kasturi,KAS10,Otak - Otak,0,Makanan,,-6.301.721,106.652.312
+"Green Eatery GOP9 BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15355",KAS,Kantin Kasturi,KAS11,Tahu/ Telur Kecap,0,Makanan,,-6.301.721,106.652.312
+"Green Eatery GOP9 BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15356",KAS,Kantin Kasturi,KAS12,Mie Goreng,0,Makanan,,-6.301.721,106.652.312
+"Green Eatery GOP9 BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15357",KAS,Kantin Kasturi,KAS13,Telur Dadar,0,Makanan,,-6.301.721,106.652.312
+"Green Eatery GOP9 BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15358",KAS,Kantin Kasturi,KAS14,Bakwan Jagung,0,Makanan,,-6.301.721,106.652.312
+"Green Eatery GOP9 BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15359",KAS,Kantin Kasturi,KAS15,Sayur,0,Makanan,,-6.301.721,106.652.312
+"Green Eatery GOP9 BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15360",KAS,Kantin Kasturi,KAS16,Nasi Putih/ Nasi Merah,0,Makanan,,-6.301.721,106.652.312
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15345",KEI,Ke Kei,KEI01,Skin,30000,Makanan,,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15346",KEI,Ke Kei,KEI02,Boneless,33000,Makanan,,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15347",KEI,Ke Kei,KEI03,Mushroom,33000,Makanan,,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15348",KEI,Ke Kei,KEI04,Ballen,33000,Makanan,,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15349",KEI,Ke Kei,KEI05,Boneless Kei,23000,Makanan,,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15350",KEI,Ke Kei,KEI06,Boneless Kei + Rice,28000,Makanan,,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15351",KEI,Ke Kei,KEI07,Boneless Chick,18000,Makanan,,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15352",KEI,Ke Kei,KEI08,Boneless Chick + Rice,23000,Makanan,,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15353",KEI,Ke Kei,KEI09,Ika,25000,Makanan,,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15354",KEI,Ke Kei,KEI10,Ika + Rice,30000,Makanan,,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15355",KEI,Ke Kei,KEI11,Ballen ,20000,Makanan,,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15356",KEI,Ke Kei,KEI12,Skin Chick ,15000,Makanan,,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15357",KEI,Ke Kei,KEI13,Baso Goreng,18000,Makanan,,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15358",KEI,Ke Kei,KEI14,Yimi ,20000,Makanan,,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15359",KEI,Ke Kei,KEI15,Mushroom ,18000,Makanan,,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15360",KEI,Ke Kei,KEI16,Cassava,12000,Makanan,,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15361",KEI,Ke Kei,KEI17,French Fries,15000,Makanan,,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15362",KEI,Ke Kei,KEI18,Pristine,4000,Minuman,,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15363",KEI,Ke Kei,KEI19,Zoda Susu,12000,Minuman,,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15364",KEI,Ke Kei,KEI20,Happy Zoda,12000,Minuman,,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15365",KEI,Ke Kei,KEI21,Pedot (Kopi Susu),8000,Minuman,,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15366",KEI,Ke Kei,KEI22,Kopi Betot (Tanpa Susu),6000,Minuman,,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15367",KEI,Ke Kei,KEI23,Pitot (Teh Susu),8000,Minuman,,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15368",KEI,Ke Kei,KEI24,Teh betot (Tanpa Susu),6000,Minuman,,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15369",KEI,Ke Kei,KEI25,Bontot (Cokelat Susu),8000,Minuman,,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15370",KEI,Ke Kei,KEI26,Cokelat betot (Tanpa Susu),6000,Minuman,,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15371",KEI,Ke Kei,KEI27,Es bandrek ,20000,Minuman,,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15372",KEI,Ke Kei,KEI28,lemot (Lemon Tea),20000,Minuman,,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15373",KEI,Ke Kei,KEI29,Lemonade,20000,Minuman,,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15345",KCR,Kedai Candu Rasa,KCR01,Nasi Gila,,Makanan,,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15346",KCR,Kedai Candu Rasa,KCR02,Nasi Goreng Kebuli Kambing,25000,Makanan,,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15347",KCR,Kedai Candu Rasa,KCR03,Nasi Goreng Kebuli Ayam,26000,Makanan,,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15348",KCR,Kedai Candu Rasa,KCR04,Nasi Goreng Kebuli Sapi,20000,Makanan,,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15349",KCR,Kedai Candu Rasa,KCR05,Ikan Nila Pesmol,25000,Makanan,,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15350",KCR,Kedai Candu Rasa,KCR06,Ikan Nila Goreng,0,Makanan,,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15351",KCR,Kedai Candu Rasa,KCR07,Soto Ayam,0,Makanan,,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15352",KCR,Kedai Candu Rasa,KCR08,Roti Panggang,0,Makanan,,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15353",KCR,Kedai Candu Rasa,KCR09,Pisang Panggang,0,Makanan,,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15354",KCR,Kedai Candu Rasa,KCR10,Jawa,8000,Minuman,Kopi Daerah,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15355",KCR,Kedai Candu Rasa,KCR11,Lampung,8000,Minuman,Kopi Daerah,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15356",KCR,Kedai Candu Rasa,KCR12,Aceh,8000,Minuman,Kopi Daerah,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15357",KCR,Kedai Candu Rasa,KCR13,Flores,8000,Minuman,Kopi Daerah,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15358",KCR,Kedai Candu Rasa,KCR14,Rawa Seneng,8000,Minuman,Kopi Daerah,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15359",KCR,Kedai Candu Rasa,KCR15,Toraja,8000,Minuman,Kopi Daerah,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15360",KCR,Kedai Candu Rasa,KCR16,Sidikalang,10000,Minuman,Kopi Daerah,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15361",KCR,Kedai Candu Rasa,KCR17,Papua,10000,Minuman,Kopi Daerah,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15362",KCR,Kedai Candu Rasa,KCR18,Lampung,10000,Minuman,Kopi Daerah,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15363",KCR,Kedai Candu Rasa,KCR19,Kopi Lanang,12000,Minuman,Kopi Daerah,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15364",KCR,Kedai Candu Rasa,KCR20,Ara. Papua,12000,Minuman,Kopi Daerah,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15365",KCR,Kedai Candu Rasa,KCR21,Ara. Mandailing,12000,Minuman,Kopi Daerah,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15366",KCR,Kedai Candu Rasa,KCR22,Ara. Toraja,12000,Minuman,Kopi Daerah,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15367",KCR,Kedai Candu Rasa,KCR23,Ara. Bali,12000,Minuman,Kopi Daerah,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15368",KCR,Kedai Candu Rasa,KCR24,Ara. Aceh,12000,Minuman,Kopi Daerah,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15369",KCR,Kedai Candu Rasa,KCR25,Es Leci Tea,10000,Minuman,Minuman Lain,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15370",KCR,Kedai Candu Rasa,KCR26,Es Jeruk Nipis,10000,Minuman,Minuman Lain,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15371",KCR,Kedai Candu Rasa,KCR27,Es Jeruk Peras,10000,Minuman,Minuman Lain,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15372",KCR,Kedai Candu Rasa,KCR28,Milo Milk ,9000,Minuman,Minuman Lain,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15373",KCR,Kedai Candu Rasa,KCR29,Ovaltine Milk ,9000,Minuman,Minuman Lain,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15374",KCR,Kedai Candu Rasa,KCR30,Tahi Tea,10000,Minuman,Minuman Lain,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15375",KCR,Kedai Candu Rasa,KCR31,Teh Tarik,10000,Minuman,Minuman Lain,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15376",KCR,Kedai Candu Rasa,KCR32,Kopi Tarik,12000,Minuman,Minuman Lain,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15377",KCR,Kedai Candu Rasa,KCR33,Kopi Koprock,12000,Minuman,Minuman Lain,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15378",KCR,Kedai Candu Rasa,KCR34,Cookies Oreo,15000,Minuman,Minuman Lain,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15379",KCR,Kedai Candu Rasa,KCR35,Blend Green Tea,15000,Minuman,Minuman Lain,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15380",KCR,Kedai Candu Rasa,KCR36,Soya Pucino,15000,Minuman,Minuman Lain,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15345",PAN,Kedai Pandan,KPN01,Ayam Penyet,25000,Makanan,,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15346",PAN,Kedai Pandan,KPN02,Ayam Djogja,25000,Makanan,,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15347",PAN,Kedai Pandan,KPN03,Ayam Kalasan,25000,Makanan,,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15348",PAN,Kedai Pandan,KPN04,Nasi Bali,25000,Makanan,,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15349",PAN,Kedai Pandan,KPN05,Nasi Bogana,25000,Makanan,,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15350",PAN,Kedai Pandan,KPN06,Nasi Rawon,35000,Makanan,,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15351",PAN,Kedai Pandan,KPN07,Ikan Filet Rica-rica,25000,Makanan,,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15352",PAN,Kedai Pandan,KPN08,Ca Buncis Daging Cincang,25000,Makanan,,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15353",PAN,Kedai Pandan,KPN09,Ca Toge Ikan Teri,20000,Makanan,,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15354",PAN,Kedai Pandan,KPN10,Nasi Soto Ayam,20000,Makanan,,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15355",PAN,Kedai Pandan,KPN11,Nasi Goreng Seafood,25000,Makanan,,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15356",PAN,Kedai Pandan,KPN12,Nasi Goreng Tomyam,25000,Makanan,,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15357",PAN,Kedai Pandan,KPN13,Nasi Goreng Jawa,20000,Makanan,,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15358",PAN,Kedai Pandan,KPN14,Nasi Goreng Telor Asin,25000,Makanan,,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15359",PAN,Kedai Pandan,KPN15,Nasi Goreng Cabe Ijo,20000,Makanan,,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15360",PAN,Kedai Pandan,KPN16,Bakmie Goreng Jawa,20000,Makanan,,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15361",PAN,Kedai Pandan,KPN17,Bakmie Godok Jawa,20000,Makanan,,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15362",PAN,Kedai Pandan,KPN18,Kentang Goreng,20000,Makanan,,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15363",PAN,Kedai Pandan,KPN19,Nasi Goreng Cakalang,0,Makanan,,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15364",PAN,Kedai Pandan,KPN20,Ayam Djogja Bakar Madu ,0,Makanan,"Madu, Sambel Ayam, Sambel Cabe Ijo",-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15345",KPL,Kedai Pelangi,KPL01,Sup Iga,30000,Makanan,Nasi + Es Teh Manis,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15346",KPL,Kedai Pelangi,KPL02,Coto Makassar,35000,Makanan,Nasi + Es Teh Manis,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15347",KPL,Kedai Pelangi,KPL03,Konro Bakar,40000,Makanan,Nasi + Es Teh Manis,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15348",KPL,Kedai Pelangi,KPL04,Soto Banjar,25000,Makanan,Nasi + Es Teh Manis,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15349",KPL,Kedai Pelangi,KPL05,Es Palu Butung,15000,Minuman,Nasi + Es Teh Manis,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15350",KPL,Kedai Pelangi,KPL06,Sup Konro,40000,Makanan,Nasi + Es Teh Manis,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15351",KPL,Kedai Pelangi,KPL07,Iga Bakar,40000,Makanan,Nasi + Es Teh Manis,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15352",KPL,Kedai Pelangi,KPL08,Nasi Pecel,15000,Makanan,Additional Peyek,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15353",KPL,Kedai Pelangi,KPL09,Sayur Asem,20000,Makanan,Nasi + Ikan Asin Teri,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15354",KPL,Kedai Pelangi,KPL10,Sayur Lodeh,20000,Makanan,Nasi + Ikan Asin Teri,-6.301.541,106.655.187
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15345",PUJ,Kopi Pujaan,PUJ01,Jatuh Cinta,25000,Minuman,Es Kopi Susu,-6.301.825,106.654.355
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15346",PUJ,Kopi Pujaan,PUJ02,Pujaan Merona,24000,Minuman,Es Kopi Susu,-6.301.825,106.654.355
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15347",PUJ,Kopi Pujaan,PUJ03,Pujaan Hati,18000,Minuman,Es Kopi Susu,-6.301.825,106.654.355
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15348",PUJ,Kopi Pujaan,PUJ04,Terpesona,28000,Minuman,Es Kopi,-6.301.825,106.654.355
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15349",PUJ,Kopi Pujaan,PUJ05,Vanilla Latte,26000,Minuman,Es Kopi,-6.301.825,106.654.355
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15350",PUJ,Kopi Pujaan,PUJ06,Oreo manja,26000,Minuman,Es Kopi,-6.301.825,106.654.355
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15351",PUJ,Kopi Pujaan,PUJ07,Caramel Latte,26000,Minuman,Es Kopi,-6.301.825,106.654.355
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15352",PUJ,Kopi Pujaan,PUJ08,Hitam pekat,17000,Minuman,Es Kopi,-6.301.825,106.654.355
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15353",PUJ,Kopi Pujaan,PUJ09,Memikat,28000,Minuman,Es Kopi,-6.301.825,106.654.355
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15354",PUJ,Kopi Pujaan,PUJ10,Latte,22000,Minuman,Es Kopi,-6.301.825,106.654.355
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15355",PUJ,Kopi Pujaan,PUJ11,Hazelnut Latte,26000,Minuman,Es Kopi,-6.301.825,106.654.355
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15356",PUJ,Kopi Pujaan,PUJ12,Rumantis,26000,Minuman,Es Kopi,-6.301.825,106.654.355
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15357",PUJ,Kopi Pujaan,PUJ13,Yakult Lemon,22000,Minuman,Tanpa Kopi,-6.301.825,106.654.355
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15358",PUJ,Kopi Pujaan,PUJ14,Choco Matcha,25000,Minuman,Tanpa Kopi,-6.301.825,106.654.355
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15359",PUJ,Kopi Pujaan,PUJ15,Matcha Soya,25000,Minuman,Tanpa Kopi,-6.301.825,106.654.355
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15360",PUJ,Kopi Pujaan,PUJ16,Lemon Berry ,20000,Minuman,Tanpa Kopi,-6.301.825,106.654.355
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15361",PUJ,Kopi Pujaan,PUJ17,Creamy Choco,18000,Minuman,Tanpa Kopi,-6.301.825,106.654.355
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15362",PUJ,Kopi Pujaan,PUJ18,Matcha Milky,20000,Minuman,Tanpa Kopi,-6.301.825,106.654.355
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15363",PUJ,Kopi Pujaan,PUJ19,Choco Berry,24000,Minuman,Tanpa Kopi,-6.301.825,106.654.355
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15364",PUJ,Kopi Pujaan,PUJ20,Fresh Milo,18000,Minuman,Tanpa Kopi,-6.301.825,106.654.355
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15365",PUJ,Kopi Pujaan,PUJ21,Americano,20000,Minuman,Panas,-6.301.825,106.654.355
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15366",PUJ,Kopi Pujaan,PUJ22,Milo,18000,Minuman,Panas,-6.301.825,106.654.355
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15367",PUJ,Kopi Pujaan,PUJ23,Creamy Chocolate,18000,Minuman,Panas,-6.301.825,106.654.355
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15345",MON,Montato,MON01,Original,25000,Makanan,,-6.301.621,106.654.948
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15346",MON,Montato,MON02,Iri Goma,28000,Makanan,,-6.301.621,106.654.948
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15347",MON,Montato,MON03,Cheese,30000,Makanan,,-6.301.621,106.654.948
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15348",MON,Montato,MON04,Spicy BBQ,28000,Makanan,,-6.301.621,106.654.948
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15349",MON,Montato,MON05,Sambal Matah,28000,Makanan,,-6.301.621,106.654.948
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15350",MON,Montato,MON06,Mayo Seaweed,28000,Makanan,,-6.301.621,106.654.948
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15351",MON,Montato,MON07,Dark Chocolate,28000,Makanan,,-6.301.621,106.654.948
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15345",PAN,Panties Pizza,PAN01,Reality Pizza ,30000,Makanan,"(Sausage, Chicken, Cheese, Mushroom)",-6.301.996,106.653.828
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15346",PAN,Panties Pizza,PAN02,Broadway Pizza ,32500,Makanan,"(Smoke Beef, Cheese, Mushroom)",-6.301.996,106.653.828
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15347",PAN,Panties Pizza,PAN03,President Pizza ,30000,Makanan,"(Beef Salami, Cheese, Mushroom)",-6.301.996,106.653.828
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15348",PAN,Panties Pizza,PAN04,Rush Hour ,30000,Makanan,"(…., Cheese, Mushroom)",-6.301.996,106.653.828
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15349",PAN,Panties Pizza,PAN05,Say Cheese,32500,Makanan,"(Cheese, Mushroom)",-6.301.996,106.653.828
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15350",PAN,Panties Pizza,PAN06,University Pizza ,37000,Makanan,"(Chicken/ Beef Sausage, Meatball, Beef, Mushroom, Cheese)",-6.301.996,106.653.828
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15351",PAN,Panties Pizza,PAN07,Chicken Run ,37000,Makanan,"(Chicken, Mushroom, Cheese)",-6.301.996,106.653.828
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15352",PAN,Panties Pizza,PAN08,Chick O Cheese ,37000,Makanan,"(Chicken, Mushroom, Cheese)",-6.301.996,106.653.828
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15345",SMB,Soto Mie Bos,SMB01,Soto Mie,20000,Makanan,,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15346",SMB,Soto Mie Bos,SMB02,Soto Mie Baso,25000,Makanan,,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15347",SMB,Soto Mie Bos,SMB03,Nasi Putih,5000,Makanan,,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15348",SMB,Soto Mie Bos,SMB04,Risol,3000,Makanan,,-6.301.541,106.655.187
+"Green Eatery GOP9 BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15345",SPG,Soto Pak Gembul,SPG01,Ayam Goreng + Nasi,0,Makanan,,-6.301.721,106.652.312
+"Green Eatery GOP9 BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15346",SPG,Soto Pak Gembul,SPG02,Dimsum,0,Makanan,,-6.301.721,106.652.312
+"Green Eatery GOP9 BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15347",SPG,Soto Pak Gembul,SPG03,Soto Ayam,0,Makanan,,-6.301.721,106.652.312
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15345",TBS,Tebu Segar,TBS01,Sari Tebu Murni,10000,Minuman,,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15346",TBS,Tebu Segar,TBS02,Sari Tebu Lemon,12000,Minuman,,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15347",TBS,Tebu Segar,TBS03,Sari Tebu Kiamboy,12000,Minuman,,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15348",TBS,Tebu Segar,TBS04,Sari Tebu Selasih,12000,Minuman,,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15349",TBS,Tebu Segar,TBS05,Sari Tebu Nipis,12000,Minuman,,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15350",TBS,Tebu Segar,TBS06,Sari Tebu Jelly ,12000,Minuman,,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15351",TBS,Tebu Segar,TBS07,Jeruk Murni,15000,Minuman,,-6.301.541,106.655.187
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15345",FRU,The Fruity,FRU01,Vit Muscler Booster (R),19000,Minuman,"(Avocado, Banana, and Apple Mixture)",-6.301.735,106.654.321
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15345",FRU,The Fruity,FRU02,Vit Muscler Booster (R),24000,Minuman,"(Avocado, Banana, and Apple Mixture)",-6.301.735,106.654.321
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15346",FRU,The Fruity,FRU03,Vit Eye Booster (R),19000,Minuman,"(Carrot, tomatoes, and Sunkist Mixture)",-6.301.735,106.654.321
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15346",FRU,The Fruity,FRU04,Vit Eye Booster (L),24000,Minuman,"(Carrot, tomatoes, and Sunkist Mixture)",-6.301.735,106.654.321
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15347",FRU,The Fruity,FRU05,Vit Heart Booster (R),19000,Minuman,"(Apple, Melon, Pineapple Mixing)",-6.301.735,106.654.321
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15347",FRU,The Fruity,FRU06,Vit Heart Booster (L),24000,Minuman,"(Apple, Melon, Pineapple Mixing)",-6.301.735,106.654.321
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15348",FRU,The Fruity,FRU07,Vit Brain Booster (R),19000,Minuman,"(Starfruit, Sunkist, Strawberry)",-6.301.735,106.654.321
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15348",FRU,The Fruity,FRU08,Vit Brain Booster (L),24000,Minuman,"(Starfruit, Sunkist, Strawberry)",-6.301.735,106.654.321
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15349",FRU,The Fruity,FRU09,Vit-C Booster ,30000,Minuman,"(Mixing Sunkist, Kiwi, Pineapple)",-6.301.735,106.654.321
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15350",FRU,The Fruity,FRU10,Stamina Booster ,30000,Minuman,"(mung bean, banana, avocado)",-6.301.735,106.654.321
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15351",FRU,The Fruity,FRU11,Immune Booster ,30000,Minuman,"(Dragon Fruit, Soursop Mixture)",-6.301.735,106.654.321
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15352",FRU,The Fruity,FRU12,Pleasure Booster ,30000,Minuman,"(Durian, avocado, coffee)",-6.301.735,106.654.321
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15353",FRU,The Fruity,FRU13,Memory Booster ,30000,Minuman,"(Blackberry, Lychee, Ice Cream)",-6.301.735,106.654.321
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15354",FRU,The Fruity,FRU14,Anti Stress Booster ,30000,Minuman,"(Ice Cream, Lychee, Strawberry)",-6.301.735,106.654.321
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15355",FRU,The Fruity,FRU15,Anti-Aging Green Drink ,30000,Minuman,"(Pak Choi, kiwi, lemon, Starfruit)",-6.301.735,106.654.321
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15356",FRU,The Fruity,FRU16,Anti-Cholesterol Green Drink ,30000,Minuman,"(Caisim, Starfruit, kiwi, pineapple )",-6.301.735,106.654.321
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15357",FRU,The Fruity,FRU17,Delightful Melon,30000,Minuman,,-6.301.735,106.654.321
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15358",FRU,The Fruity,FRU18,Delightful Mango,30000,Minuman,,-6.301.735,106.654.321
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15359",FRU,The Fruity,FRU19,Delightful Soursop,30000,Minuman,,-6.301.735,106.654.321
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15360",FRU,The Fruity,FRU20,Avoplus Chocolate ,24000,Minuman,"(Avocado, Chocolate)",-6.301.735,106.654.321
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15361",FRU,The Fruity,FRU21,Vanila Wildberries ,24000,Minuman,(Fruit Berries Drink),-6.301.735,106.654.321
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15362",FRU,The Fruity,FRU22,Mangolicious ,24000,Minuman,(Mango Lovers),-6.301.735,106.654.321
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15363",FRU,The Fruity,FRU23,Ice Melon Tea,24000,Minuman,,-6.301.735,106.654.321
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15364",FRU,The Fruity,FRU24,Berry Berry,24000,Minuman,,-6.301.735,106.654.321
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15365",FRU,The Fruity,FRU25,Healthy Summer Tropical ,24000,Minuman,"(Pineapple, mango)",-6.301.735,106.654.321
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15366",FRU,The Fruity,FRU26,Healthy Dragon ,24000,Minuman,"(Dragon Fruit, Apple)",-6.301.735,106.654.321
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15368",FRU,The Fruity,FRU27,Black Sensation (R),19000,Minuman,"(Blackberry, sunkist, mango)",-6.301.735,106.654.321
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15368",FRU,The Fruity,FRU28,Black Sensation (L),24000,Minuman,"(Blackberry, sunkist, mango)",-6.301.735,106.654.321
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15367",FRU,The Fruity,FRU29,Banana Berry Mix (R),19000,Minuman,"(Banana, Strawberry)",-6.301.735,106.654.321
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15367",FRU,The Fruity,FRU30,Banana Berry Mix (L),24000,Minuman,"(Banana, Strawberry)",-6.301.735,106.654.321
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15369",FRU,The Fruity,FRU31,Black Boombuster (R),19000,Minuman,"(Blackberry, Strawberry)",-6.301.735,106.654.321
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15369",FRU,The Fruity,FRU32,Black Boombuster (L),24000,Minuman,"(Blackberry, Strawberry)",-6.301.735,106.654.321
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15370",FRU,The Fruity,FRU33,Sunshine Tropical (R),19000,Minuman,"(Strawberry, mango, sunkist)",-6.301.735,106.654.321
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15370",FRU,The Fruity,FRU34,Sunshine Tropical (L),24000,Minuman,"(Strawberry, mango, sunkist)",-6.301.735,106.654.321
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15371",FRU,The Fruity,FRU35,Cool Lychee (R),19000,Minuman,"(Lychee, watermelon)",-6.301.735,106.654.321
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15371",FRU,The Fruity,FRU36,Cool Lychee (L),24000,Minuman,"(Lychee, watermelon)",-6.301.735,106.654.321
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15372",FRU,The Fruity,FRU37,Avocado (R),19000,Minuman,,-6.301.735,106.654.321
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15372",FRU,The Fruity,FRU38,Avocado (L),24000,Minuman,,-6.301.735,106.654.321
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15373",FRU,The Fruity,FRU39,Starfruit (S),16000,Minuman,,-6.301.735,106.654.321
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15373",FRU,The Fruity,FRU40,Starfruit (M),19000,Minuman,,-6.301.735,106.654.321
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15373",FRU,The Fruity,FRU41,Starfruit (L),24000,Minuman,,-6.301.735,106.654.321
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15374",FRU,The Fruity,FRU42,Guava (S),16000,Minuman,,-6.301.735,106.654.321
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15374",FRU,The Fruity,FRU43,Guava (M),19000,Minuman,,-6.301.735,106.654.321
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15374",FRU,The Fruity,FRU44,Guava (L),24000,Minuman,,-6.301.735,106.654.321
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15375",FRU,The Fruity,FRU45,Kiwi (S),16000,Minuman,,-6.301.735,106.654.321
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15375",FRU,The Fruity,FRU46,Kiwi (M),19000,Minuman,,-6.301.735,106.654.321
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15375",FRU,The Fruity,FRU47,Kiwi (L),24000,Minuman,,-6.301.735,106.654.321
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15376",FRU,The Fruity,FRU48,Melon (S),16000,Minuman,,-6.301.735,106.654.321
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15376",FRU,The Fruity,FRU49,Melon (M),19000,Minuman,,-6.301.735,106.654.321
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15376",FRU,The Fruity,FRU50,Melon (L),24000,Minuman,,-6.301.735,106.654.321
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15377",FRU,The Fruity,FRU51,Soursop (S),16000,Minuman,,-6.301.735,106.654.321
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15377",FRU,The Fruity,FRU52,Soursop (M),19000,Minuman,,-6.301.735,106.654.321
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15377",FRU,The Fruity,FRU53,Soursop (L),24000,Minuman,,-6.301.735,106.654.321
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15378",FRU,The Fruity,FRU54,Grape (S),16000,Minuman,,-6.301.735,106.654.321
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15378",FRU,The Fruity,FRU55,Grape (M),19000,Minuman,,-6.301.735,106.654.321
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15378",FRU,The Fruity,FRU56,Grape (L),24000,Minuman,,-6.301.735,106.654.321
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15379",FRU,The Fruity,FRU57,Blackberry (S),16000,Minuman,,-6.301.735,106.654.321
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15379",FRU,The Fruity,FRU58,Blackberry (M),19000,Minuman,,-6.301.735,106.654.321
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15379",FRU,The Fruity,FRU59,Blackberry (L),24000,Minuman,,-6.301.735,106.654.321
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15380",FRU,The Fruity,FRU60,Mung Beans (S),16000,Minuman,,-6.301.735,106.654.321
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15380",FRU,The Fruity,FRU61,Mung Beans (M),19000,Minuman,,-6.301.735,106.654.321
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15380",FRU,The Fruity,FRU62,Mung Beans (L),24000,Minuman,,-6.301.735,106.654.321
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15381",FRU,The Fruity,FRU63,Lychee (S),16000,Minuman,,-6.301.735,106.654.321
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15381",FRU,The Fruity,FRU64,Lychee (M),19000,Minuman,,-6.301.735,106.654.321
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15381",FRU,The Fruity,FRU65,Lychee (L),24000,Minuman,,-6.301.735,106.654.321
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15382",FRU,The Fruity,FRU66,Pineapple (S),16000,Minuman,,-6.301.735,106.654.321
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15382",FRU,The Fruity,FRU67,Pineapple (M),19000,Minuman,,-6.301.735,106.654.321
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15382",FRU,The Fruity,FRU68,Pineapple (L),24000,Minuman,,-6.301.735,106.654.321
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15383",FRU,The Fruity,FRU69,Banana (S),16000,Minuman,,-6.301.735,106.654.321
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15383",FRU,The Fruity,FRU70,Banana (M),19000,Minuman,,-6.301.735,106.654.321
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15383",FRU,The Fruity,FRU71,Banana (L),24000,Minuman,,-6.301.735,106.654.321
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15384",FRU,The Fruity,FRU72,Strawberry (S),16000,Minuman,,-6.301.735,106.654.321
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15384",FRU,The Fruity,FRU73,Strawberry (M),19000,Minuman,,-6.301.735,106.654.321
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15384",FRU,The Fruity,FRU74,Strawberry (L),24000,Minuman,,-6.301.735,106.654.321
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15385",FRU,The Fruity,FRU75,Apple (S),16000,Minuman,,-6.301.735,106.654.321
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15385",FRU,The Fruity,FRU76,Apple (M),19000,Minuman,,-6.301.735,106.654.321
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15385",FRU,The Fruity,FRU77,Apple (L),24000,Minuman,,-6.301.735,106.654.321
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15386",FRU,The Fruity,FRU78,Dragon Fruit (S),16000,Minuman,,-6.301.735,106.654.321
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15386",FRU,The Fruity,FRU79,Dragon Fruit (M),19000,Minuman,,-6.301.735,106.654.321
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15386",FRU,The Fruity,FRU80,Dragon Fruit (L),24000,Minuman,,-6.301.735,106.654.321
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15387",FRU,The Fruity,FRU81,Mango (S),16000,Minuman,,-6.301.735,106.654.321
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15387",FRU,The Fruity,FRU82,Mango (M),19000,Minuman,,-6.301.735,106.654.321
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15387",FRU,The Fruity,FRU83,Mango (L),24000,Minuman,,-6.301.735,106.654.321
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15388",FRU,The Fruity,FRU84,Watermelon (S),16000,Minuman,,-6.301.735,106.654.321
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15388",FRU,The Fruity,FRU85,Watermelon (M),19000,Minuman,,-6.301.735,106.654.321
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15388",FRU,The Fruity,FRU86,Watermelon (L),24000,Minuman,,-6.301.735,106.654.321
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15389",FRU,The Fruity,FRU87,Sunkist (S),16000,Minuman,,-6.301.735,106.654.321
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15389",FRU,The Fruity,FRU88,Sunkist (M),19000,Minuman,,-6.301.735,106.654.321
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15389",FRU,The Fruity,FRU89,Sunkist (L),24000,Minuman,,-6.301.735,106.654.321
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15390",FRU,The Fruity,FRU90,Tomato (S),16000,Minuman,,-6.301.735,106.654.321
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15390",FRU,The Fruity,FRU91,Tomato (M),19000,Minuman,,-6.301.735,106.654.321
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15390",FRU,The Fruity,FRU92,Tomato (L),24000,Minuman,,-6.301.735,106.654.321
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15391",FRU,The Fruity,FRU93,Carrot (S),16000,Minuman,,-6.301.735,106.654.321
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15391",FRU,The Fruity,FRU94,Carrot (M),19000,Minuman,,-6.301.735,106.654.321
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15391",FRU,The Fruity,FRU95,Carrot (L),24000,Minuman,,-6.301.735,106.654.321
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15392",FRU,The Fruity,FRU96,Durian (S),16000,Minuman,,-6.301.735,106.654.321
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15392",FRU,The Fruity,FRU97,Durian (M),19000,Minuman,,-6.301.735,106.654.321
+" The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15392",FRU,The Fruity,FRU98,Durian (L),24000,Minuman,,-6.301.735,106.654.321
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15345",KIT,Warung Kita,KIT01,Paket Nasi Ikan Nila Bakar/ Sambal Dabu,28000,Makanan,,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15346",KIT,Warung Kita,KIT02,Paket Nasi Ikan Bawal Bakar/Sambel Dabu,28000,Makanan,,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15347",KIT,Warung Kita,KIT03,Paket Nasi Ayam Bakar,28000,Makanan,,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15348",KIT,Warung Kita,KIT04,Paket Nasi Ayam Bakar Sambal Dabu,28000,Makanan,,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15349",KIT,Warung Kita,KIT05,Ikan/Ayam Alacart Bakar ,21000,Makanan,Sambal+Lalapan,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15350",KIT,Warung Kita,KIT06,Gurame Bakar Sambal Dabu2 (450gr),63000,Makanan,Tanpa Nasi,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15351",KIT,Warung Kita,KIT07,Sate Ayam Tanpa Lemak,37000,Makanan,Dengan Nasi,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15352",KIT,Warung Kita,KIT08,Sate Ayam (10tusuk),0,Makanan,Tanpa Nasi,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15353",KIT,Warung Kita,KIT09,Paket Nasi Goreng Nila Sambel Terasi/ Sambel Dabu2,28000,Makanan,,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15354",KIT,Warung Kita,KIT10,Paket Nasi Bawal Goreng Sambel Terasi/Sambel dabu2,28000,Makanan,,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15355",KIT,Warung Kita,KIT11,Gurame Goreng Sambel Dabu (450gr),63000,Makanan,Tanpa Nasi,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15356",KIT,Warung Kita,KIT12,Paket Nasi Pecel,27000,Makanan,,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15357",KIT,Warung Kita,KIT13,Tempe/ Tahu Goreng,2500,Makanan,,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15358",KIT,Warung Kita,KIT14,Lele Goreng,20400,Makanan,Tanpa Nasi,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15359",KIT,Warung Kita,KIT15,Capucino Cincau,18000,Minuman,,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15360",KIT,Warung Kita,KIT16,Teh Tarik Cincau,18000,Minuman,,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15361",KIT,Warung Kita,KIT17,Es Milo/Hot,18000,Minuman,,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15362",KIT,Warung Kita,KIT18,Nasi Merah,10000,Makanan,,-6.301.541,106.655.187
+" Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15363",KIT,Warung Kita,KIT19,Nasi Putih,7000,Makanan,,-6.301.541,106.655.187
+"Green Eatery GOP9 BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15345",JOW,Wong Jowo,JOW01,Bubur Ayam,12000,Makanan,,-6.301.721,106.652.312
