@@ -1,0 +1,987 @@
+Nama Toko,Kode Makanan,Kode Makanan ,Nama Makanan,Kode + Nama Makanan ,Add Ons,Description ,Harga,Open Link,Wishlist,Photos,Step,Format Pemesanan
+Coffee Potum,CP08 ,CP08  ,Hot Milk,CP08  Hot Milk,,,Rp. 10.000,https://wa.me/6281911050357?text=Nama:%0ADine-in%20/%20Bungkus%20(+7%20menit)%0ACoffee%20Potum%20:%0ABHot%20Milk,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Coffee Potum,CP02 ,CP02  ,Black Coffee,CP02  Black Coffee,,,Rp. 10.000,https://wa.me/6281911050357?text=Nama:%0ADine-in%20/%20Bungkus%20(+7%20menit)%0ACoffee%20Potum%20:%0ABlack%20Coffee,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Coffee Potum,CP04 ,CP04  ,Cappucino,CP04  Cappucino,,,Rp. 18.000,https://wa.me/6281911050357?text=Nama:%0ADine-in%20/%20Bungkus%20(+7%20menit)%0ACoffee%20Potum%20:%0ACappucino,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Coffee Potum,CP06 ,CP06  ,Coffee Latte,CP06  Coffee Latte,,,Rp. 17.000,https://wa.me/6281911050357?text=Nama:%0ADine-in%20/%20Bungkus%20(+7%20menit)%0ACoffee%20Potum%20:%0ACoffee%20Latte,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Coffee Potum,CP01 ,CP01  ,Espresso,CP01  Espresso,,,Rp. 8.000,https://wa.me/6281911050357?text=Nama:%0ADine-in%20/%20Bungkus%20(+7%20menit)%0ACoffee%20Potum%20:%0AEspresso,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Coffee Potum,CP03 ,CP03  ,Ice Black Coffee,CP03  Ice Black Coffee,,,RP. 15.000,https://wa.me/6281911050357?text=Nama:%0ADine-in%20/%20Bungkus%20(+7%20menit)%0ACoffee%20Potum%20:%0AIce%20Black%20Coffee,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Coffee Potum,CP05 ,CP05  ,Ice Cappucino,CP05  Ice Cappucino,,,Rp. 18.000,https://wa.me/6281911050357?text=Nama:%0ADine-in%20/%20Bungkus%20(+7%20menit)%0ACoffee%20Potum%20:%0AIce%20Cappucino,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Coffee Potum,CP07 ,CP07  ,Ice Coffe Latte,CP07  Ice Coffe Latte,,,Rp. 19.000,https://wa.me/6281911050357?text=Nama:%0ADine-in%20/%20Bungkus%20(+7%20menit)%0ACoffee%20Potum%20:%0AIce%20Coffee%20Latte,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Coffee Potum,CP09 ,CP09  ,Ice Milk,CP09  Ice Milk,,,Rp. 12.000,https://wa.me/6281911050357?text=Nama:%0ADine-in%20/%20Bungkus%20(+7%20menit)%0ACoffee%20Potum%20:%0AIce%20Milk,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+La Ding ,LD01 ,LD01  ,Siomay,LD01  Siomay,,4 Pcs,Rp. 20.000,https://wa.me/6281911050357?text=Nama:%0ADine-in%20/%20Bungkus%20(+7%20menit)%0ALa%20Ding%20:%0ASiomay%204pcs,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+La Ding ,LD02 ,LD02  ,Sop Iga + Nasi,LD02  Sop Iga + Nasi,,,Rp. 25.000,https://wa.me/6281911050357?text=Nama:%0ADine-in%20/%20Bungkus%20(+7%20menit)%0ALa%20Ding%20:%0ASop%20Iga%20dan%20Nasi,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+La Ding ,LD03 ,LD03  ,Soto Mie + Nasi,LD03  Soto Mie + Nasi,,,RP. 22.000,https://wa.me/6281911050357?text=Nama:%0ADine-in%20/%20Bungkus%20(+7%20menit)%0ALa%20Ding%20:%0ASoto%20Mie%20dan%20Nasi,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Salad Fella,SF01 ,SF01  ,Chick-a-potle Bowl,SF01  Chick-a-potle Bowl,,,Rp. 35.000,https://wa.me/6281911050357?text=Nama:%0ADine-in%20/%20Bungkus%20(+7%20menit)%0ASalad%20Fella%20:%0AChick-a-potle%20Bowl,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Salad Fella,SF03 ,SF03  ,Chick-a-potle Cup,SF03  Chick-a-potle Cup,,,Rp. 18.000,https://wa.me/6281911050357?text=Nama:%0ADine-in%20/%20Bungkus%20(+7%20menit)%0ASalad%20Fella%20:%0AChick-a-potle%20Cup,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Salad Fella,SF02 ,SF02  ,Chick-A-Potle Wrap,SF02  Chick-A-Potle Wrap,,,Rp. 35.000,https://wa.me/6281911050357?text=Nama:%0ADine-in%20/%20Bungkus%20(+7%20menit)%0ASalad%20Fella%20:%0AChick-a-potle%20Wrap,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Salad Fella,SF07,SF07 ,Happy Tempe-r Bowl,SF07 Happy Tempe-r Bowl,,,Rp. 30.000,https://wa.me/6281911050357?text=Nama:%0ADine-in%20/%20Bungkus%20(+7%20menit)%0ASalad%20Fella%20:%0AHappy%20Tempe-r%20Bowl,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Salad Fella,SF09,SF09 ,Happy Tempe-r Cup,SF09 Happy Tempe-r Cup,,,Rp. 15.000,https://wa.me/6281911050357?text=Nama:%0ADine-in%20/%20Bungkus%20(+7%20menit)%0ASalad%20Fella%20:%0AHappy%20Tempe-r%20Cup,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Salad Fella,SF08,SF08 ,Happy Tempe-r Wrap,SF08 Happy Tempe-r Wrap,,,Rp. 30.000,https://wa.me/6281911050357?text=Nama:%0ADine-in%20/%20Bungkus%20(+7%20menit)%0ASalad%20Fella%20:%0AHappy%20Tempe-r%20Wrap,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Salad Fella,SF04 ,SF04  ,O-Fish-Ally Yum! Bowl,SF04  O-Fish-Ally Yum! Bowl,,,Rp. 35.000,https://wa.me/6281911050357?text=Nama:%0ADine-in%20/%20Bungkus%20(+7%20menit)%0ASalad%20Fella%20:%0AO-Fish-Ally%20Yum!%20Bowl,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Salad Fella,SF06,SF06 ,O-Fish-Ally Yum! Cup,SF06 O-Fish-Ally Yum! Cup,,,Rp. 18.000,https://wa.me/6281911050357?text=Nama:%0ADine-in%20/%20Bungkus%20(+7%20menit)%0ASalad%20Fella%20:%0AO-Fish-Ally%20Yum!%20Cup,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Salad Fella,SF05 ,SF05  ,O-Fish-Ally Yum! Wrap,SF05  O-Fish-Ally Yum! Wrap,,,Rp. 35.000,https://wa.me/6281911050357?text=Nama:%0ADine-in%20/%20Bungkus%20(+7%20menit)%0ASalad%20Fella%20:%0AO-Fish-Ally%20Yum!%20Wrap,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Salad Fella,SF10,SF10 ,Sesame Street Bowl,SF10 Sesame Street Bowl,,,Rp. 30.000,https://wa.me/6281911050357?text=Nama:%0ADine-in%20/%20Bungkus%20(+7%20menit)%0ASalad%20Fella%20:%0ASesame%20Street%20Bowl,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Salad Fella,SF12,SF12 ,Sesame Street Cup,SF12 Sesame Street Cup,,,Rp. 15.000,https://wa.me/6281911050357?text=Nama:%0ADine-in%20/%20Bungkus%20(+7%20menit)%0ASalad%20Fella%20:%0ASesame%20Street%20Cup,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Salad Fella,SF11,SF11 ,Sesame Street Wrap,SF11 Sesame Street Wrap,,,Rp. 30.000,https://wa.me/6281911050357?text=Nama:%0ADine-in%20/%20Bungkus%20(+7%20menit)%0ASalad%20Fella%20:%0ASesame%20Street%20Wrap,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Warung Kokoh,BK01 ,BK01  ,Mie Ayam,BK01  Mie Ayam,,"Mie Kecil/ Mie Lebar/ Bihun/ Kwetiau, Extra Bakso/ Pangsit/ Bakso + Pangsit 5000",Rp. 20.000,https://wa.me/6281911050357?text=Nama:%0ADine-in%20/%20Bungkus%20(+7%20menit)%0AWarung%20Kokoh%20:%0AMie%20Ayam,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fd24e83.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Warung Kokoh,BK04 ,BK04  ,Mie Dino (Ayam/ Yamin/ Rica),BK04  Mie Dino (Ayam/ Yamin/ Rica),,"Mie Kecil/ Mie Lebar/ Bihun/ Kwetiau, Extra Bakso/ Pangsit/ Bakso + Pangsit 5000",Rp. 30.000,https://wa.me/6281911050357?text=Nama:%0ADine-in%20/%20Bungkus%20(+7%20menit)%0AWarung%20Kokoh%20:%0AMie%20Dino,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Warung Kokoh,BK03 ,BK03  ,Mie Rica,BK03  Mie Rica,,"Mie Kecil/ Mie Lebar/ Bihun/ Kwetiau, Extra Bakso/ Pangsit/ Bakso + Pangsit 5000",Rp. 20.000,https://wa.me/6281911050357?text=Nama:%0ADine-in%20/%20Bungkus%20(+7%20menit)%0AWarung%20Kokoh%20:%0AMie%20Rica,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Warung Kokoh,BK02 ,BK02  ,Mie Yamin,BK02  Mie Yamin,,"Mie Kecil/ Mie Lebar/ Bihun/ Kwetiau, Extra Bakso/ Pangsit/ Bakso + Pangsit 5000",Rp. 20.000,https://wa.me/6281911050357?text=Nama:%0ADine-in%20/%20Bungkus%20(+7%20menit)%0AWarung%20Kokoh%20:%0AMie%20Yamin,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+6Pack,SP01,SP01 ,Maui ,SP01 Maui ,,(Salmon w/ Mixed Salad) ,Rp. 75.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+6Pack,SP02,SP02 ,Oahu ,SP02 Oahu ,,(Tuna w/ Mixed Salad),Rp. 60.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+6Pack,SP03,SP03 ,Waikiki,SP03 Waikiki,,(Tofu w/ Mixed Salad),Rp. 55.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+6Pack,SP04,SP04 ,Kailua,SP04 Kailua,,(Salmon & Tuna w/ Mixed Salad),Rp. 80.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+6Pack,SP05,SP05 ,Mauna kea ,SP05 Mauna kea ,,(Salmon w/ Brown Rice),Rp. 75.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+6Pack,SP06,SP06 ,Honolulu,SP06 Honolulu,,(Tuna w/ Brown Rice),Rp. 60.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+6Pack,SP07,SP07 ,Molokini ,SP07 Molokini ,,(Tofu w/ Brown Rice),Rp. 55.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+6Pack,SP08,SP08 ,Kualoa,SP08 Kualoa,,(Salmon & Tuna w/ Brown Rice),Rp. 80.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+6Pack,SP09,SP09 ,Core Flow ,SP09 Core Flow ,,"(Tortilla, Chicken Breast, Egg Whites, Cherry Tomatoes, Parmesan, Croutons, & Caesar Dressing)",Rp. 75.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+6Pack,SP10,SP10 ,Yin & Yang,SP10 Yin & Yang,,"(Tortilla, Beef Bulgogi, Bell Pepper, Carrot, Kyuri, Dry Chilli, & Bulgogi Dressing)",Rp. 95.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+6Pack,SP11,SP11 ,Body Balance ,SP11 Body Balance ,,"(Tortilla, Gherkin, Pineapple, Red Beans, Kyuri, Tomatoes, Bell Pepper, Quinoa, & Pink Apple/Thai )",Rp. 80.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+6Pack,SP12,SP12 ,Pump It Up ,SP12 Pump It Up ,,"(Tortilla, Salmon, Tobiko, Crab Stick, Avocado, Kyuri, & Truffle Mayo)",Rp. 100.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+6Pack,SP13,SP13 ,Fast It ,SP13 Fast It ,,"(Tortilla, Sweet Corn, Salmon, Bell Peppers, Cherry Tomatoes, Red Onion, & Pesto Vinaigrette )",Rp. 80.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+6Pack,SP14,SP14 ,Flexibility,SP14 Flexibility,,"(Tortilla, Chicken Thigh, Red Cabbage, Cherry Tomatoes, Edamame, Kyuri, & Barbeque )",Rp. 75.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+6Pack,SP15,SP15 ,Fit Pack ,SP15 Fit Pack ,,"(Cauliflower Rice, Herb Spice, Chicken Breast, Baby Corn, Red Cabbage, Wakame, & Almond Barbeque)",Rp. 75.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+6Pack,SP16,SP16 ,Slim Pack ,SP16 Slim Pack ,,"(Romaine Lettuce, Chicken Breast, Button Mushroom, Sweet Corn, Cherry Tomatoes, & Garlic Miso Mustard)",Rp. 75.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+6Pack,SP17,SP17 ,Vegan Pack ,SP17 Vegan Pack ,,"(Mixed Salad, Tofu, Soba, Edamame, Button Mushroom, Mixed Seeds, & Pink Pineapple)",Rp. 75.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+6Pack,SP18,SP18 ,Spice Pack ,SP18 Spice Pack ,,"(Whole Wheat Pasta, Bulgogi Beef, Bell Pepper, Broccoli, Ratatouille, Horensi Dry Chili, & Bulgogi )",Rp. 100.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+6Pack,SP19,SP19 ,Super Pack ,SP19 Super Pack ,,"(Quinoa, Dory, Chicken Breast, Herb Carrot, Egg White, Roasted Tempe, Button Mushrooms, Almonds, & Thai)",Rp. 100.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+6Pack,SP20,SP20 ,Sweet Pack ,SP20 Sweet Pack ,,"(Sweet Potatoes, Chicken Thigh, Tofu, Broccoli, Ratatouille, Cherry Tomato, Sweet Corn, Mixed Seed, & Pesto Vinaigrette)",Rp. 100.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Bakso Pak Joko,BPJ01,BPJ01 ,Bakso Campur,BPJ01 Bakso Campur,,,Rp. 29.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Bakso Pak Joko,BPJ02,BPJ02 ,Bakso Isi Daging,BPJ02 Bakso Isi Daging,,,Rp. 25.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Bakso Pak Joko,BPJ03,BPJ03 ,Bakso Iga,BPJ03 Bakso Iga,,,Rp. 35.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Bakso Pak Joko,BPJ04,BPJ04 ,Bakso Urat,BPJ04 Bakso Urat,,,Rp. 20.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Bakso Pak Joko,BPJ05,BPJ05 ,Bakso Daging Halus,BPJ05 Bakso Daging Halus,,,Rp. 18.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Bakso Pak Joko,BPJ06,BPJ06 ,Bakso Tahu,BPJ06 Bakso Tahu,,,Rp. 16.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Bakso Pak Joko,BPJ07,BPJ07 ,Bakso Pelangi,BPJ07 Bakso Pelangi,,,Rp. 25.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Bakso Pak Joko,BPJ08,BPJ08 ,Iga Bakar BBQ,BPJ08 Iga Bakar BBQ,,,Rp. 25.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Bakso Pak Joko,BPJ09,BPJ09 ,Soup Buah ,BPJ09 Soup Buah ,,,Rp. 16.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Bakso Pak Joko,BPJ10,BPJ10 ,Juice Jambu,BPJ10 Juice Jambu,,,Rp. 15.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Bakso Pak Joko,BPJ11,BPJ11 ,Es Teh Manis,BPJ11 Es Teh Manis,,,Rp. 5.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Bakso Pak Joko,BPJ12,BPJ12 ,Juce Strawberry,BPJ12 Juce Strawberry,,,Rp. 15.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Bakso Pak Joko,BPJ13,BPJ13 ,Juice Alpukat,BPJ13 Juice Alpukat,,,Rp. 15.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Bakso Pak Joko,BPJ14,BPJ14 ,Juice Buah Naga,BPJ14 Juice Buah Naga,,,Rp. 15.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Bakso Pak Joko,BPJ15,BPJ15 ,Es Jeru,BPJ15 Es Jeru,,,Rp. 10.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Bakso Pak Joko,BPJ16,BPJ16 ,Juice Mangga,BPJ16 Juice Mangga,,,Rp. 15.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Baracik (Kopi Tanah Air),BR01,BR01 ,Kopi Tubruk,BR01 Kopi Tubruk,,,Rp. 25.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Baracik (Kopi Tanah Air),BR02,BR02 ,Kopi Siram,BR02 Kopi Siram,,,Rp. 25.000/ Rp. 30.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Baracik (Kopi Tanah Air),BR03,BR03 ,Kopi Press Angin,BR03 Kopi Press Angin,,,Rp. 25.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Baracik (Kopi Tanah Air),BR04,BR04 ,Kopi Tetes,BR04 Kopi Tetes,,,Rp. 25.000/ Rp. 30.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Baracik (Kopi Tanah Air),BR05,BR05 ,Kopi Jahe,BR05 Kopi Jahe,,,Rp. 25.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Baracik (Kopi Tanah Air),BR06,BR06 ,Espresso,BR06 Espresso,,,Rp. 25.000/ Rp. 40.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Baracik (Kopi Tanah Air),BR07,BR07 ,Americano,BR07 Americano,,,Rp. 25.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Baracik (Kopi Tanah Air),BR08,BR08 ,Piccolo,BR08 Piccolo,,,Rp. 30.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Baracik (Kopi Tanah Air),BR09,BR09 ,Cappucino,BR09 Cappucino,,,Rp. 25.000/Rp. 30.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Baracik (Kopi Tanah Air),BR10,BR10 ,Latte,BR10 Latte,,,Rp. 25.000/Rp. 30.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Baracik (Kopi Tanah Air),BR11,BR11 ,Caramel Latte,BR11 Caramel Latte,,,Rp. 30.000/Rp. 35.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Baracik (Kopi Tanah Air),BR12,BR12 ,Hazelnut Latte,BR12 Hazelnut Latte,,,Rp. 30.000/Rp. 35.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Baracik (Kopi Tanah Air),BR13,BR13 ,Mochaccino ,BR13 Mochaccino ,,,Rp. 25.000/Rp. 30.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Baracik (Kopi Tanah Air),BR14,BR14 ,Nutellatte,BR14 Nutellatte,,,Rp. 35.000/Rp. 40.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Baracik (Kopi Tanah Air),BR15,BR15 ,Vanilla Latte,BR15 Vanilla Latte,,,Rp. 30.000/Rp. 35.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Baracik (Kopi Tanah Air),BR16,BR16 ,Green Tea Latte,BR16 Green Tea Latte,,,Rp. 30.000/Rp. 35.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Baracik (Kopi Tanah Air),BR17,BR17 ,Chocolate,BR17 Chocolate,,,Rp. 25.000/Rp. 30.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Baracik (Kopi Tanah Air),BR18,BR18 ,Bandrek,BR18 Bandrek,,,Rp. 20.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Baracik (Kopi Tanah Air),BR19,BR19 ,Teh Kocok Baba,BR19 Teh Kocok Baba,,,Rp. 25.000/ Rp. 30.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Baracik (Kopi Tanah Air),BR20,BR20 ,Jeruk Nipis,BR20 Jeruk Nipis,,,Rp. 20.000/ Rp. 25.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Baracik (Kopi Tanah Air),BR21,BR21 ,Jeruk Borneo,BR21 Jeruk Borneo,,,Rp. 20.000/ Rp. 25.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Baracik (Kopi Tanah Air),BR22,BR22 ,Teh Tawar,BR22 Teh Tawar,,,Rp. 10.000/ Rp. 15.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Baracik (Kopi Tanah Air),BR23,BR23 ,Teh Manis,BR23 Teh Manis,,,Rp. 15.000/ Rp. 20.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Baracik (Kopi Tanah Air),BR24,BR24 ,Lemon Tea,BR24 Lemon Tea,,,Rp. 20.000/ Rp. 25.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Baracik (Kopi Tanah Air),BR25,BR25 ,Lychee Tea,BR25 Lychee Tea,,,Rp. 30.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Baracik (Kopi Tanah Air),BR26,BR26 ,Saparilla Badak,BR26 Saparilla Badak,,,Rp. 18.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Baracik (Kopi Tanah Air),BR27,BR27 ,Air Mineral,BR27 Air Mineral,,,Rp. 5.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Baracik (Kopi Tanah Air),BR28,BR28 ,Telur Ayam Kampung (rebus1/2 matang) 15k,BR28 Telur Ayam Kampung (rebus1/2 matang) 15k,,,Rp. 15.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Baracik (Kopi Tanah Air),BR29,BR29 ,Roti Bakar (susu/ cokelat/ keju/ campur),BR29 Roti Bakar (susu/ cokelat/ keju/ campur),,,Rp. 20.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Baracik (Kopi Tanah Air),BR30,BR30 ,Mpek2 Kapal Selam,BR30 Mpek2 Kapal Selam,,,Rp. 25.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Baracik (Kopi Tanah Air),BR31,BR31 ,Roti Goreng,BR31 Roti Goreng,,,Rp. 15.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Baracik (Kopi Tanah Air),BR32,BR32 ,Mie+ Telur Asin (Rebus/ Goreng),BR32 Mie+ Telur Asin (Rebus/ Goreng),,,Rp. 15.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Baracik (Kopi Tanah Air),BR33,BR33 ,Sosis Bakar,BR33 Sosis Bakar,,,Rp. 13.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Baracik (Kopi Tanah Air),BR34,BR34 ,Cireng,BR34 Cireng,,,Rp. 15.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Baracik (Kopi Tanah Air),BR35,BR35 ,Pisang Goreng,BR35 Pisang Goreng,,,Rp. 20.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Baracik (Kopi Tanah Air),BR36,BR36 ,Pisang Keju Susu,BR36 Pisang Keju Susu,,,Rp. 20.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Baracik (Kopi Tanah Air),BR37,BR37 ,Pisang Keju Coklat,BR37 Pisang Keju Coklat,,,Rp. 25.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Baracik (Kopi Tanah Air),BR38,BR38 ,Tahu Aci,BR38 Tahu Aci,,,Rp. 20.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Baracik (Kopi Tanah Air),BR39,BR39 ,Singkong Goreng,BR39 Singkong Goreng,,,Rp. 20.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Baracik (Kopi Tanah Air),BR40,BR40 ,Kentang Goreng,BR40 Kentang Goreng,,,Rp. 25.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Bro Star,BS01,BS01 ,Paket Dory Salted Egg,BS01 Paket Dory Salted Egg,,,,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Bro Star,BS02,BS02 ,Paket Dorry Crispy,BS02 Paket Dorry Crispy,,,,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Bro Star,BS03,BS03 ,Kentang Goreng,BS03 Kentang Goreng,,,,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Bro Star,BS04,BS04 ,Sosis Kentang Goreng,BS04 Sosis Kentang Goreng,,,,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Bro Star,BS05,BS05 ,Sosis Telur,BS05 Sosis Telur,,,,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Bro Star,BS06,BS06 ,Roti Bakar,BS06 Roti Bakar,,,,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Bro Star,BS07,BS07 ,Roti Bakar Ice Cream,BS07 Roti Bakar Ice Cream,,,,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Bro Star,BS08,BS08 ,Roti Gulung Sosis Keju,BS08 Roti Gulung Sosis Keju,,,,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Bro Star,BS09,BS09 ,Donut Kentang,BS09 Donut Kentang,,,,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Bro Star,BS10,BS10 ,Esteh Manis,BS10 Esteh Manis,,,,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Bro Star,BS11,BS11 ,Teh Tarik,BS11 Teh Tarik,,,,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Bro Star,BS12,BS12 ,Lemon Tea,BS12 Lemon Tea,,,,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Bro Star,BS13,BS13 ,Thai Tea,BS13 Thai Tea,,,,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Bro Star,BS14,BS14 ,Milk Tea,BS14 Milk Tea,,,,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Bro Star,BS15,BS15 ,Milo,BS15 Milo,,,,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Bro Star,BS16,BS16 ,Kopi Belitung,BS16 Kopi Belitung,,,,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Bro Star,BS17,BS17 ,Kopi Arabika,BS17 Kopi Arabika,,,,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Bro Star,BS18,BS18 ,Kopi Susu,BS18 Kopi Susu,,,,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Bro Star,BS19,BS19 ,Mineral Water,BS19 Mineral Water,,,,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Dapur Cowek,DC01 ,DC01  ,Ayam Panggang + Nasi,DC01  Ayam Panggang + Nasi,,,,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Dapur Cowek,DC02 ,DC02  ,Nasi Bakar,DC02  Nasi Bakar,,,,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Dapur Cowek,DC03 ,DC03  ,Nasi Gudeg,DC03  Nasi Gudeg,,,,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Dum Dum,DD01,DD01 ,DumDum Aren Thai Tea ,DD01 DumDum Aren Thai Tea ,,,Rp. 24.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Dum Dum,DD02,DD02 ,DumDum Aren Thai Green Tea,DD02 DumDum Aren Thai Green Tea,,,Rp. 25.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Dum Dum,DD03,DD03 ,DumDum Aren Thai Coffe,DD03 DumDum Aren Thai Coffe,,,Rp. 24.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Dum Dum,DD04,DD04 ,DumDum Dark Chocolate cold,DD04 DumDum Dark Chocolate cold,,,Rp. 24.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Dum Dum,DD05,DD05 ,DumDum Dark Chocolate hot ,DD05 DumDum Dark Chocolate hot ,,,Rp. 23.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Dum Dum,DD06,DD06 ,DumDum Thai Tea Hot,DD06 DumDum Thai Tea Hot,,,Rp. 21.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Dum Dum,DD07,DD07 ,DumDum Thai Tea Cold ,DD07 DumDum Thai Tea Cold ,,,Rp. 20.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Dum Dum,DD08,DD08 ,DumDum Thai Green Tea Cold,DD08 DumDum Thai Green Tea Cold,,,Rp. 23.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Dum Dum,DD09,DD09 ,DumDum Thai Green Tea Hot,DD09 DumDum Thai Green Tea Hot,,,Rp. 22.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Dum Dum,DD10,DD10 ,DumDum Thai Coffee Cold,DD10 DumDum Thai Coffee Cold,,,Rp. 21.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Dum Dum,DD11,DD11 ,DumDum Thai Coffee Hot,DD11 DumDum Thai Coffee Hot,,,Rp. 20.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Dum Dum,DD12,DD12 ,DumDum Thai Black Tea Cold,DD12 DumDum Thai Black Tea Cold,,,Rp. 18.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Dum Dum,DD13,DD13 ,DumDum Thai Black Tea Hot,DD13 DumDum Thai Black Tea Hot,,,Rp. 17.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Dum Dum,DD14,DD14 ,DumDum Thai Black Coffee Cold,DD14 DumDum Thai Black Coffee Cold,,,Rp. 19.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Dum Dum,DD15,DD15 ,DumDum Thai Black Coffee Hot,DD15 DumDum Thai Black Coffee Hot,,,Rp. 18.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Dum Dum,DD16,DD16 ,DumDum Honey Lime Black Tea Cold,DD16 DumDum Honey Lime Black Tea Cold,,,Rp. 26.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Dum Dum,DD17,DD17 ,DumDum Honey Lime Black Tea Hot,DD17 DumDum Honey Lime Black Tea Hot,,,Rp. 25.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Dum Dum,DD18,DD18 ,DumDum Honey Lime Green Tea Cold,DD18 DumDum Honey Lime Green Tea Cold,,,Rp. 27.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Dum Dum,DD19,DD19 ,DumDum Honey Lime Green Tea Hot,DD19 DumDum Honey Lime Green Tea Hot,,,Rp. 26.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Dum Dum,DD20,DD20 ,DumDum Lime Black Tea Cold,DD20 DumDum Lime Black Tea Cold,,,Rp. 20.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Dum Dum,DD21,DD21 ,DumDum Lime Black Tea Hot,DD21 DumDum Lime Black Tea Hot,,,Rp. 19.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Dum Dum,DD22,DD22 ,DumDum Lime Green Tea Cold,DD22 DumDum Lime Green Tea Cold,,,Rp. 21.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Dum Dum,DD23,DD23 ,DumDum Lime Green Tea Hot,DD23 DumDum Lime Green Tea Hot,,,Rp. 20.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Dum Dum,DD24,DD24 ,Milo - cold Cold,DD24 Milo - cold Cold,,,Rp. 23.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Dum Dum,DD25,DD25 ,Milo - cold Hot,DD25 Milo - cold Hot,,,Rp. 22.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Gooma,Go01,Go01 ,Uji Matcha original,Go01 Uji Matcha original,"Chia pudding 6.000
+matcha pudding 6.000
+grass jelly 6.000
+coffe jelly 6.000
+aloe vera 6.000
+
+Choose your milk:
+premium creamy
+skim light
+
+Choose your sweetness:
+More 130%
+Normal 100%
+less 70%
+minimal 30%",,Rp. 32.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Gooma,Go02,Go02 ,Taste of Ginza watermelon,Go02 Taste of Ginza watermelon,"Chia pudding 6.000
+matcha pudding 6.000
+grass jelly 6.000
+coffe jelly 6.000
+aloe vera 6.000
+
+Choose your milk:
+premium creamy
+skim light
+
+Choose your sweetness:
+More 130%
+Normal 100%
+less 70%
+minimal 30%",,Rp. 32.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Gooma,Go03,Go03 ,Rose Blossom rose ,Go03 Rose Blossom rose ,"Chia pudding 6.000
+matcha pudding 6.000
+grass jelly 6.000
+coffe jelly 6.000
+aloe vera 6.000
+
+Choose your milk:
+premium creamy
+skim light
+
+Choose your sweetness:
+More 130%
+Normal 100%
+less 70%
+minimal 30%",,Rp. 32.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Gooma,Go04,Go04 ,Ichigo Matcha strawberry ,Go04 Ichigo Matcha strawberry ,"Chia pudding 6.000
+matcha pudding 6.000
+grass jelly 6.000
+coffe jelly 6.000
+aloe vera 6.000
+
+Choose your milk:
+premium creamy
+skim light
+
+Choose your sweetness:
+More 130%
+Normal 100%
+less 70%
+minimal 30%",,Rp. 32.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Gooma,Go05,Go05 ,Indo Matcha pandan ,Go05 Indo Matcha pandan ,"Chia pudding 6.000
+matcha pudding 6.000
+grass jelly 6.000
+coffe jelly 6.000
+aloe vera 6.000
+
+Choose your milk:
+premium creamy
+skim light
+
+Choose your sweetness:
+More 130%
+Normal 100%
+less 70%
+minimal 30%",,Rp. 32.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Gooma,Go06,Go06 ,Yubari King honeydew ,Go06 Yubari King honeydew ,"Chia pudding 6.000
+matcha pudding 6.000
+grass jelly 6.000
+coffe jelly 6.000
+aloe vera 6.000
+
+Choose your milk:
+premium creamy
+skim light
+
+Choose your sweetness:
+More 130%
+Normal 100%
+less 70%
+minimal 30%",,Rp. 32.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Gooma,Go07,Go07 ,Kokuto Matcha brown sugar ,Go07 Kokuto Matcha brown sugar ,"Chia pudding 6.000
+matcha pudding 6.000
+grass jelly 6.000
+coffe jelly 6.000
+aloe vera 6.000
+
+Choose your milk:
+premium creamy
+skim light
+
+Choose your sweetness:
+More 130%
+Normal 100%
+less 70%
+minimal 30%",,Rp. 32.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Gooma,Go08,Go08 ,Mojo Matcha banana ,Go08 Mojo Matcha banana ,"Chia pudding 6.000
+matcha pudding 6.000
+grass jelly 6.000
+coffe jelly 6.000
+aloe vera 6.000
+
+Choose your milk:
+premium creamy
+skim light
+
+Choose your sweetness:
+More 130%
+Normal 100%
+less 70%
+minimal 30%",,Rp. 32.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Gooma,Go09,Go09 ,Aloe Matcha aloe lychee (no milk),Go09 Aloe Matcha aloe lychee (no milk),"Chia pudding 6.000
+matcha pudding 6.000
+grass jelly 6.000
+coffe jelly 6.000
+aloe vera 6.000
+
+Choose your milk:
+premium creamy
+skim light
+
+Choose your sweetness:
+More 130%
+Normal 100%
+less 70%
+minimal 30%",,Rp. 32.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Gooma,Go10,Go10 ,Virgin Matcha unsweetened  (small) (no milk),Go10 Virgin Matcha unsweetened  (small) (no milk),"Chia pudding 6.000
+matcha pudding 6.000
+grass jelly 6.000
+coffe jelly 6.000
+aloe vera 6.000
+
+Choose your milk:
+premium creamy
+skim light
+
+Choose your sweetness:
+More 130%
+Normal 100%
+less 70%
+minimal 30%",,Rp. 20.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Gooma,Go11,Go11 ,GOOMA Cold Brew honey 22l (no milk),Go11 GOOMA Cold Brew honey 22l (no milk),"Chia pudding 6.000
+matcha pudding 6.000
+grass jelly 6.000
+coffe jelly 6.000
+aloe vera 6.000
+
+Choose your milk:
+premium creamy
+skim light
+
+Choose your sweetness:
+More 130%
+Normal 100%
+less 70%
+minimal 30%",,Rp. 20.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Gooma,Go12,Go12 ,Nagasaki Milk Tea honey (S),Go12 Nagasaki Milk Tea honey (S),"Chia pudding 6.000
+matcha pudding 6.000
+grass jelly 6.000
+coffe jelly 6.000
+aloe vera 6.000
+
+Choose your milk:
+premium creamy
+skim light
+
+Choose your sweetness:
+More 130%
+Normal 100%
+less 70%
+minimal 30%",,Rp. 23.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Gooma,Go13,Go13 ,Nagasaki Milk Tea honey (R),Go13 Nagasaki Milk Tea honey (R),"Chia pudding 6.000
+matcha pudding 6.000
+grass jelly 6.000
+coffe jelly 6.000
+aloe vera 6.000
+
+Choose your milk:
+premium creamy
+skim light
+
+Choose your sweetness:
+More 130%
+Normal 100%
+less 70%
+minimal 30%",,Rp. 28.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Gooma,Go14,Go14 ,Royal milk tea signature (S),Go14 Royal milk tea signature (S),"Chia pudding 6.000
+matcha pudding 6.000
+grass jelly 6.000
+coffe jelly 6.000
+aloe vera 6.000
+
+Choose your milk:
+premium creamy
+skim light
+
+Choose your sweetness:
+More 130%
+Normal 100%
+less 70%
+minimal 30%",,Rp. 23.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Gooma,Go15,Go15 ,Royal milk tea signature (R),Go15 Royal milk tea signature (R),"Chia pudding 6.000
+matcha pudding 6.000
+grass jelly 6.000
+coffe jelly 6.000
+aloe vera 6.000
+
+Choose your milk:
+premium creamy
+skim light
+
+Choose your sweetness:
+More 130%
+Normal 100%
+less 70%
+minimal 30%",,Rp. 28.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Gooma,Go16,Go16 ,OKinawa milk tea jasmine (S),Go16 OKinawa milk tea jasmine (S),"Chia pudding 6.000
+matcha pudding 6.000
+grass jelly 6.000
+coffe jelly 6.000
+aloe vera 6.000
+
+Choose your milk:
+premium creamy
+skim light
+
+Choose your sweetness:
+More 130%
+Normal 100%
+less 70%
+minimal 30%",,Rp. 23.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Gooma,Go17,Go17 ,OKinawa milk tea jasmine (R),Go17 OKinawa milk tea jasmine (R),"Chia pudding 6.000
+matcha pudding 6.000
+grass jelly 6.000
+coffe jelly 6.000
+aloe vera 6.000
+
+Choose your milk:
+premium creamy
+skim light
+
+Choose your sweetness:
+More 130%
+Normal 100%
+less 70%
+minimal 30%",,Rp. 28.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Gooma,Go18,Go18 ,Maui milk tea rum jasmine (S),Go18 Maui milk tea rum jasmine (S),"Chia pudding 6.000
+matcha pudding 6.000
+grass jelly 6.000
+coffe jelly 6.000
+aloe vera 6.000
+
+Choose your milk:
+premium creamy
+skim light
+
+Choose your sweetness:
+More 130%
+Normal 100%
+less 70%
+minimal 30%",,Rp. 23.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Gooma,Go19,Go19 ,Maui milk tea rum jasmine (R),Go19 Maui milk tea rum jasmine (R),"Chia pudding 6.000
+matcha pudding 6.000
+grass jelly 6.000
+coffe jelly 6.000
+aloe vera 6.000
+
+Choose your milk:
+premium creamy
+skim light
+
+Choose your sweetness:
+More 130%
+Normal 100%
+less 70%
+minimal 30%",,Rp. 28.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Gooma,Go20,Go20 ,Nagoya milk tea roasted chesnut (S),Go20 Nagoya milk tea roasted chesnut (S),"Chia pudding 6.000
+matcha pudding 6.000
+grass jelly 6.000
+coffe jelly 6.000
+aloe vera 6.000
+
+Choose your milk:
+premium creamy
+skim light
+
+Choose your sweetness:
+More 130%
+Normal 100%
+less 70%
+minimal 30%",,Rp. 23.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Gooma,Go21,Go21 ,Nagoya milk tea roasted chesnut (R),Go21 Nagoya milk tea roasted chesnut (R),"Chia pudding 6.000
+matcha pudding 6.000
+grass jelly 6.000
+coffe jelly 6.000
+aloe vera 6.000
+
+Choose your milk:
+premium creamy
+skim light
+
+Choose your sweetness:
+More 130%
+Normal 100%
+less 70%
+minimal 30%",,Rp. 28.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Gooma,Go22,Go22 ,Black sea salt,Go22 Black sea salt,"Chia pudding 6.000
+matcha pudding 6.000
+grass jelly 6.000
+coffe jelly 6.000
+aloe vera 6.000
+
+Choose your milk:
+premium creamy
+skim light
+
+Choose your sweetness:
+More 130%
+Normal 100%
+less 70%
+minimal 30%",,Rp. 32.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Gooma,Go23,Go23 ,Hojicha roasted green ,Go23 Hojicha roasted green ,"Chia pudding 6.000
+matcha pudding 6.000
+grass jelly 6.000
+coffe jelly 6.000
+aloe vera 6.000
+
+Choose your milk:
+premium creamy
+skim light
+
+Choose your sweetness:
+More 130%
+Normal 100%
+less 70%
+minimal 30%",,Rp. 32.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Gooma,Go24,Go24 ,Irish coffee signature coffee,Go24 Irish coffee signature coffee,"Chia pudding 6.000
+matcha pudding 6.000
+grass jelly 6.000
+coffe jelly 6.000
+aloe vera 6.000
+
+Choose your milk:
+premium creamy
+skim light
+
+Choose your sweetness:
+More 130%
+Normal 100%
+less 70%
+minimal 30%",,Rp. 32.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Gooma,Go25,Go25 ,Chocolate toffee classic cocoa,Go25 Chocolate toffee classic cocoa,"Chia pudding 6.000
+matcha pudding 6.000
+grass jelly 6.000
+coffe jelly 6.000
+aloe vera 6.000
+
+Choose your milk:
+premium creamy
+skim light
+
+Choose your sweetness:
+More 130%
+Normal 100%
+less 70%
+minimal 30%",,Rp. 32.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Gooma,Go26,Go26 ,Blue magic gelato,Go26 Blue magic gelato,"Chia pudding 6.000
+matcha pudding 6.000
+grass jelly 6.000
+coffe jelly 6.000
+aloe vera 6.000
+
+Choose your milk:
+premium creamy
+skim light
+
+Choose your sweetness:
+More 130%
+Normal 100%
+less 70%
+minimal 30%",,Rp. 32.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Gooma,Go27,Go27 ,galaxy lemonade strawberry lemon ,Go27 galaxy lemonade strawberry lemon ,"Chia pudding 6.000
+matcha pudding 6.000
+grass jelly 6.000
+coffe jelly 6.000
+aloe vera 6.000
+
+Choose your milk:
+premium creamy
+skim light
+
+Choose your sweetness:
+More 130%
+Normal 100%
+less 70%
+minimal 30%",,Rp. 25.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Gooma,Go28,Go28 ,Black Kumquat charcoal kumquat,Go28 Black Kumquat charcoal kumquat,"Chia pudding 6.000
+matcha pudding 6.000
+grass jelly 6.000
+coffe jelly 6.000
+aloe vera 6.000
+
+Choose your milk:
+premium creamy
+skim light
+
+Choose your sweetness:
+More 130%
+Normal 100%
+less 70%
+minimal 30%",,Rp. 25.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Gooma,Go29,Go29 ,Purple passion yogurt passionfruit,Go29 Purple passion yogurt passionfruit,"Chia pudding 6.000
+matcha pudding 6.000
+grass jelly 6.000
+coffe jelly 6.000
+aloe vera 6.000
+
+Choose your milk:
+premium creamy
+skim light
+
+Choose your sweetness:
+More 130%
+Normal 100%
+less 70%
+minimal 30%",,Rp. 25.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Jeruk Meletus,JM01,JM01 ,Cocolytus ,JM01 Cocolytus ,,,Rp. 20.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Jeruk Meletus,JM02,JM02 ,Jeruk Meletus 16OZ ,JM02 Jeruk Meletus 16OZ ,,,Rp. 15.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Jeruk Meletus,JM03,JM03 ,Jeruk Meletus 22OZ ,JM03 Jeruk Meletus 22OZ ,,,Rp. 20.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Jeruk Meletus,JM04,JM04 ,Jeruk Meletus botol ,JM04 Jeruk Meletus botol ,,,Rp. 20.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Jeruk Meletus,JM05,JM05 ,Jekult 22oz ,JM05 Jekult 22oz ,,,Rp. 20.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Jeruk Meletus,JM06,JM06 ,Jekult botol ,JM06 Jekult botol ,,,Rp. 20.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Jeruk Meletus,JM07,JM07 ,Pinnakult 22oz ,JM07 Pinnakult 22oz ,,,Rp. 20.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Jeruk Meletus,JM08,JM08 ,Pinnatus 22oz ,JM08 Pinnatus 22oz ,,,Rp. 15.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kamu Tea,KT01,KT01 ,Passion Fruit Cheese Tea,KT01 Passion Fruit Cheese Tea,"Sugar Level:
+Cheese Tea: 0 - 50 - 100
+Others: 0 - 25 - 50 - 100
+
+Topping:
+(Kokuto Black Pearl + 5.000) (Azuki + 6.000) (Aloe Vera + 5.000) (Grass Jelly + 5.000) (Caramel Pudding + 6.000)",,S: Rp. 29.000/ M: Rp. 32.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kamu Tea,KT02,KT02 ,Black Cheese Tea,KT02 Black Cheese Tea,"Sugar Level:
+Cheese Tea: 0 - 50 - 100
+Others: 0 - 25 - 50 - 100
+
+Topping:
+(Kokuto Black Pearl + 5.000) (Azuki + 6.000) (Aloe Vera + 5.000) (Grass Jelly + 5.000) (Caramel Pudding + 6.000)",,S: Rp. 29.000/ M: Rp. 32.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kamu Tea,KT03,KT03 ,Matcha Cheese Tea,KT03 Matcha Cheese Tea,"Sugar Level:
+Cheese Tea: 0 - 50 - 100
+Others: 0 - 25 - 50 - 100
+
+Topping:
+(Kokuto Black Pearl + 5.000) (Azuki + 6.000) (Aloe Vera + 5.000) (Grass Jelly + 5.000) (Caramel Pudding + 6.000)",,S: Rp. 33.000/ M: Rp. 36.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kamu Tea,KT04,KT04 ,Houjicha Cheese Tea,KT04 Houjicha Cheese Tea,"Sugar Level:
+Cheese Tea: 0 - 50 - 100
+Others: 0 - 25 - 50 - 100
+
+Topping:
+(Kokuto Black Pearl + 5.000) (Azuki + 6.000) (Aloe Vera + 5.000) (Grass Jelly + 5.000) (Caramel Pudding + 6.000)",,S: Rp. 33.000/ M: Rp. 36.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kamu Tea,KT05,KT05 ,Genmaicha Cheese Tea,KT05 Genmaicha Cheese Tea,"Sugar Level:
+Cheese Tea: 0 - 50 - 100
+Others: 0 - 25 - 50 - 100
+
+Topping:
+(Kokuto Black Pearl + 5.000) (Azuki + 6.000) (Aloe Vera + 5.000) (Grass Jelly + 5.000) (Caramel Pudding + 6.000)",,S: Rp. 33.000/ M: Rp. 36.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kamu Tea,KT06,KT06 ,Dark Cocoa Cheese Tea,KT06 Dark Cocoa Cheese Tea,"Sugar Level:
+Cheese Tea: 0 - 50 - 100
+Others: 0 - 25 - 50 - 100
+
+Topping:
+(Kokuto Black Pearl + 5.000) (Azuki + 6.000) (Aloe Vera + 5.000) (Grass Jelly + 5.000) (Caramel Pudding + 6.000)",,S: Rp. 29.000/ M: Rp. 32.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kamu Tea,KT07,KT07 ,Thai Cheese Tea,KT07 Thai Cheese Tea,"Sugar Level:
+Cheese Tea: 0 - 50 - 100
+Others: 0 - 25 - 50 - 100
+
+Topping:
+(Kokuto Black Pearl + 5.000) (Azuki + 6.000) (Aloe Vera + 5.000) (Grass Jelly + 5.000) (Caramel Pudding + 6.000)",,S: Rp. 29.000/ M: Rp. 32.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kamu Tea,KT08,KT08 ,Milo Cheese Tea,KT08 Milo Cheese Tea,"Sugar Level:
+Cheese Tea: 0 - 50 - 100
+Others: 0 - 25 - 50 - 100
+
+Topping:
+(Kokuto Black Pearl + 5.000) (Azuki + 6.000) (Aloe Vera + 5.000) (Grass Jelly + 5.000) (Caramel Pudding + 6.000)",,S: Rp. 29.000/ M: Rp. 32.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kamu Tea,KT09,KT09 ,Shizuoka Matcha Milk Tea,KT09 Shizuoka Matcha Milk Tea,"Sugar Level:
+Cheese Tea: 0 - 50 - 100
+Others: 0 - 25 - 50 - 100
+
+Topping:
+(Kokuto Black Pearl + 5.000) (Azuki + 6.000) (Aloe Vera + 5.000) (Grass Jelly + 5.000) (Caramel Pudding + 6.000)",,M: Rp. 29.000/ L: Rp. 36.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kamu Tea,KT10,KT10 ,Shizuoka Matcha Milk Tea With Fresh Milk,KT10 Shizuoka Matcha Milk Tea With Fresh Milk,"Sugar Level:
+Cheese Tea: 0 - 50 - 100
+Others: 0 - 25 - 50 - 100
+
+Topping:
+(Kokuto Black Pearl + 5.000) (Azuki + 6.000) (Aloe Vera + 5.000) (Grass Jelly + 5.000) (Caramel Pudding + 6.000)",,M: Rp. 33.000/ L: Rp. 39.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kamu Tea,KT11,KT11 ,Houjicha Milk Tea,KT11 Houjicha Milk Tea,"Sugar Level:
+Cheese Tea: 0 - 50 - 100
+Others: 0 - 25 - 50 - 100
+
+Topping:
+(Kokuto Black Pearl + 5.000) (Azuki + 6.000) (Aloe Vera + 5.000) (Grass Jelly + 5.000) (Caramel Pudding + 6.000)",,M: Rp. 29.000/ L: Rp. 36.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kamu Tea,KT12,KT12 ,Houjicha Milk Tea With Fresh Milk,KT12 Houjicha Milk Tea With Fresh Milk,"Sugar Level:
+Cheese Tea: 0 - 50 - 100
+Others: 0 - 25 - 50 - 100
+
+Topping:
+(Kokuto Black Pearl + 5.000) (Azuki + 6.000) (Aloe Vera + 5.000) (Grass Jelly + 5.000) (Caramel Pudding + 6.000)",,M: Rp. 33.000/ L: Rp. 39.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kamu Tea,KT13,KT13 ,Kamu Milk Tea,KT13 Kamu Milk Tea,"Sugar Level:
+Cheese Tea: 0 - 50 - 100
+Others: 0 - 25 - 50 - 100
+
+Topping:
+(Kokuto Black Pearl + 5.000) (Azuki + 6.000) (Aloe Vera + 5.000) (Grass Jelly + 5.000) (Caramel Pudding + 6.000)",,M: Rp. 18.000/ L: Rp. 23.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kamu Tea,KT14,KT14 ,Kamu Milk Tea With Fresh Milk,KT14 Kamu Milk Tea With Fresh Milk,"Sugar Level:
+Cheese Tea: 0 - 50 - 100
+Others: 0 - 25 - 50 - 100
+
+Topping:
+(Kokuto Black Pearl + 5.000) (Azuki + 6.000) (Aloe Vera + 5.000) (Grass Jelly + 5.000) (Caramel Pudding + 6.000)",,M: Rp. 21.000/ L: Rp. 26.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kamu Tea,KT15,KT15 ,Thai Milk Tea,KT15 Thai Milk Tea,"Sugar Level:
+Cheese Tea: 0 - 50 - 100
+Others: 0 - 25 - 50 - 100
+
+Topping:
+(Kokuto Black Pearl + 5.000) (Azuki + 6.000) (Aloe Vera + 5.000) (Grass Jelly + 5.000) (Caramel Pudding + 6.000)",,M: Rp. 19.000/ L: Rp. 26.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kamu Tea,KT16,KT16 ,Thai Milk Tea With Fresh Milk,KT16 Thai Milk Tea With Fresh Milk,"Sugar Level:
+Cheese Tea: 0 - 50 - 100
+Others: 0 - 25 - 50 - 100
+
+Topping:
+(Kokuto Black Pearl + 5.000) (Azuki + 6.000) (Aloe Vera + 5.000) (Grass Jelly + 5.000) (Caramel Pudding + 6.000)",,M: Rp. 24.000/ L: Rp. 29.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kamu Tea,KT17,KT17 ,Americano,KT17 Americano,"Sugar Level:
+Cheese Tea: 0 - 50 - 100
+Others: 0 - 25 - 50 - 100
+
+Topping:
+(Kokuto Black Pearl + 5.000) (Azuki + 6.000) (Aloe Vera + 5.000) (Grass Jelly + 5.000) (Caramel Pudding + 6.000)",,M: Rp. 20.000/ L: Rp. 28.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kamu Tea,KT18,KT18 ,Super Black Latte,KT18 Super Black Latte,"Sugar Level:
+Cheese Tea: 0 - 50 - 100
+Others: 0 - 25 - 50 - 100
+
+Topping:
+(Kokuto Black Pearl + 5.000) (Azuki + 6.000) (Aloe Vera + 5.000) (Grass Jelly + 5.000) (Caramel Pudding + 6.000)",,M: Rp. 26.000/ L: Rp. 35.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kamu Tea,KT19,KT19 ,Coffe Mocha,KT19 Coffe Mocha,"Sugar Level:
+Cheese Tea: 0 - 50 - 100
+Others: 0 - 25 - 50 - 100
+
+Topping:
+(Kokuto Black Pearl + 5.000) (Azuki + 6.000) (Aloe Vera + 5.000) (Grass Jelly + 5.000) (Caramel Pudding + 6.000)",,M: Rp. 26.000/ L: Rp. 35.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kamu Tea,KT20,KT20 ,Cappucino,KT20 Cappucino,"Sugar Level:
+Cheese Tea: 0 - 50 - 100
+Others: 0 - 25 - 50 - 100
+
+Topping:
+(Kokuto Black Pearl + 5.000) (Azuki + 6.000) (Aloe Vera + 5.000) (Grass Jelly + 5.000) (Caramel Pudding + 6.000)",,M: Rp. 26.000/ L: Rp. 35.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kamu Tea,KT21,KT21 ,Caramel Machiato,KT21 Caramel Machiato,"Sugar Level:
+Cheese Tea: 0 - 50 - 100
+Others: 0 - 25 - 50 - 100
+
+Topping:
+(Kokuto Black Pearl + 5.000) (Azuki + 6.000) (Aloe Vera + 5.000) (Grass Jelly + 5.000) (Caramel Pudding + 6.000)",,M: Rp. 26.000/ L: Rp. 35.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kamu Tea,KT22,KT22 ,Dark Cocoa Milk,KT22 Dark Cocoa Milk,"Sugar Level:
+Cheese Tea: 0 - 50 - 100
+Others: 0 - 25 - 50 - 100
+
+Topping:
+(Kokuto Black Pearl + 5.000) (Azuki + 6.000) (Aloe Vera + 5.000) (Grass Jelly + 5.000) (Caramel Pudding + 6.000)",,M: Rp. 20.000/ L: Rp. 24.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kamu Tea,KT23,KT23 ,Milo Milk ,KT23 Milo Milk ,"Sugar Level:
+Cheese Tea: 0 - 50 - 100
+Others: 0 - 25 - 50 - 100
+
+Topping:
+(Kokuto Black Pearl + 5.000) (Azuki + 6.000) (Aloe Vera + 5.000) (Grass Jelly + 5.000) (Caramel Pudding + 6.000)",,M: Rp. 22.000/ L: Rp. 26.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kamu Tea,KT24,KT24 ,Horlicks Milk,KT24 Horlicks Milk,"Sugar Level:
+Cheese Tea: 0 - 50 - 100
+Others: 0 - 25 - 50 - 100
+
+Topping:
+(Kokuto Black Pearl + 5.000) (Azuki + 6.000) (Aloe Vera + 5.000) (Grass Jelly + 5.000) (Caramel Pudding + 6.000)",,M: Rp. 24.000/ L: Rp. 28.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kamu Tea,KT25,KT25 ,Dark Cocoa Magma Lava,KT25 Dark Cocoa Magma Lava,"Sugar Level:
+Cheese Tea: 0 - 50 - 100
+Others: 0 - 25 - 50 - 100
+
+Topping:
+(Kokuto Black Pearl + 5.000) (Azuki + 6.000) (Aloe Vera + 5.000) (Grass Jelly + 5.000) (Caramel Pudding + 6.000)",,M: Rp. 32.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kantin 28,KDD01,KDD01 ,Chicken Katsu,KDD01 Chicken Katsu,,Paket Nasi + Minum,Rp. 20.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kantin 28,KDD02,KDD02 ,Dori Katsu,KDD02 Dori Katsu,,Paket Nasi + Minum,Rp. 20.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kantin 28,KDD03,KDD03 ,Ebi Furai,KDD03 Ebi Furai,,Paket Nasi + Minum,Rp. 20.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kantin 28,KDD04,KDD04 ,Chicken Teriyaki,KDD04 Chicken Teriyaki,,Paket Nasi + Minum,Rp. 20.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kantin 28,KDD05,KDD05 ,Kaarage,KDD05 Kaarage,,Paket Nasi + Minum,Rp. 20.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kantin 28,KDD06,KDD06 ,Katsu + Ebi Furai,KDD06 Katsu + Ebi Furai,,,Rp. 25.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kantin 28,KDD07,KDD07 ,Katsu + Scramble Egg,KDD07 Katsu + Scramble Egg,,,Rp. 25.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kantin 28,KDD08,KDD08 ,Beef Teriyaki,KDD08 Beef Teriyaki,,,Rp. 25.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kantin 28,KDD09,KDD09 ,Kaarage Salted Egg,KDD09 Kaarage Salted Egg,,,Rp. 25.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kantin 28,KDD10,KDD10 ,Chicken Katsu Don,KDD10 Chicken Katsu Don,,,Rp. 30.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kantin 28,KDD11,KDD11 ,Chicken Steak,KDD11 Chicken Steak,,,Rp. 30.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kantin Kasturi,KA01,KA01 ,Ikan Cakalang,KA01 Ikan Cakalang,,,,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2F28fbd6.jpeg?alt=media,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kantin Kasturi,KA02,KA02 ,Ikan Asam Manis,KA02 Ikan Asam Manis,,,,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Ff2b468.jpeg?alt=media,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kantin Kasturi,KA03,KA03 ,Ikan Masak Cabai,KA03 Ikan Masak Cabai,,,,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Ff1f4ef.jpeg?alt=media,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kantin Kasturi,KA04,KA04 ,Ikan Sarden,KA04 Ikan Sarden,,,,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2F6cfb0e.jpeg?alt=media,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kantin Kasturi,KA05,KA05 ,Ayam Suwir Cabe,KA05 Ayam Suwir Cabe,,,,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2F9f17dc.jpeg?alt=media,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kantin Kasturi,KA06,KA06 ,Ayam Kecap,KA06 Ayam Kecap,,,,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fb42004.jpeg?alt=media,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kantin Kasturi,KA07,KA07 ,Ayam Woku,KA07 Ayam Woku,,,,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2F8027ae.jpeg?alt=media,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kantin Kasturi,KA08,KA08 ,Sapi Lada Hitam,KA08 Sapi Lada Hitam,,,,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2F0106b0.jpeg?alt=media,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kantin Kasturi,KA09,KA09 ,Sosis Cah Telur,KA09 Sosis Cah Telur,,,,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2F2d0b2d.jpeg?alt=media,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kantin Kasturi,KA10,KA10 ,Otak - Otak,KA10 Otak - Otak,,,,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kantin Kasturi,KA11,KA11 ,Tahu/ Telur Kecap,KA11 Tahu/ Telur Kecap,,,,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2F6c3ca0.jpeg?alt=media,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kantin Kasturi,KA12,KA12 ,Mie Goreng,KA12 Mie Goreng,,,,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2F61e471.jpeg?alt=media,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kantin Kasturi,KA13,KA13 ,Telur Dadar,KA13 Telur Dadar,,,,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Ff7c46c.jpeg?alt=media,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kantin Kasturi,KA14,KA14 ,Bakwan Jagung,KA14 Bakwan Jagung,,,,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2F03e2ad.jpeg?alt=media,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kantin Kasturi,KA15,KA15 ,Sayur,KA15 Sayur,,,,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kantin Kasturi,KA16,KA16 ,Nasi Putih/ Nasi Merah,KA16 Nasi Putih/ Nasi Merah,,,,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2F6c794a.jpeg?alt=media,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Ke Kei,KK01,KK01 ,Skin,KK01 Skin,,,Rp. 30.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Ke Kei,KK02,KK02 ,Boneless,KK02 Boneless,,,Rp. 33.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Ke Kei,KK03,KK03 ,Mushroom,KK03 Mushroom,,,Rp. 33.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Ke Kei,KK04,KK04 ,Ballen,KK04 Ballen,,,Rp. 33.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Ke Kei,KK05,KK05 ,Boneless Kei,KK05 Boneless Kei,,,Rp. 23.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Ke Kei,KK06,KK06 ,Boneless Kei + Rice,KK06 Boneless Kei + Rice,,,Rp. 28.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Ke Kei,KK07,KK07 ,Boneless Chick,KK07 Boneless Chick,,,Rp. 18.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Ke Kei,KK08,KK08 ,Boneless Chick + Rice,KK08 Boneless Chick + Rice,,,Rp. 23.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Ke Kei,KK09,KK09 ,Ika,KK09 Ika,,,Rp. 25.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Ke Kei,KK10,KK10 ,Ika + Rice,KK10 Ika + Rice,,,Rp. 30.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Ke Kei,KK11,KK11 ,Ballen ,KK11 Ballen ,,,Rp. 20.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Ke Kei,KK12,KK12 ,Skin Chick ,KK12 Skin Chick ,,,Rp. 15.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Ke Kei,KK13,KK13 ,Baso Goreng,KK13 Baso Goreng,,,Rp. 18.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Ke Kei,KK14,KK14 ,Yimi ,KK14 Yimi ,,,Rp. 20.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Ke Kei,KK15,KK15 ,Mushroom ,KK15 Mushroom ,,,Rp. 18.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Ke Kei,KK16,KK16 ,Cassava,KK16 Cassava,,,Rp. 12.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Ke Kei,KK17,KK17 ,French Fries,KK17 French Fries,,,Rp. 15.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Ke Kei,KK18,KK18 ,Pristine,KK18 Pristine,,,Rp. 4.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Ke Kei,KK19,KK19 ,Zoda Susu,KK19 Zoda Susu,,,Rp. 12.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Ke Kei,KK20,KK20 ,Happy Zoda,KK20 Happy Zoda,,,Rp. 12.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Ke Kei,KK21,KK21 ,Pedot (Kopi Susu),KK21 Pedot (Kopi Susu),,,Rp. 8.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Ke Kei,KK22,KK22 ,Kopi Betot (Tanpa Susu),KK22 Kopi Betot (Tanpa Susu),,,Rp. 6.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Ke Kei,KK23,KK23 ,Pitot (Teh Susu),KK23 Pitot (Teh Susu),,,Rp. 8.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Ke Kei,KK24,KK24 ,Teh betot (Tanpa Susu),KK24 Teh betot (Tanpa Susu),,,Rp. 6.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Ke Kei,KK25,KK25 ,Bontot (Cokelat Susu),KK25 Bontot (Cokelat Susu),,,Rp. 8.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Ke Kei,KK26,KK26 ,Cokelat betot (Tanpa Susu),KK26 Cokelat betot (Tanpa Susu),,,Rp. 6.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Ke Kei,KK27,KK27 ,Es bandrek ,KK27 Es bandrek ,,,Rp. 20.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Ke Kei,KK28,KK28 ,lemot (Lemon Tea),KK28 lemot (Lemon Tea),,,Rp. 20.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Ke Kei,KK29,KK29 ,Lemonade,KK29 Lemonade,,,Rp. 20.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kedai Candu Rasa,KCR01,KCR01 ,Nasi Gila,KCR01 Nasi Gila,,,,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kedai Candu Rasa,KCR02,KCR02 ,Nasi Goreng Kebuli Kambing,KCR02 Nasi Goreng Kebuli Kambing,,,Rp. 25.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kedai Candu Rasa,KCR03,KCR03 ,Nasi Goreng Kebuli Ayam,KCR03 Nasi Goreng Kebuli Ayam,,,Rp. 26.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kedai Candu Rasa,KCR04,KCR04 ,Nasi Goreng Kebuli Sapi,KCR04 Nasi Goreng Kebuli Sapi,,,Rp. 20.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kedai Candu Rasa,KCR05,KCR05 ,Ikan Nila Pesmol,KCR05 Ikan Nila Pesmol,,,Rp. 25.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kedai Candu Rasa,KCR06,KCR06 ,Ikan Nila Goreng,KCR06 Ikan Nila Goreng,,,,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kedai Candu Rasa,KCR07,KCR07 ,Soto Ayam,KCR07 Soto Ayam,,,,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kedai Candu Rasa,KCR08,KCR08 ,Roti Panggang,KCR08 Roti Panggang,,,,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kedai Candu Rasa,KCR09,KCR09 ,Pisang Panggang,KCR09 Pisang Panggang,,,,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kedai Candu Rasa,KCR10,KCR10 ,Jawa,KCR10 Jawa,,Kopi Daerah,Rp. 8.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kedai Candu Rasa,KCR11,KCR11 ,Lampung,KCR11 Lampung,,Kopi Daerah,Rp. 8.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kedai Candu Rasa,KCR12,KCR12 ,Aceh,KCR12 Aceh,,Kopi Daerah,Rp. 8.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kedai Candu Rasa,KCR13,KCR13 ,Flores,KCR13 Flores,,Kopi Daerah,Rp. 8.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kedai Candu Rasa,KCR14,KCR14 ,Rawa Seneng,KCR14 Rawa Seneng,,Kopi Daerah,Rp. 8.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kedai Candu Rasa,KCR15,KCR15 ,Toraja,KCR15 Toraja,,Kopi Daerah,Rp. 8.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kedai Candu Rasa,KCR16,KCR16 ,Sidikalang,KCR16 Sidikalang,,Kopi Daerah,Rp. 10.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kedai Candu Rasa,KCR17,KCR17 ,Papua,KCR17 Papua,,Kopi Daerah,Rp. 10.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kedai Candu Rasa,KCR18,KCR18 ,Lampung,KCR18 Lampung,,Kopi Daerah,Rp. 10.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kedai Candu Rasa,KCR19,KCR19 ,Kopi Lanang,KCR19 Kopi Lanang,,Kopi Daerah,Rp. 12.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kedai Candu Rasa,KCR20,KCR20 ,Ara. Papua,KCR20 Ara. Papua,,Kopi Daerah,Rp. 12.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kedai Candu Rasa,KCR21,KCR21 ,Ara. Mandailing,KCR21 Ara. Mandailing,,Kopi Daerah,Rp. 12.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kedai Candu Rasa,KCR22,KCR22 ,Ara. Toraja,KCR22 Ara. Toraja,,Kopi Daerah,Rp. 12.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kedai Candu Rasa,KCR23,KCR23 ,Ara. Bali,KCR23 Ara. Bali,,Kopi Daerah,Rp. 12.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kedai Candu Rasa,KCR24,KCR24 ,Ara. Aceh,KCR24 Ara. Aceh,,Kopi Daerah,Rp. 12.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kedai Candu Rasa,KCR25,KCR25 ,Es Leci Tea,KCR25 Es Leci Tea,,Minuman Lain,Rp. 10.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kedai Candu Rasa,KCR26,KCR26 ,Es Jeruk Nipis,KCR26 Es Jeruk Nipis,,Minuman Lain,Rp. 10.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kedai Candu Rasa,KCR27,KCR27 ,Es Jeruk Peras,KCR27 Es Jeruk Peras,,Minuman Lain,Rp. 10.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kedai Candu Rasa,KCR28,KCR28 ,Milo Milk ,KCR28 Milo Milk ,,Minuman Lain,Rp. 9.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kedai Candu Rasa,KCR29,KCR29 ,Ovaltine Milk ,KCR29 Ovaltine Milk ,,Minuman Lain,Rp. 9.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kedai Candu Rasa,KCR30,KCR30 ,Tahi Tea,KCR30 Tahi Tea,,Minuman Lain,Rp. 10.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kedai Candu Rasa,KCR31,KCR31 ,Teh Tarik,KCR31 Teh Tarik,,Minuman Lain,Rp. 10.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kedai Candu Rasa,KCR32,KCR32 ,Kopi Tarik,KCR32 Kopi Tarik,,Minuman Lain,Rp. 12.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kedai Candu Rasa,KCR33,KCR33 ,Kopi Koprock,KCR33 Kopi Koprock,,Minuman Lain,Rp. 12.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kedai Candu Rasa,KCR34,KCR34 ,Cookies Oreo,KCR34 Cookies Oreo,,Minuman Lain,Rp. 15.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kedai Candu Rasa,KCR35,KCR35 ,Blend Green Tea,KCR35 Blend Green Tea,,Minuman Lain,Rp. 15.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kedai Candu Rasa,KCR36,KCR36 ,Soya Pucino,KCR36 Soya Pucino,,Minuman Lain,Rp. 15.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kedai Pandan,KP01,KP01 ,Ayam Penyet,KP01 Ayam Penyet,,,Rp. 25.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kedai Pandan,KP02,KP02 ,Ayam Djogja,KP02 Ayam Djogja,,,Rp. 25.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kedai Pandan,KP03,KP03 ,Ayam Kalasan,KP03 Ayam Kalasan,,,Rp. 25.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kedai Pandan,KP04,KP04 ,Nasi Bali,KP04 Nasi Bali,,,Rp. 25.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kedai Pandan,KP05,KP05 ,Nasi Bogana,KP05 Nasi Bogana,,,Rp. 25.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kedai Pandan,KP06,KP06 ,Nasi Rawon,KP06 Nasi Rawon,,,Rp. 35.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kedai Pandan,KP07,KP07 ,Ikan Filet Rica-rica,KP07 Ikan Filet Rica-rica,,,Rp. 25.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kedai Pandan,KP08,KP08 ,Ca Buncis Daging Cincang,KP08 Ca Buncis Daging Cincang,,,Rp. 25.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kedai Pandan,KP09,KP09 ,Ca Toge Ikan Teri,KP09 Ca Toge Ikan Teri,,,Rp. 20.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kedai Pandan,KP10,KP10 ,Nasi Soto Ayam,KP10 Nasi Soto Ayam,,,Rp. 20.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kedai Pandan,KP11,KP11 ,Nasi Goreng Seafood,KP11 Nasi Goreng Seafood,,,Rp. 25.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kedai Pandan,KP12,KP12 ,Nasi Goreng Tomyam,KP12 Nasi Goreng Tomyam,,,Rp. 25.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kedai Pandan,KP13,KP13 ,Nasi Goreng Jawa,KP13 Nasi Goreng Jawa,,,Rp. 20.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kedai Pandan,KP14,KP14 ,Nasi Goreng Telor Asin,KP14 Nasi Goreng Telor Asin,,,Rp. 25.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kedai Pandan,KP15,KP15 ,Nasi Goreng Cabe Ijo,KP15 Nasi Goreng Cabe Ijo,,,Rp. 20.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kedai Pandan,KP16,KP16 ,Bakmie Goreng Jawa,KP16 Bakmie Goreng Jawa,,,Rp. 20.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kedai Pandan,KP17,KP17 ,Bakmie Godok Jawa,KP17 Bakmie Godok Jawa,,,Rp. 20.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kedai Pandan,KP18,KP18 ,Kentang Goreng,KP18 Kentang Goreng,,,Rp. 20.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kedai Pandan,KP19,KP19 ,Nasi Goreng Cakalang,KP19 Nasi Goreng Cakalang,,,,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kedai Pandan,KP20,KP20 ,Ayam Djogja Bakar Madu ,KP20 Ayam Djogja Bakar Madu ,,"Madu, Sambel Ayam, Sambel Cabe Ijo",,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kedai Pelangi,KP01,KP01 ,Sup Iga,KP01 Sup Iga,,Nasi + Es Teh Manis,Rp. 30.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kedai Pelangi,KP02,KP02 ,Coto Makassar,KP02 Coto Makassar,,Nasi + Es Teh Manis,Rp. 35.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kedai Pelangi,KP03,KP03 ,Konro Bakar,KP03 Konro Bakar,,Nasi + Es Teh Manis,Rp. 40.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kedai Pelangi,KP04,KP04 ,Soto Banjar,KP04 Soto Banjar,,Nasi + Es Teh Manis,Rp. 25.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kedai Pelangi,KP05,KP05 ,Es Palu Butung,KP05 Es Palu Butung,,Nasi + Es Teh Manis,Rp. 15.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kedai Pelangi,KP06,KP06 ,Sup Konro,KP06 Sup Konro,,Nasi + Es Teh Manis,Rp. 40.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kedai Pelangi,KP07,KP07 ,Iga Bakar,KP07 Iga Bakar,,Nasi + Es Teh Manis,Rp. 40.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kedai Pelangi,KP08,KP08 ,Nasi Pecel,KP08 Nasi Pecel,,Additional Peyek,Rp. 15.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kedai Pelangi,KP09,KP09 ,Sayur Asem,KP09 Sayur Asem,,Nasi + Ikan Asin Teri,Rp. 20.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kedai Pelangi,KP10,KP10 ,Sayur Lodeh,KP10 Sayur Lodeh,,Nasi + Ikan Asin Teri,Rp. 20.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kopi Pujaan,KP01,KP01 ,Jatuh Cinta,KP01 Jatuh Cinta,,Es Kopi Susu,Rp. 25.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kopi Pujaan,KP02,KP02 ,Pujaan Merona,KP02 Pujaan Merona,,Es Kopi Susu,Rp. 24.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kopi Pujaan,KP03,KP03 ,Pujaan Hati,KP03 Pujaan Hati,,Es Kopi Susu,Rp. 18.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kopi Pujaan,KP04,KP04 ,Terpesona,KP04 Terpesona,,Es Kopi,Rp. 28.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kopi Pujaan,KP05,KP05 ,Vanilla Latte,KP05 Vanilla Latte,,Es Kopi,Rp. 26.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kopi Pujaan,KP06,KP06 ,Oreo manja,KP06 Oreo manja,,Es Kopi,Rp. 26.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kopi Pujaan,KP07,KP07 ,Caramel Latte,KP07 Caramel Latte,,Es Kopi,Rp. 26.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kopi Pujaan,KP08,KP08 ,Hitam pekat,KP08 Hitam pekat,,Es Kopi,Rp. 17.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kopi Pujaan,KP09,KP09 ,Memikat,KP09 Memikat,,Es Kopi,Rp. 28.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kopi Pujaan,KP10,KP10 ,Latte,KP10 Latte,,Es Kopi,Rp. 22.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kopi Pujaan,KP11,KP11 ,Hazelnut Latte,KP11 Hazelnut Latte,,Es Kopi,Rp. 26.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kopi Pujaan,KP12,KP12 ,Rumantis,KP12 Rumantis,,Es Kopi,Rp. 26.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kopi Pujaan,KP13,KP13 ,Yakult Lemon,KP13 Yakult Lemon,,Tanpa Kopi,Rp. 22.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kopi Pujaan,KP14,KP14 ,Choco Matcha,KP14 Choco Matcha,,Tanpa Kopi,Rp. 25.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kopi Pujaan,KP15,KP15 ,Matcha Soya,KP15 Matcha Soya,,Tanpa Kopi,Rp. 25.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kopi Pujaan,KP16,KP16 ,Lemon Berry ,KP16 Lemon Berry ,,Tanpa Kopi,Rp. 20.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kopi Pujaan,KP17,KP17 ,Creamy Choco,KP17 Creamy Choco,,Tanpa Kopi,Rp. 18.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kopi Pujaan,KP18,KP18 ,Matcha Milky,KP18 Matcha Milky,,Tanpa Kopi,Rp. 20.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kopi Pujaan,KP19,KP19 ,Choco Berry,KP19 Choco Berry,,Tanpa Kopi,Rp. 24.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kopi Pujaan,KP20,KP20 ,Fresh Milo,KP20 Fresh Milo,,Tanpa Kopi,Rp. 18.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kopi Pujaan,KP21,KP21 ,Americano,KP21 Americano,,Panas,Rp. 20.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kopi Pujaan,KP22,KP22 ,Milo,KP22 Milo,,Panas,Rp. 18.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Kopi Pujaan,KP23,KP23 ,Creamy Chocolate,KP23 Creamy Chocolate,,Panas,Rp. 18.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Montato,MT01,MT01 ,Original,MT01 Original,,,Rp. 25.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Montato,MT02,MT02 ,Iri Goma,MT02 Iri Goma,,,Rp. 28.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Montato,MT03,MT03 ,Cheese,MT03 Cheese,,,Rp. 30.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Montato,MT04,MT04 ,Spicy BBQ,MT04 Spicy BBQ,,,Rp. 28.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Montato,MT05,MT05 ,Sambal Matah,MT05 Sambal Matah,,,Rp. 28.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Montato,MT06,MT06 ,Mayo Seaweed,MT06 Mayo Seaweed,,,Rp. 28.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Montato,MT07,MT07 ,Dark Chocolate,MT07 Dark Chocolate,,,Rp. 28.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Panties Pizza,PP01,PP01 ,Reality Pizza ,PP01 Reality Pizza ,,"(Sausage, Chicken, Cheese, Mushroom)",Rp. 30.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Panties Pizza,PP02,PP02 ,Broadway Pizza ,PP02 Broadway Pizza ,,"(Smoke Beef, Cheese, Mushroom)",Rp. 32.500,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Panties Pizza,PP03,PP03 ,President Pizza ,PP03 President Pizza ,,"(Beef Salami, Cheese, Mushroom)",Rp. 30.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Panties Pizza,PP04,PP04 ,Rush Hour ,PP04 Rush Hour ,,"(…., Cheese, Mushroom)",Rp. 30.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Panties Pizza,PP05,PP05 ,Say Cheese,PP05 Say Cheese,,"(Cheese, Mushroom)",Rp. 32.500,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Panties Pizza,PP06,PP06 ,University Pizza ,PP06 University Pizza ,,"(Chicken/ Beef Sausage, Meatball, Beef, Mushroom, Cheese)",Rp. 37.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Panties Pizza,PP07,PP07 ,Chicken Run ,PP07 Chicken Run ,,"(Chicken, Mushroom, Cheese)",Rp. 37.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Panties Pizza,PP08,PP08 ,Chick O Cheese ,PP08 Chick O Cheese ,,"(Chicken, Mushroom, Cheese)",Rp. 37.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Soto Mie Bos,SMB01,SMB01 ,Soto Mie,SMB01 Soto Mie,,,Rp. 20.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Soto Mie Bos,SMB02,SMB02 ,Soto Mie Baso,SMB02 Soto Mie Baso,,,Rp. 25.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Soto Mie Bos,SMB03,SMB03 ,Nasi Putih,SMB03 Nasi Putih,,,Rp. 5.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Soto Mie Bos,SMB04,SMB04 ,Risol,SMB04 Risol,,,Rp. 3.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Soto Pak Gembul,SPG01,SPG01 ,Ayam Goreng + Nasi,SPG01 Ayam Goreng + Nasi,,,,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Soto Pak Gembul,SPG02,SPG02 ,Dimsum,SPG02 Dimsum,,,,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Soto Pak Gembul,SPG03,SPG03 ,Soto Ayam,SPG03 Soto Ayam,,,,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Tebu Segar,JM09,JM09 ,Sari Tebu Murni,JM09 Sari Tebu Murni,,,Rp. 10.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Tebu Segar,JM10,JM10 ,Sari Tebu Lemon,JM10 Sari Tebu Lemon,,,Rp. 12.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Tebu Segar,JM11,JM11 ,Sari Tebu Kiamboy,JM11 Sari Tebu Kiamboy,,,Rp. 12.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Tebu Segar,JM12,JM12 ,Sari Tebu Selasih,JM12 Sari Tebu Selasih,,,Rp. 12.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Tebu Segar,JM13,JM13 ,Sari Tebu Nipis,JM13 Sari Tebu Nipis,,,Rp. 12.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Tebu Segar,JM14,JM14 ,Sari Tebu Jelly ,JM14 Sari Tebu Jelly ,,,Rp. 12.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Tebu Segar,JM15,JM15 ,Jeruk Murni,JM15 Jeruk Murni,,,Rp. 15.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+The Fruity,TF01,TF01 ,Vit Muscler Booster ,TF01 Vit Muscler Booster ,,"(Avocado, Banana, and Apple Mixture)",R : Rp. 19.000 / L: Rp. 24.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+The Fruity,TF02,TF02 ,Vit Eye Booster ,TF02 Vit Eye Booster ,,"(Carrot, tomatoes, and Sunkist Mixture)",R : Rp. 19.000 / L: Rp. 24.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+The Fruity,TF03,TF03 ,Vit Heart Booster ,TF03 Vit Heart Booster ,,"(Apple, Melon, Pineapple Mixing)",R : Rp. 19.000 / L: Rp. 24.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+The Fruity,TF04,TF04 ,Vit Brain Booster,TF04 Vit Brain Booster,,"(Starfruit, Sunkist, Strawberry)",R : Rp. 19.000 / L: Rp. 24.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+The Fruity,TF05,TF05 ,Vit-C Booster ,TF05 Vit-C Booster ,,"(Mixing Sunkist, Kiwi, Pineapple)",Rp. 30.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+The Fruity,TF06,TF06 ,Stamina Booster ,TF06 Stamina Booster ,,"(mung bean, banana, avocado)",Rp. 30.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+The Fruity,TF07,TF07 ,Immune Booster ,TF07 Immune Booster ,,"(Dragon Fruit, Soursop Mixture)",Rp. 30.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+The Fruity,TF08,TF08 ,Pleasure Booster ,TF08 Pleasure Booster ,,"(Durian, avocado, coffee)",Rp. 30.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+The Fruity,TF09,TF09 ,Memory Booster ,TF09 Memory Booster ,,"(Blackberry, Lychee, Ice Cream)",Rp. 30.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+The Fruity,TF10,TF10 ,Anti Stress Booster ,TF10 Anti Stress Booster ,,"(Ice Cream, Lychee, Strawberry)",Rp. 30.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+The Fruity,TF11,TF11 ,Anti-Aging Green Drink ,TF11 Anti-Aging Green Drink ,,"(Pak Choi, kiwi, lemon, Starfruit)",Rp. 30.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+The Fruity,TF12,TF12 ,Anti-Cholesterol Green Drink ,TF12 Anti-Cholesterol Green Drink ,,"(Caisim, Starfruit, kiwi, pineapple )",Rp. 30.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+The Fruity,TF13,TF13 ,Delightful Melon,TF13 Delightful Melon,,,Rp. 30.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+The Fruity,TF14,TF14 ,Delightful Mango,TF14 Delightful Mango,,,Rp. 30.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+The Fruity,TF15,TF15 ,Delightful Soursop,TF15 Delightful Soursop,,,Rp. 30.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+The Fruity,TF16,TF16 ,Avoplus Chocolate ,TF16 Avoplus Chocolate ,,"(Avocado, Chocolate)",Rp. 24.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+The Fruity,TF17,TF17 ,Vanila Wildberries ,TF17 Vanila Wildberries ,,(Fruit Berries Drink),Rp. 24.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+The Fruity,TF18,TF18 ,Mangolicious ,TF18 Mangolicious ,,(Mango Lovers),Rp. 24.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+The Fruity,TF19,TF19 ,Ice Melon Tea,TF19 Ice Melon Tea,,,Rp. 24.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+The Fruity,TF20,TF20 ,Berry Berry,TF20 Berry Berry,,,Rp. 24.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+The Fruity,TF21,TF21 ,Healthy Summer Tropical ,TF21 Healthy Summer Tropical ,,"(Pineapple, mango)",Rp. 24.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+The Fruity,TF22,TF22 ,Healthy Dragon ,TF22 Healthy Dragon ,,"(Dragon Fruit, Apple)",Rp. 24.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+The Fruity,TF23,TF23 ,Banana Berry Mix ,TF23 Banana Berry Mix ,,"(Banana, Strawberry)",R : Rp. 19.000 / L:Rp. 24.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+The Fruity,TF24,TF24 ,Black Sensation ,TF24 Black Sensation ,,"(Blackberry, sunkist, mango)",R : Rp. 19.000 / L: Rp. 24.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+The Fruity,TF25,TF25 ,Black Boombuster ,TF25 Black Boombuster ,,"(Blackberry, Strawberry)",R : Rp. 19.000 / L:Rp. 24.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+The Fruity,TF26,TF26 ,Sunshine Tropical ,TF26 Sunshine Tropical ,,"(Strawberry, mango, sunkist)",R : Rp. 19.000 / L: Rp. 24.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+The Fruity,TF27,TF27 ,Cool Lychee,TF27 Cool Lychee,,"(Lychee, watermelon)",R : Rp. 19.000 / L:Rp. 24.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+The Fruity,TF28,TF28 ,Avocado,TF28 Avocado,,,S: Rp. 16.000/ R: Rp. 19.000/ L: Rp. 24.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+The Fruity,TF29,TF29 ,Starfruit,TF29 Starfruit,,,S: Rp. 16.000/ R: Rp. 19.000/ L: Rp. 24.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+The Fruity,TF30,TF30 ,Guava,TF30 Guava,,,S: Rp. 16.000/ R: Rp. 19.000/ L: Rp. 24.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+The Fruity,TF31,TF31 ,Kiwi,TF31 Kiwi,,,S: Rp. 16.000/ R: Rp. 19.000/ L: Rp. 24.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+The Fruity,TF32,TF32 ,Melon,TF32 Melon,,,S: Rp. 16.000/ R: Rp. 19.000/ L: Rp. 24.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+The Fruity,TF33,TF33 ,Soursop,TF33 Soursop,,,S: Rp. 16.000/ R: Rp. 19.000/ L: Rp. 24.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+The Fruity,TF34,TF34 ,Grape,TF34 Grape,,,S: Rp. 16.000/ R: Rp. 19.000/ L: Rp. 24.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+The Fruity,TF35,TF35 ,Blackberry,TF35 Blackberry,,,S: Rp. 16.000/ R: Rp. 19.000/ L: Rp. 24.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+The Fruity,TF36,TF36 ,Mung Beans,TF36 Mung Beans,,,S: Rp. 16.000/ R: Rp. 19.000/ L: Rp. 24.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+The Fruity,TF37,TF37 ,Lychee,TF37 Lychee,,,S: Rp. 16.000/ R: Rp. 19.000/ L: Rp. 24.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+The Fruity,TF38,TF38 ,Pineapple,TF38 Pineapple,,,S: Rp. 16.000/ R: Rp. 19.000/ L: Rp. 24.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+The Fruity,TF39,TF39 ,Banana,TF39 Banana,,,S: Rp. 16.000/ R: Rp. 19.000/ L: Rp. 24.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+The Fruity,TF40,TF40 ,Strawberry,TF40 Strawberry,,,S: Rp. 16.000/ R: Rp. 19.000/ L: Rp. 24.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+The Fruity,TF41,TF41 ,Apple,TF41 Apple,,,S: Rp. 16.000/ R: Rp. 19.000/ L: Rp. 24.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+The Fruity,TF42,TF42 ,Dragon Fruit,TF42 Dragon Fruit,,,S: Rp. 16.000/ R: Rp. 19.000/ L: Rp. 24.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+The Fruity,TF43,TF43 ,Mango,TF43 Mango,,,S: Rp. 16.000/ R: Rp. 19.000/ L: Rp. 24.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+The Fruity,TF44,TF44 ,Watermelon,TF44 Watermelon,,,S: Rp. 16.000/ R: Rp. 19.000/ L: Rp. 24.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+The Fruity,TF45,TF45 ,Sunkist,TF45 Sunkist,,,S: Rp. 16.000/ R: Rp. 19.000/ L: Rp. 24.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+The Fruity,TF46,TF46 ,Tomato,TF46 Tomato,,,S: Rp. 16.000/ R: Rp. 19.000/ L: Rp. 24.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+The Fruity,TF47,TF47 ,Carrot,TF47 Carrot,,,S: Rp. 16.000/ R: Rp. 19.000/ L: Rp. 24.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+The Fruity,TF48,TF48 ,Durian,TF48 Durian,,,S: Rp. 16.000/ R: Rp. 19.000/ L: Rp. 24.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Warung Kita,WK01,WK01 ,Paket Nasi Ikan Nila Bakar/ Sambal Dabu,WK01 Paket Nasi Ikan Nila Bakar/ Sambal Dabu,,,Rp. 28.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Warung Kita,WK02,WK02 ,Paket Nasi Ikan Bawal Bakar/Sambel Dabu,WK02 Paket Nasi Ikan Bawal Bakar/Sambel Dabu,,,Rp. 28.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Warung Kita,WK03,WK03 ,Paket Nasi Ayam Bakar,WK03 Paket Nasi Ayam Bakar,,,Rp. 28.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Warung Kita,WK04,WK04 ,Paket Nasi Ayam Bakar Sambal Dabu,WK04 Paket Nasi Ayam Bakar Sambal Dabu,,,Rp. 28.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Warung Kita,WK05,WK05 ,Ikan/Ayam Alacart Bakar ,WK05 Ikan/Ayam Alacart Bakar ,,Sambal+Lalapan,Rp. 21.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Warung Kita,WK06,WK06 ,Gurame Bakar Sambal Dabu2 (450gr),WK06 Gurame Bakar Sambal Dabu2 (450gr),,Tanpa Nasi,Rp. 63.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Warung Kita,WK07,WK07 ,Sate Ayam Tanpa Lemak,WK07 Sate Ayam Tanpa Lemak,,Dengan Nasi,Rp. 37.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Warung Kita,WK08,WK08 ,Sate Ayam (10tusuk),WK08 Sate Ayam (10tusuk),,Tanpa Nasi,,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Warung Kita,WK09,WK09 ,Paket Nasi Goreng Nila Sambel Terasi/ Sambel Dabu2,WK09 Paket Nasi Goreng Nila Sambel Terasi/ Sambel Dabu2,,,Rp. 28.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Warung Kita,WK10,WK10 ,Paket Nasi Bawal Goreng Sambel Terasi/Sambel dabu2,WK10 Paket Nasi Bawal Goreng Sambel Terasi/Sambel dabu2,,,Rp. 28.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Warung Kita,WK11,WK11 ,Gurame Goreng Sambel Dabu (450gr),WK11 Gurame Goreng Sambel Dabu (450gr),,Tanpa Nasi,Rp. 63.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Warung Kita,WK12,WK12 ,Paket Nasi Pecel,WK12 Paket Nasi Pecel,,,Rp. 27.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Warung Kita,WK13,WK13 ,Tempe/ Tahu Goreng,WK13 Tempe/ Tahu Goreng,,,Rp. 2.500,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Warung Kita,WK14,WK14 ,Lele Goreng,WK14 Lele Goreng,,Tanpa Nasi,Rp. 20.400,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Warung Kita,WK15,WK15 ,Capucino Cincau,WK15 Capucino Cincau,,,Rp. 18.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Warung Kita,WK16,WK16 ,Teh Tarik Cincau,WK16 Teh Tarik Cincau,,,Rp. 18.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Warung Kita,WK17,WK17 ,Es Milo/Hot,WK17 Es Milo/Hot,,,Rp. 18.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Warung Kita,WK18,WK18 ,Nasi Merah,WK18 Nasi Merah,,,Rp. 10.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Warung Kita,WK19,WK19 ,Nasi Putih,WK19 Nasi Putih,,,Rp. 7.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
+Wong Jowo,WJ01 ,WJ01  ,Bubur Ayam,WJ01  Bubur Ayam,,,Rp. 12.000,https://wa.me/6281911050357?text=Nama:%0AJam:%0ADine%20In/%20Takeaway:%0APesanan:,,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fff596c.jpeg?alt=media,https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FLLcL8B3UKk6JCrxOeXQE%2Fe0b446.jpeg?alt=media,"Berikut ini format pemesanan melalui WhatsApp. Untuk selengkapnya, bisa dilihat di tab ""How To""."
