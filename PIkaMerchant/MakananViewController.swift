@@ -24,6 +24,9 @@ class MakananViewController: UIViewController, UITableViewDelegate, UITableViewD
   @IBOutlet weak var caraPenyajian: UILabel!
   @IBOutlet weak var estimasi: UILabel!
   
+  @IBOutlet weak var dateModal: UILabel!
+  
+  
   var delegate:doneServe?
   
   
@@ -33,6 +36,8 @@ class MakananViewController: UIViewController, UITableViewDelegate, UITableViewD
   
   override func viewDidLoad() {
     super.viewDidLoad()
+    
+    getCurrentDate()
 
     let done = MakananModel(makanan: "Ayam mie", deskripsi: "Ayam yang digoreng dengan bumbu indomie", porsi: "10 porsi")
     
@@ -55,6 +60,13 @@ class MakananViewController: UIViewController, UITableViewDelegate, UITableViewD
       
     }
     
+  }
+  
+  func getCurrentDate(){
+    let formatter = DateFormatter()
+    formatter.dateFormat = "dd MMMM yyyy"
+    let str = formatter.string(from: Date())
+    dateModal.text = str
   }
   
   func numberOfSections(in tableView: UITableView) -> Int {
