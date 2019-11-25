@@ -9,6 +9,7 @@ target 'PIkaMerchant' do
   pod 'Firebase/Firestore'
   pod 'Firebase/Core'
   pod 'CodableFirebase'
+  pod 'Firebase/Messaging'
   
 
   # Pods for PIkaMerchant

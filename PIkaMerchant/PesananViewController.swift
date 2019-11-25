@@ -219,21 +219,21 @@ class PesananViewController: UIViewController, UITableViewDelegate, UITableViewD
     
     func tableView(_ tableView: UITableView, trailingSwipeActionsConfigurationForRowAt indexPath: IndexPath) -> UISwipeActionsConfiguration? {
         
-        let important = importantAction(at: indexPath)
+//        let important = importantAction(at: indexPath)
         let delete = deleteAction(at: indexPath)
-        return UISwipeActionsConfiguration(actions: [delete, important])
+        return UISwipeActionsConfiguration(actions: [delete])
         
     }
     
-    func importantAction(at indexPath:IndexPath) -> UIContextualAction {
-        let todo = cekPesanan[indexPath.row]
-        let action = UIContextualAction(style: .normal, title: "Important") { (action, view, completion) in
-            completion(true)
-        }
-        action.image = #imageLiteral(resourceName: "Alarm")
-        action.backgroundColor = .gray
-        return action
-    }
+//    func importantAction(at indexPath:IndexPath) -> UIContextualAction {
+//        let todo = cekPesanan[indexPath.row]
+//        let action = UIContextualAction(style: .normal, title: "Important") { (action, view, completion) in
+//            completion(true)
+//        }
+//        action.image = #imageLiteral(resourceName: "Alarm")
+//        action.backgroundColor = .gray
+//        return action
+//    }
     
     func deleteAction(at indexPath:IndexPath) -> UIContextualAction {
         let action = UIContextualAction(style: .destructive, title: "Delete") { (action, view, completion) in
@@ -241,7 +241,7 @@ class PesananViewController: UIViewController, UITableViewDelegate, UITableViewD
             self.pesananTableView.deleteRows(at: [indexPath], with: .automatic)
         }
         action.image = #imageLiteral(resourceName: "Trash")
-        action.backgroundColor = .red
+        action.backgroundColor = #colorLiteral(red: 0.8259795904, green: 0.3191990554, blue: 0.3149974644, alpha: 1)
         
         return action
     }
@@ -261,7 +261,10 @@ class PesananViewController: UIViewController, UITableViewDelegate, UITableViewD
             self.pesananTableView.deleteRows(at: [indexPath], with: .automatic)
         }
         action.image = #imageLiteral(resourceName: "Check")
-        action.backgroundColor = .green
+        action.backgroundColor = #colorLiteral(red: 0.3930387795, green: 0.6226156354, blue: 0.4152288437, alpha: 1)
+      
+      let notip = PushNotificationSender()
+      notip.sendPushNotification(to: "ebT4eQF8kVs:APA91bHa4qPAVMk_KSkgRkCj9mT8mOUMnJInw77rZ-MxH5d0N_0zu4gZovgnby83FvAJa0pC6_PhWTxoFRYIH0n8w9qLMgfBmxzxBVSj68DlaqH_usnk5z6nU7qoCwd0XMWx5ojGhnCv", title: "title", body: "body")
         
         return action
     }
