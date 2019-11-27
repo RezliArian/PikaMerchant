@@ -241,8 +241,8 @@ class PesananViewController: UIViewController, UITableViewDelegate, UITableViewD
             self.pesananTableView.deleteRows(at: [indexPath], with: .automatic)
         }
         action.image = #imageLiteral(resourceName: "Trash")
-        action.backgroundColor = #colorLiteral(red: 0.8259795904, green: 0.3191990554, blue: 0.3149974644, alpha: 1)
-        
+        action.backgroundColor = #colorLiteral(red: 0.9568627451, green: 0.4666666667, blue: 0.4666666667, alpha: 1)
+            
         return action
     }
     
@@ -261,7 +261,7 @@ class PesananViewController: UIViewController, UITableViewDelegate, UITableViewD
             self.pesananTableView.deleteRows(at: [indexPath], with: .automatic)
         }
         action.image = #imageLiteral(resourceName: "Check")
-        action.backgroundColor = #colorLiteral(red: 0.3930387795, green: 0.6226156354, blue: 0.4152288437, alpha: 1)
+        action.backgroundColor = #colorLiteral(red: 0.6745098039, green: 0.9333333333, blue: 0.5921568627, alpha: 1)
       
       let notip = PushNotificationSender()
       notip.sendPushNotification(to: "ebT4eQF8kVs:APA91bHa4qPAVMk_KSkgRkCj9mT8mOUMnJInw77rZ-MxH5d0N_0zu4gZovgnby83FvAJa0pC6_PhWTxoFRYIH0n8w9qLMgfBmxzxBVSj68DlaqH_usnk5z6nU7qoCwd0XMWx5ojGhnCv", title: "title", body: "body")

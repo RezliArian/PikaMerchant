@@ -13,10 +13,14 @@ class MakananTableViewCell: UITableViewCell {
   @IBOutlet weak var lblMakanan: UILabel!
   @IBOutlet weak var lblDeskripsi: UILabel!
   @IBOutlet weak var lblPorsi: UILabel!
+  @IBOutlet weak var border: UIView!
+  
+
   
   override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
+    border.setBorderShadow(color: .gray, shadowRadius: 8, shadowOpactiy: 0.16, shadowOffsetWidth: 0, shadowOffsetHeight: 4 )
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {

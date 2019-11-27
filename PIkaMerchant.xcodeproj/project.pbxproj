@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0EFEB944D2C41BC9974B1B70 /* Pods_PIkaMerchant.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 464D5731EB42EECCF92D062E /* Pods_PIkaMerchant.framework */; };
+		F002E6BC238CDDD6004C6CBA /* Shadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F002E6BB238CDDD6004C6CBA /* Shadow.swift */; };
 		F05015D923796FFE00C27BDD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05015D823796FFE00C27BDD /* AppDelegate.swift */; };
 		F05015DB23796FFE00C27BDD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05015DA23796FFE00C27BDD /* SceneDelegate.swift */; };
 		F05015DD23796FFE00C27BDD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05015DC23796FFE00C27BDD /* ViewController.swift */; };
@@ -36,6 +37,7 @@
 		464D5731EB42EECCF92D062E /* Pods_PIkaMerchant.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PIkaMerchant.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D7C79A1A7F37D9184AC8A22 /* Pods-PIkaMerchant.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PIkaMerchant.debug.xcconfig"; path = "Target Support Files/Pods-PIkaMerchant/Pods-PIkaMerchant.debug.xcconfig"; sourceTree = "<group>"; };
 		DFC4D6CEE0DF5D8ECFCB4427 /* Pods-PIkaMerchant.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PIkaMerchant.release.xcconfig"; path = "Target Support Files/Pods-PIkaMerchant/Pods-PIkaMerchant.release.xcconfig"; sourceTree = "<group>"; };
+		F002E6BB238CDDD6004C6CBA /* Shadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shadow.swift; sourceTree = "<group>"; };
 		F00950B6238BCEFA00043C93 /* PikaMerchant.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PikaMerchant.entitlements; sourceTree = "<group>"; };
 		F05015D523796FFE00C27BDD /* PikaMerchant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PikaMerchant.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F05015D823796FFE00C27BDD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -121,6 +123,7 @@
 				F05015FF237A7D5000C27BDD /* Pesanan diproses */,
 				F05015FE237A7CFD00C27BDD /* Pesanan Selesai */,
 				F0501602237AA84200C27BDD /* Model */,
+				F002E6BB238CDDD6004C6CBA /* Shadow.swift */,
 				F05015F62379C79100C27BDD /* PesananViewController.swift */,
 				F0501608237BCE3200C27BDD /* MakananViewController.swift */,
 				F05015D823796FFE00C27BDD /* AppDelegate.swift */,
@@ -299,6 +302,7 @@
 				F0501601237A892D00C27BDD /* SelesaiModel.swift in Sources */,
 				F05015DD23796FFE00C27BDD /* ViewController.swift in Sources */,
 				F05015F92379D55F00C27BDD /* PesananModel.swift in Sources */,
+				F002E6BC238CDDD6004C6CBA /* Shadow.swift in Sources */,
 				F06A79EF237BD50C00E940EE /* MakananModel.swift in Sources */,
 				F05015D923796FFE00C27BDD /* AppDelegate.swift in Sources */,
 				F0501606237BAF9500C27BDD /* MakananTableViewCell.swift in Sources */,

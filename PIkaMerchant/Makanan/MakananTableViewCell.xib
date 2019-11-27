@@ -25,6 +25,16 @@
                 <rect key="frame" x="0.0" y="0.0" width="382" height="123"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
+                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iQP-yS-yTt">
+                        <rect key="frame" x="6" y="6" width="369" height="112"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="8"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VCk-oa-Kdp">
                         <rect key="frame" x="20" y="15" width="224" height="21"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -50,6 +60,7 @@
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <connections>
+                <outlet property="border" destination="iQP-yS-yTt" id="NAP-k4-GVu"/>
                 <outlet property="lblDeskripsi" destination="bGT-Lx-D98" id="xca-7x-VNW"/>
                 <outlet property="lblMakanan" destination="VCk-oa-Kdp" id="0Dr-CS-2e2"/>
                 <outlet property="lblPorsi" destination="TU7-Lz-gwm" id="CLb-d5-IB6"/>
