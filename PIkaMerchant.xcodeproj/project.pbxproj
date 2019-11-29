@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0DEF29BC238C194100F070DA /* PesananQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DEF29BB238C194100F070DA /* PesananQuery.swift */; };
+		0DEF29BE238C228500F070DA /* OrderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DEF29BD238C228500F070DA /* OrderModel.swift */; };
 		0EFEB944D2C41BC9974B1B70 /* Pods_PIkaMerchant.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 464D5731EB42EECCF92D062E /* Pods_PIkaMerchant.framework */; };
 		F05015D923796FFE00C27BDD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05015D823796FFE00C27BDD /* AppDelegate.swift */; };
 		F05015DB23796FFE00C27BDD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05015DA23796FFE00C27BDD /* SceneDelegate.swift */; };
@@ -28,10 +30,11 @@
 		F0501609237BCE3200C27BDD /* MakananViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0501608237BCE3200C27BDD /* MakananViewController.swift */; };
 		F06A79ED237BD03000E940EE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F06A79EC237BD03000E940EE /* GoogleService-Info.plist */; };
 		F06A79EF237BD50C00E940EE /* MakananModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06A79EE237BD50C00E940EE /* MakananModel.swift */; };
-		F06A79F8237D464E00E940EE /* MenuFix.csv in Resources */ = {isa = PBXBuildFile; fileRef = F06A79F7237D464D00E940EE /* MenuFix.csv */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0DEF29BB238C194100F070DA /* PesananQuery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PesananQuery.swift; sourceTree = "<group>"; };
+		0DEF29BD238C228500F070DA /* OrderModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderModel.swift; sourceTree = "<group>"; };
 		464D5731EB42EECCF92D062E /* Pods_PIkaMerchant.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PIkaMerchant.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D7C79A1A7F37D9184AC8A22 /* Pods-PIkaMerchant.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PIkaMerchant.debug.xcconfig"; path = "Target Support Files/Pods-PIkaMerchant/Pods-PIkaMerchant.debug.xcconfig"; sourceTree = "<group>"; };
 		DFC4D6CEE0DF5D8ECFCB4427 /* Pods-PIkaMerchant.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PIkaMerchant.release.xcconfig"; path = "Target Support Files/Pods-PIkaMerchant/Pods-PIkaMerchant.release.xcconfig"; sourceTree = "<group>"; };
@@ -57,7 +60,6 @@
 		F0501608237BCE3200C27BDD /* MakananViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakananViewController.swift; sourceTree = "<group>"; };
 		F06A79EC237BD03000E940EE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		F06A79EE237BD50C00E940EE /* MakananModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakananModel.swift; sourceTree = "<group>"; };
-		F06A79F7237D464D00E940EE /* MenuFix.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = MenuFix.csv; path = ../../../Downloads/MenuFix.csv; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0DEF29BA238C192500F070DA /* Query */ = {
+			isa = PBXGroup;
+			children = (
+				0DEF29BB238C194100F070DA /* PesananQuery.swift */,
+			);
+			path = Query;
+			sourceTree = "<group>";
+		};
 		7FD517C81C8AF9D5D7E9943F /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -111,12 +121,12 @@
 		F05015D723796FFE00C27BDD /* PIkaMerchant */ = {
 			isa = PBXGroup;
 			children = (
-				F06A79F7237D464D00E940EE /* MenuFix.csv */,
 				F06A79EC237BD03000E940EE /* GoogleService-Info.plist */,
 				F0501603237BAF6300C27BDD /* Makanan */,
 				F05015FF237A7D5000C27BDD /* Pesanan diproses */,
 				F05015FE237A7CFD00C27BDD /* Pesanan Selesai */,
 				F0501602237AA84200C27BDD /* Model */,
+				0DEF29BA238C192500F070DA /* Query */,
 				F05015F62379C79100C27BDD /* PesananViewController.swift */,
 				F0501608237BCE3200C27BDD /* MakananViewController.swift */,
 				F05015D823796FFE00C27BDD /* AppDelegate.swift */,
@@ -155,6 +165,7 @@
 				F05015F82379D55F00C27BDD /* PesananModel.swift */,
 				F0501600237A892D00C27BDD /* SelesaiModel.swift */,
 				F06A79EE237BD50C00E940EE /* MakananModel.swift */,
+				0DEF29BD238C228500F070DA /* OrderModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -205,7 +216,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F05015D023796FFE00C27BDD /* Build configuration list for PBXProject "PIkaMerchant" */;
+			buildConfigurationList = F05015D023796FFE00C27BDD /* Build configuration list for PBXProject "PikaMerchant" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -235,7 +246,6 @@
 				F0501607237BAF9500C27BDD /* MakananTableViewCell.xib in Resources */,
 				F05015E523796FFF00C27BDD /* Assets.xcassets in Resources */,
 				F05015F42379C2C900C27BDD /* PesananTableViewCell.xib in Resources */,
-				F06A79F8237D464E00E940EE /* MenuFix.csv in Resources */,
 				F05015E023796FFE00C27BDD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -320,7 +330,9 @@
 				F0501606237BAF9500C27BDD /* MakananTableViewCell.swift in Sources */,
 				F05015F32379C2C900C27BDD /* PesananTableViewCell.swift in Sources */,
 				F05015DB23796FFE00C27BDD /* SceneDelegate.swift in Sources */,
+				0DEF29BE238C228500F070DA /* OrderModel.swift in Sources */,
 				F05015FC237A65D300C27BDD /* SelesaiTableViewCell.swift in Sources */,
+				0DEF29BC238C194100F070DA /* PesananQuery.swift in Sources */,
 				F05015F72379C79100C27BDD /* PesananViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -502,7 +514,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F05015D023796FFE00C27BDD /* Build configuration list for PBXProject "PIkaMerchant" */ = {
+		F05015D023796FFE00C27BDD /* Build configuration list for PBXProject "PikaMerchant" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F05015EA23796FFF00C27BDD /* Debug */,

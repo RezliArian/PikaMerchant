@@ -30,7 +30,7 @@ class MakananViewController: UIViewController, UITableViewDelegate, UITableViewD
   var delegate:doneServe?
   
   
-  var pesmod: PesananModel!
+  var pesmod: Order!
   var slsmod: SelesaiModel!
   var indikator:Int!
   
@@ -50,9 +50,9 @@ class MakananViewController: UIViewController, UITableViewDelegate, UITableViewD
     makananTableView.dataSource = self
     
     if indikator == 1{
-      nama.text = pesmod.name
-      jam.text = pesmod.time
-      estimasi.text = pesmod.estimation
+      nama.text = pesmod.customerName
+      jam.text = "10"
+      estimasi.text = "10"
     } else if indikator == 2{
       nama.text = slsmod.name
       jam.text = slsmod.time
