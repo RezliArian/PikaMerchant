@@ -10,6 +10,9 @@ import UIKit
 
 class SiapCell:UITableViewCell {
   @IBOutlet weak var btnDone: UIButton!
+  @IBOutlet weak var detailPembayaranLbl: UILabel!
+  @IBOutlet weak var totalLbl: UILabel!
+  @IBOutlet weak var priceLbl: UILabel!
   
 }
 
@@ -25,13 +28,17 @@ class MakananViewController: UIViewController, UITableViewDelegate, UITableViewD
   @IBOutlet weak var estimasi: UILabel!
   
   @IBOutlet weak var dateModal: UILabel!
-  
+  @IBOutlet weak var diambilDalamlbl: UILabel!
+  @IBOutlet weak var menuPesananlbl: UILabel!
+  @IBOutlet weak var view1: UIView!
+  @IBOutlet weak var view2: UIView!
   
   var delegate:doneServe?
   
   
   var pesmod: PesananModel!
   var slsmod: SelesaiModel!
+  var diambilmod: DiambilModel!
   var indikator:Int!
   
   override func viewDidLoad() {
@@ -39,10 +46,11 @@ class MakananViewController: UIViewController, UITableViewDelegate, UITableViewD
     
     getCurrentDate()
 
+    for _ in 0...3{
     let done = MakananModel(makanan: "Ayam mie", deskripsi: "Ayam yang digoreng dengan bumbu indomie", porsi: "10 porsi")
     
     cekMakanan.append(done)
-    
+    }
     let nib4 = UINib(nibName: "MakananTableViewCell", bundle: nil)
     self.makananTableView.register(nib4, forCellReuseIdentifier: "makananCell")
     
@@ -60,7 +68,17 @@ class MakananViewController: UIViewController, UITableViewDelegate, UITableViewD
       
     }
     
+    nama.font = UIFont.boldSystemFont(ofSize: 20)
+    caraPenyajian.font = UIFont.boldSystemFont(ofSize: 20)
+    diambilDalamlbl.font = UIFont.boldSystemFont(ofSize: 20)
+    menuPesananlbl.font = UIFont.boldSystemFont(ofSize: 20)
+
+    view1.setBorderShadow(color: .gray, shadowRadius: 8, shadowOpactiy: 0.16, shadowOffsetWidth: 0, shadowOffsetHeight: 4 )
+    view2.setBorderShadow(color: .gray, shadowRadius: 8, shadowOpactiy: 0.16, shadowOffsetWidth: 0, shadowOffsetHeight: 4 )
+    
   }
+  
+  
   
   func getCurrentDate(){
     let formatter = DateFormatter()
@@ -97,15 +115,20 @@ class MakananViewController: UIViewController, UITableViewDelegate, UITableViewD
       cell.lblDeskripsi.text = ngetes.deskripsi
       cell.lblPorsi.text = ngetes.porsi
       
+      
       return cell
     }else if indikator == 2{
       let cell = tableView.dequeueReusableCell(withIdentifier: "siapCell",for: indexPath) as! SiapCell
       
-      cell.btnDone.isHidden = true
+//      cell.detailPembayaranLbl.font = UIFont.boldSystemFont(ofSize: 20)
+//      cell.totalLbl.font = UIFont.boldSystemFont(ofSize: 20)
+//      cell.priceLbl.font = UIFont.boldSystemFont(ofSize: 20)
+//      cell.detailPembayaranLbl.bolded()
       
       return cell
     }
     let cell = tableView.dequeueReusableCell(withIdentifier: "siapCell", for: indexPath)
+    
     
     return cell
   }
@@ -120,4 +143,10 @@ class MakananViewController: UIViewController, UITableViewDelegate, UITableViewD
 
 protocol doneServe {
   func delFromRow()
+}
+
+extension UILabel{
+  func bolded(){
+    self.font = UIFont.boldSystemFont(ofSize: 20)
+  }
 }

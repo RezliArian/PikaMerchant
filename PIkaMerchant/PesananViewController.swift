@@ -13,7 +13,10 @@ class PesananViewController: UIViewController, UITableViewDelegate, UITableViewD
     
     var cekPesanan:[PesananModel]=[]
     var cekSelesai:[SelesaiModel]=[]
+    var cekDiambil:[DiambilModel]=[]
+    var cekDibayar:[DibayarModel]=[]
     var moveToDone: PesananModel!
+    var moveToDone1: SelesaiModel!
   
     @IBOutlet weak var pesananTableView: UITableView!
     @IBOutlet weak var seqmen: UISegmentedControl!
@@ -107,15 +110,15 @@ class PesananViewController: UIViewController, UITableViewDelegate, UITableViewD
       
 //      addDocument()
         
-      let pesan = PesananModel(name: "Randy Cagur", estimation: "16:20", items: "3 items", status: "", time: "08.20", logo: "Go Pay")
+      let pesan = PesananModel(name: "Randy Cagur", estimation: "30 menit", items: "3 items", status: "", time: "08.20", logo: "Go Pay")
         
-      let pesan1 = PesananModel(name: "Randy cingur", estimation: "10:20", items: "10 items", status: "", time: "10.20", logo: "Ovo")
+      let pesan1 = PesananModel(name: "Randy cingur", estimation: "5 menit", items: "10 items", status: "", time: "10.20", logo: "Ovo")
         
       //let done = SelesaiModel(name: "Randy Noel", estimation: "", items: "3 items", status: "Pesanan Selesai", time: "09.11", logo: "Go Pay")
         
         cekPesanan.append(pesan)
         cekPesanan.append(pesan1)
-        
+
         //cekSelesai.append(done)
         
         let nib2 = UINib(nibName: "PesananTableViewCell", bundle: nil)
@@ -123,6 +126,12 @@ class PesananViewController: UIViewController, UITableViewDelegate, UITableViewD
 
         let nib3 = UINib(nibName: "SelesaiTableViewCell", bundle: nil)
         self.pesananTableView.register(nib3, forCellReuseIdentifier: "selesaiCell")
+      
+        let nib4 = UINib(nibName: "SelesaiTableViewCell", bundle: nil)
+        self.pesananTableView.register(nib4, forCellReuseIdentifier: "diambilCell")
+      
+        let nib5 = UINib(nibName: "SelesaiTableViewCell", bundle: nil)
+        self.pesananTableView.register(nib5, forCellReuseIdentifier: "dibayarCell")
         
         
         pesananTableView.delegate = self
@@ -208,22 +217,26 @@ class PesananViewController: UIViewController, UITableViewDelegate, UITableViewD
           nextVC.indikator = 1
           nextVC.pesmod = self.cekPesanan[selectedIndex!]
           nextVC.delegate = self
-        }else{
+        }else if seqmen.selectedSegmentIndex == 1{
           nextVC.indikator = 2
           nextVC.slsmod = self.cekSelesai[selectedIndex!]
+        }else{
+          nextVC.indikator = 3
+          nextVC.diambilmod = self.cekDiambil[selectedIndex!]
         }
       }
     }
-    
   }
     
-    func tableView(_ tableView: UITableView, trailingSwipeActionsConfigurationForRowAt indexPath: IndexPath) -> UISwipeActionsConfiguration? {
-        
-//        let important = importantAction(at: indexPath)
-        let delete = deleteAction(at: indexPath)
-        return UISwipeActionsConfiguration(actions: [delete])
-        
-    }
+
+    
+//    func tableView(_ tableView: UITableView, trailingSwipeActionsConfigurationForRowAt indexPath: IndexPath) -> UISwipeActionsConfiguration? {
+//
+//       let important = importantAction(at: indexPath)
+//        let delete = deleteAction(at: indexPath)
+//        return UISwipeActionsConfiguration(actions: [delete])
+//
+//    }
     
 //    func importantAction(at indexPath:IndexPath) -> UIContextualAction {
 //        let todo = cekPesanan[indexPath.row]
@@ -235,30 +248,43 @@ class PesananViewController: UIViewController, UITableViewDelegate, UITableViewD
 //        return action
 //    }
     
-    func deleteAction(at indexPath:IndexPath) -> UIContextualAction {
-        let action = UIContextualAction(style: .destructive, title: "Delete") { (action, view, completion) in
-            self.cekPesanan.remove(at: indexPath.row)
-            self.pesananTableView.deleteRows(at: [indexPath], with: .automatic)
-        }
-        action.image = #imageLiteral(resourceName: "Trash")
-        action.backgroundColor = #colorLiteral(red: 0.8259795904, green: 0.3191990554, blue: 0.3149974644, alpha: 1)
-        
-        return action
-    }
+//    func deleteAction(at indexPath:IndexPath) -> UIContextualAction {
+//        let action = UIContextualAction(style: .destructive, title: "Delete") { (action, view, completion) in
+//            self.cekPesanan.remove(at: indexPath.row)
+//            self.pesananTableView.deleteRows(at: [indexPath], with: .automatic)
+//        }
+//        action.image = #imageLiteral(resourceName: "Trash")
+//        action.backgroundColor = #colorLiteral(red: 0.8259795904, green: 0.3191990554, blue: 0.3149974644, alpha: 1)
+//
+//        return action
+//    }
     
     func tableView(_ tableView: UITableView, leadingSwipeActionsConfigurationForRowAt indexPath: IndexPath) -> UISwipeActionsConfiguration? {
         
-      moveToDone = cekPesanan[indexPath.row]
-      moveToDoneSegmen(moveToDone: moveToDone)
+      if seqmen.selectedSegmentIndex == 0{
+        moveToDone = cekPesanan[indexPath.row]
+        moveToDoneSegmen(moveToDone: moveToDone)
+      }else if seqmen.selectedSegmentIndex == 1{
+        moveToDone1 = cekSelesai[indexPath.row]
+        moveToDoneSegmen1(moveToDone1: moveToDone1)
+      }
+      
         let complete = completeAction(at: indexPath)
         
         return UISwipeActionsConfiguration(actions: [complete])
     }
     
     func completeAction(at indexPath:IndexPath) -> UIContextualAction {
-        let action = UIContextualAction(style: .destructive, title: "Complete") { (action, view, completion) in
+        let action = UIContextualAction(style: .destructive, title: "Complete") {
+          (action, view, completion) in
+          if self.seqmen.selectedSegmentIndex == 0{
             self.cekPesanan.remove(at: indexPath.row)
             self.pesananTableView.deleteRows(at: [indexPath], with: .automatic)
+          }else if self.seqmen.selectedSegmentIndex == 1{
+            self.cekSelesai.remove(at: indexPath.row)
+            self.pesananTableView.deleteRows(at: [indexPath], with: .automatic)
+          }
+    
         }
         action.image = #imageLiteral(resourceName: "Check")
         action.backgroundColor = #colorLiteral(red: 0.3930387795, green: 0.6226156354, blue: 0.4152288437, alpha: 1)
@@ -270,8 +296,14 @@ class PesananViewController: UIViewController, UITableViewDelegate, UITableViewD
     }
   
   func moveToDoneSegmen(moveToDone: PesananModel){
-    let newSelesai = SelesaiModel(name: moveToDone.name, estimation: moveToDone.estimation, items: moveToDone.items, status: "Pesanan Selesai", time: moveToDone.time, logo: moveToDone.logo)
+    let newSelesai = SelesaiModel(name: moveToDone.name, estimation: moveToDone.estimation, items: moveToDone.items, status: "Makanan Selesai", time: moveToDone.time, logo: moveToDone.logo)
     cekSelesai.append(newSelesai)
+  }
+  
+  func moveToDoneSegmen1(moveToDone1: SelesaiModel){
+    let newDiambil = DiambilModel(name: moveToDone1.name, estimation: moveToDone1.estimation, items: moveToDone1.items, status: "Sudah Diambil", time: moveToDone1.time
+      , logo: moveToDone1.logo)
+    cekDiambil.append(newDiambil)
   }
     
     @IBAction func UISegmentedControl(_ sender: UISegmentedControl) {
@@ -302,6 +334,9 @@ class PesananViewController: UIViewController, UITableViewDelegate, UITableViewD
         case 1:
             returnValue = cekSelesai.count
             break
+        case 2:
+            returnValue = cekDiambil.count
+            break
         default:
             break
         }
@@ -323,40 +358,64 @@ class PesananViewController: UIViewController, UITableViewDelegate, UITableViewD
         
         if seqmen.selectedSegmentIndex == 0 {
        
-            let ngetes = cekPesanan[indexPath.row]
+            let orders = cekPesanan[indexPath.row]
             let cell = tableView.dequeueReusableCell(withIdentifier: "pesananCell", for: indexPath) as! PesananTableViewCell
             
-            cell.lblName.text = ngetes.name
-            cell.lblPickupTime.text = ngetes.estimation
-            cell.lblItems.text = ngetes.items
-            cell.lblTime.text = ngetes.time
-            cell.imgLogo.image = UIImage(named: ngetes.logo)
+            cell.lblName.text = orders.name
+            cell.lblPickupTime.text = orders.estimation
+            cell.lblItems.text = orders.items
+            cell.lblTime.text = orders.time
+            cell.imgLogo.image = UIImage(named: orders.logo)
             return cell
-        }
+        }else if seqmen.selectedSegmentIndex == 1{
         
-            let ngetes1 = cekSelesai[indexPath.row]
+            let done = cekSelesai[indexPath.row]
             
             let cell1 = tableView.dequeueReusableCell(withIdentifier: "selesaiCell", for: indexPath) as! SelesaiTableViewCell
             
-            cell1.lblName.text = ngetes1.name
-            cell1.lblItems.text = ngetes1.items
-            cell1.lblStatus.text = ngetes1.status
-            cell1.lblTime.text = ngetes1.time
-            cell1.imgLogo.image = UIImage(named: ngetes1.logo)
+            cell1.lblName.text = done.name
+            cell1.lblItems.text = done.items
+            cell1.lblStatus.text = done.status
+            cell1.lblTime.text = done.time
+            cell1.imgLogo.image = UIImage(named: done.logo)
         
         return cell1
+//        }else if seqmen.selectedSegmentIndex == 2{
+//         let cellz = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as! SiapCell
+//
+//          cellz.btnDone.isHidden = true
+
+      }
+      let take = cekDiambil[indexPath.row]
+      
+      let cell2 = tableView.dequeueReusableCell(withIdentifier: "diambilCell", for: indexPath) as! SelesaiTableViewCell
+      
+      cell2.lblName.text = take.name
+      cell2.lblItems.text = take.items
+      cell2.lblStatus.text = take.status
+      cell2.lblTime.text = take.time
+      cell2.imgLogo.image = UIImage(named: take.logo)
+      
+      return cell2
+      
     }
   
-  
-  
 }
+  
+
 
 extension PesananViewController: doneServe{
   func delFromRow() {
-    moveToDoneSegmen(moveToDone: cekPesanan[self.selectedIndex!])
-    cekPesanan.remove(at: selectedIndex!)
+    if seqmen.selectedSegmentIndex == 0{
+      moveToDoneSegmen(moveToDone: cekPesanan[self.selectedIndex!])
+      cekPesanan.remove(at: selectedIndex!)
+    }else if seqmen.selectedSegmentIndex == 1{
+      moveToDoneSegmen1(moveToDone1: cekSelesai[self.selectedIndex!])
+      cekSelesai.remove(at: selectedIndex!)
+    }
     self.pesananTableView.reloadData()
     print("deleted!")
   }
   
 }
+

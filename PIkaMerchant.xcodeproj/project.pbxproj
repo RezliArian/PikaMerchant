@@ -30,6 +30,9 @@
 		F06A79EF237BD50C00E940EE /* MakananModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06A79EE237BD50C00E940EE /* MakananModel.swift */; };
 		F06A79F8237D464E00E940EE /* MenuFix.csv in Resources */ = {isa = PBXBuildFile; fileRef = F06A79F7237D464D00E940EE /* MenuFix.csv */; };
 		F0B43E9A238BAE7C008A7CE7 /* PushNotificationSender.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B43E99238BAE7C008A7CE7 /* PushNotificationSender.swift */; };
+		F0F28AE5239F41860039B45A /* Shadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F28AE4239F41860039B45A /* Shadow.swift */; };
+		F0FFAB9C239E288B007D62B0 /* DiambilModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0FFAB9B239E288B007D62B0 /* DiambilModel.swift */; };
+		F0FFAB9E239E28AA007D62B0 /* DibayarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0FFAB9D239E28AA007D62B0 /* DibayarModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -61,6 +64,9 @@
 		F06A79EE237BD50C00E940EE /* MakananModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakananModel.swift; sourceTree = "<group>"; };
 		F06A79F7237D464D00E940EE /* MenuFix.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = MenuFix.csv; path = ../../../Downloads/MenuFix.csv; sourceTree = "<group>"; };
 		F0B43E99238BAE7C008A7CE7 /* PushNotificationSender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushNotificationSender.swift; sourceTree = "<group>"; };
+		F0F28AE4239F41860039B45A /* Shadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shadow.swift; sourceTree = "<group>"; };
+		F0FFAB9B239E288B007D62B0 /* DiambilModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiambilModel.swift; sourceTree = "<group>"; };
+		F0FFAB9D239E28AA007D62B0 /* DibayarModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DibayarModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +138,7 @@
 				F05015E623796FFF00C27BDD /* LaunchScreen.storyboard */,
 				F05015E923796FFF00C27BDD /* Info.plist */,
 				F05015E123796FFE00C27BDD /* PIkaMerchant.xcdatamodeld */,
+				F0F28AE4239F41860039B45A /* Shadow.swift */,
 			);
 			path = PIkaMerchant;
 			sourceTree = "<group>";
@@ -160,6 +167,8 @@
 				F05015F82379D55F00C27BDD /* PesananModel.swift */,
 				F0501600237A892D00C27BDD /* SelesaiModel.swift */,
 				F06A79EE237BD50C00E940EE /* MakananModel.swift */,
+				F0FFAB9B239E288B007D62B0 /* DiambilModel.swift */,
+				F0FFAB9D239E28AA007D62B0 /* DibayarModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -298,6 +307,7 @@
 				F05015E323796FFE00C27BDD /* PIkaMerchant.xcdatamodeld in Sources */,
 				F0501601237A892D00C27BDD /* SelesaiModel.swift in Sources */,
 				F05015DD23796FFE00C27BDD /* ViewController.swift in Sources */,
+				F0FFAB9C239E288B007D62B0 /* DiambilModel.swift in Sources */,
 				F05015F92379D55F00C27BDD /* PesananModel.swift in Sources */,
 				F06A79EF237BD50C00E940EE /* MakananModel.swift in Sources */,
 				F05015D923796FFE00C27BDD /* AppDelegate.swift in Sources */,
@@ -306,7 +316,9 @@
 				F0B43E9A238BAE7C008A7CE7 /* PushNotificationSender.swift in Sources */,
 				F05015DB23796FFE00C27BDD /* SceneDelegate.swift in Sources */,
 				F05015FC237A65D300C27BDD /* SelesaiTableViewCell.swift in Sources */,
+				F0F28AE5239F41860039B45A /* Shadow.swift in Sources */,
 				F05015F72379C79100C27BDD /* PesananViewController.swift in Sources */,
+				F0FFAB9E239E28AA007D62B0 /* DibayarModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
