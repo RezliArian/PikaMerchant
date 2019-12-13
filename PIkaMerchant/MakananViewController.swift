@@ -13,18 +13,22 @@ class SiapCell:UITableViewCell {
   @IBOutlet weak var detailPembayaranLbl: UILabel!
   @IBOutlet weak var totalLbl: UILabel!
   @IBOutlet weak var priceLbl: UILabel!
+  @IBOutlet weak var viewMetodePembayaran: UIImageView!
   
 }
 
 class MakananViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
   
   var cekMakanan:[MakananModel]=[]
+  var cekFood:[OrderDetail]=[]
+  var cekSelesai:[OrderModel]=[]
   @IBOutlet weak var makananTableView: UITableView!
   
   @IBOutlet weak var nama: UILabel!
   @IBOutlet weak var orderId: UILabel!
   @IBOutlet weak var jam: UILabel!
   @IBOutlet weak var caraPenyajian: UILabel!
+  @IBOutlet weak var lblCaraPenyajian: UILabel!
   @IBOutlet weak var estimasi: UILabel!
   
   @IBOutlet weak var dateModal: UILabel!
@@ -36,21 +40,20 @@ class MakananViewController: UIViewController, UITableViewDelegate, UITableViewD
   var delegate:doneServe?
   
   
-  var pesmod: PesananModel!
-  var slsmod: SelesaiModel!
-  var diambilmod: DiambilModel!
+  var pesananModal: OrderModel!
+  var selesaiModal: OrderModel!
+  var diambilModal: OrderModel!
+  var makananModal: OrderModel!
+  var makan: OrderDetail!
   var indikator:Int!
   
   override func viewDidLoad() {
     super.viewDidLoad()
     
+    print("jumlah makanan:  ", cekFood.count)
+    
     getCurrentDate()
 
-    for _ in 0...3{
-    let done = MakananModel(makanan: "Ayam mie", deskripsi: "Ayam yang digoreng dengan bumbu indomie", porsi: "10 porsi")
-    
-    cekMakanan.append(done)
-    }
     let nib4 = UINib(nibName: "MakananTableViewCell", bundle: nil)
     self.makananTableView.register(nib4, forCellReuseIdentifier: "makananCell")
     
@@ -58,17 +61,15 @@ class MakananViewController: UIViewController, UITableViewDelegate, UITableViewD
     makananTableView.dataSource = self
     
     if indikator == 1{
-      nama.text = pesmod.name
-      jam.text = pesmod.time
-      estimasi.text = pesmod.estimation
-    } else if indikator == 2{
-      nama.text = slsmod.name
-      jam.text = slsmod.time
-      estimasi.text = slsmod.estimation
-      
+      nama.text = pesananModal.customerName
+    }else if indikator == 2{
+      nama.text = selesaiModal.customerName
+    }else if indikator == 3{
+      nama.text = diambilModal.customerName
     }
     
     nama.font = UIFont.boldSystemFont(ofSize: 20)
+    lblCaraPenyajian.font = UIFont.boldSystemFont(ofSize: 20)
     caraPenyajian.font = UIFont.boldSystemFont(ofSize: 20)
     diambilDalamlbl.font = UIFont.boldSystemFont(ofSize: 20)
     menuPesananlbl.font = UIFont.boldSystemFont(ofSize: 20)
@@ -78,7 +79,11 @@ class MakananViewController: UIViewController, UITableViewDelegate, UITableViewD
     
   }
   
-  
+  func setOrderModel(orderDetails: [OrderDetail]) {
+    for orderDetail in orderDetails {
+      cekFood.append(orderDetail)
+    }
+  }
   
   func getCurrentDate(){
     let formatter = DateFormatter()
@@ -93,7 +98,8 @@ class MakananViewController: UIViewController, UITableViewDelegate, UITableViewD
   
   func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
     if section == 0{
-      return cekMakanan.count
+//      return cekMakanan.count
+      return cekFood.count
     }
     return 1
   }
@@ -106,36 +112,36 @@ class MakananViewController: UIViewController, UITableViewDelegate, UITableViewD
   }
 
   func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-    let ngetes = cekMakanan[indexPath.row]
+//    let ngetes = cekMakanan[indexPath.row]
+    let ngetes = cekFood[indexPath.row]
     if indexPath.section == 0{
       let cell = tableView.dequeueReusableCell(withIdentifier: "makananCell", for: indexPath) as! MakananTableViewCell
-
       
-      cell.lblMakanan.text = ngetes.makanan
-      cell.lblDeskripsi.text = ngetes.deskripsi
-      cell.lblPorsi.text = ngetes.porsi
+      cell.lblMakanan.text = ngetes.menuName
+      cell.lblDeskripsi.text = ngetes.note
+//      cell.lblPorsi.text = "\(String(describing: ngetes.orderDetail![0].quantity))"
+      cell.lblPorsi.text = "\(ngetes.quantity!)"
       
       
       return cell
     }else if indikator == 2{
       let cell = tableView.dequeueReusableCell(withIdentifier: "siapCell",for: indexPath) as! SiapCell
       
-//      cell.detailPembayaranLbl.font = UIFont.boldSystemFont(ofSize: 20)
-//      cell.totalLbl.font = UIFont.boldSystemFont(ofSize: 20)
-//      cell.priceLbl.font = UIFont.boldSystemFont(ofSize: 20)
-//      cell.detailPembayaranLbl.bolded()
-      
       return cell
     }
     let cell = tableView.dequeueReusableCell(withIdentifier: "siapCell", for: indexPath)
-    
     
     return cell
   }
   
   @IBAction func btnServed(_ sender: UIButton) {
+    if indikator == 0{
     delegate?.delFromRow()
     dismiss(animated: true, completion: nil)
+    }else if indikator == 1{
+      delegate?.delFromRow()
+      dismiss(animated: true, completion: nil)
+    }
   }
   
   
@@ -143,10 +149,4 @@ class MakananViewController: UIViewController, UITableViewDelegate, UITableViewD
 
 protocol doneServe {
   func delFromRow()
-}
-
-extension UILabel{
-  func bolded(){
-    self.font = UIFont.boldSystemFont(ofSize: 20)
-  }
 }

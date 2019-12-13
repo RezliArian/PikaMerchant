@@ -8,23 +8,28 @@
 
 import UIKit
 import Firebase
+import CodableFirebase
 
 class PesananViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
-    var cekPesanan:[PesananModel]=[]
-    var cekSelesai:[SelesaiModel]=[]
-    var cekDiambil:[DiambilModel]=[]
-    var cekDibayar:[DibayarModel]=[]
-    var moveToDone: PesananModel!
-    var moveToDone1: SelesaiModel!
+    var cekPesanan:[OrderModel]=[]
+    var cekSelesai:[OrderModel]=[]
+    var cekDiambil:[OrderModel]=[]
+    var cekDibayar:[OrderModel]=[]
+    var moveToDone: OrderModel!
+    var moveToDone1: OrderModel!
+    var tempFood: [OrderDetail]=[]
   
     @IBOutlet weak var pesananTableView: UITableView!
     @IBOutlet weak var seqmen: UISegmentedControl!
     @IBOutlet weak var dateLabel: UILabel!
+    @IBOutlet weak var lblStatusDescription: UILabel!
+  
   
     var proses: UITableViewCell!
     var selesai: UITableViewCell!
     var selectedIndex: Int?
+  
   
   func getCurrentDate(){
     let formatter = DateFormatter()
@@ -35,70 +40,9 @@ class PesananViewController: UIViewController, UITableViewDelegate, UITableViewD
   
   func addDocument(alamat: String, menuID:String, merchantID: String, merchantName: String, menuName: String, price: Int,category:String, description: String, latitude: Double, longitude: Double) {
 
-    let db = Firestore.firestore()
-    let menuRef = db.collection("Menus_rezli")
-//    var ref: DocumentReference? = nil
-
-
-    menuRef.document("\(menuID)").setData([
-      "address": "\(alamat)",
-
-      "merchantID": "\(merchantID)",
-
-      "menuID": "\(menuID)",
-
-      "merchantName": "\(merchantName)",
-
-      "menuName": "\(menuName)",
-
-      "price": price,
-
-      "category": category,
-
-      "description": "\(description)",
-
-      "location": GeoPoint(latitude: latitude, longitude: longitude)
-
-    ])
-
-
-// Random Document ID
-
-//    ref = db.collection("Menus_rezli").addDocument(data: [
-//
-//    "address": "\(alamat)",
-//
-//    "merchantID": "\(merchantID)",
-//
-//    "menuID": "\(menuID)",
-//
-//    "merchantName": "\(merchantName)",
-//
-//    "menuName": "\(menuName)",
-//
-//    "price": price,
-//
-//    "category": category,
-//
-//    "description": "\(description)",
-//
-//    "location": GeoPoint(latitude: latitude, longitude: longitude)
-//
-//
-//      ]) { err in
-//
-//      if let err = err {
-//
-//          print("Error adding document: \(err)")
-//
-//      } else {
-//
-//          print("Document added with ID: \(ref!.documentID)")
-//
-//      }
-//  }
-
-
+//    let db = Firestore.firestore()
+//    let menuRef = db.collection("Menus_rezli")
+    
     print("Masuk Database")
 }
     
@@ -106,20 +50,8 @@ class PesananViewController: UIViewController, UITableViewDelegate, UITableViewD
         
         super.viewDidLoad()
       
-      getCurrentDate()
-      
-//      addDocument()
-        
-      let pesan = PesananModel(name: "Randy Cagur", estimation: "30 menit", items: "3 items", status: "", time: "08.20", logo: "Go Pay")
-        
-      let pesan1 = PesananModel(name: "Randy cingur", estimation: "5 menit", items: "10 items", status: "", time: "10.20", logo: "Ovo")
-        
-      //let done = SelesaiModel(name: "Randy Noel", estimation: "", items: "3 items", status: "Pesanan Selesai", time: "09.11", logo: "Go Pay")
-        
-        cekPesanan.append(pesan)
-        cekPesanan.append(pesan1)
-
-        //cekSelesai.append(done)
+        getCurrentDate()
+    
         
         let nib2 = UINib(nibName: "PesananTableViewCell", bundle: nil)
         self.pesananTableView.register(nib2, forCellReuseIdentifier: "pesananCell")
@@ -136,137 +68,52 @@ class PesananViewController: UIViewController, UITableViewDelegate, UITableViewD
         
         pesananTableView.delegate = self
         pesananTableView.dataSource = self
-        
-        var data = readDataFromCSV(fileName: "MenuFix", fileType: "csv")
-        data = cleanRows(file: data!)
-        let csvRows = csv(data: data!)
-        print(csvRows[1][0]) //UXM n. 166/167.
-      //let i : Int=1
-      var alamat: String = "default"
-      var i = 1
-      for row in csvRows{
-        if i<548{
-          print(row[0])
-
-          switch row[0]{
-          case "1":
-            alamat = "Green Eatery GOP9 BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15345"
-          case "2":
-            alamat = " Food Court The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15345"
-          case "3":
-            alamat = "The Breeze BSD City Sampora, Kec. Cisauk, Tangerang, Banten 15345"
-          default:
-            break
-          }
-          print(alamat)
-          //print(row[1])
-
-
-          addDocument(alamat: alamat, menuID: row[3], merchantID: row[1], merchantName: row[3], menuName: row[4], price: Int(row[5])!, category: row[6], description: row[7], latitude: (row[8] as NSString).doubleValue, longitude: (row[9] as NSString).doubleValue)
-          i += 1
-        }
-      }
-        print("Doneee")
       
+      setPesananData {
+        self.pesananTableView.reloadData()
+        print("pesanan : \(self.cekPesanan.count), ")
+      }
+
     }
-  
-  func readDataFromCSV(fileName:String, fileType: String)-> String!{
-          guard let filepath = Bundle.main.path(forResource: fileName, ofType: fileType)
-              else {
-                print("a")
-                  return nil
-
-          }
-          do {
-              var contents = try String(contentsOfFile: filepath, encoding: .utf8)
-              contents = cleanRows(file: contents)
-              return contents
-          } catch {
-              print("File Read Error for file \(filepath)")
-              return nil
-          }
-      }
-
-
-  func cleanRows(file:String)->String{
-      var cleanFile = file
-      cleanFile = cleanFile.replacingOccurrences(of: "\r", with: "\n")
-      cleanFile = cleanFile.replacingOccurrences(of: "\n\n", with: "\n")
-      //        cleanFile = cleanFile.replacingOccurrences(of: ";;", with: "")
-      //        cleanFile = cleanFile.replacingOccurrences(of: ";\n", with: "")
-      return cleanFile
-  }
-
-  func csv(data: String) -> [[String]] {
-      var result: [[String]] = []
-      let rows = data.components(separatedBy: "\n")
-      for row in rows {
-          //print(row)
-          let columns = row.components(separatedBy: ",")
-          result.append(columns)
-
-      }
-      return result
-  }
   
   
   override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
     if segue.identifier == "tesSegue"{
       if let nextVC = segue.destination as? MakananViewController{
-        if seqmen.selectedSegmentIndex == 0{
+        if seqmen.selectedSegmentIndex == 0 {
           nextVC.indikator = 1
-          nextVC.pesmod = self.cekPesanan[selectedIndex!]
+          nextVC.setOrderModel(orderDetails: cekPesanan[selectedIndex!].orderDetail!)
+          nextVC.pesananModal = self.cekPesanan[selectedIndex!]
+//          nextVC.cekFood = self.tempFood
           nextVC.delegate = self
         }else if seqmen.selectedSegmentIndex == 1{
           nextVC.indikator = 2
-          nextVC.slsmod = self.cekSelesai[selectedIndex!]
+          nextVC.setOrderModel(orderDetails: cekSelesai[selectedIndex!].orderDetail!)
+          nextVC.selesaiModal = self.cekSelesai[selectedIndex!]
         }else{
           nextVC.indikator = 3
-          nextVC.diambilmod = self.cekDiambil[selectedIndex!]
+          nextVC.setOrderModel(orderDetails: cekDiambil[selectedIndex!].orderDetail!)
+          nextVC.diambilModal = self.cekDiambil[selectedIndex!]
         }
       }
     }
   }
     
 
-    
-//    func tableView(_ tableView: UITableView, trailingSwipeActionsConfigurationForRowAt indexPath: IndexPath) -> UISwipeActionsConfiguration? {
-//
-//       let important = importantAction(at: indexPath)
-//        let delete = deleteAction(at: indexPath)
-//        return UISwipeActionsConfiguration(actions: [delete])
-//
-//    }
-    
-//    func importantAction(at indexPath:IndexPath) -> UIContextualAction {
-//        let todo = cekPesanan[indexPath.row]
-//        let action = UIContextualAction(style: .normal, title: "Important") { (action, view, completion) in
-//            completion(true)
-//        }
-//        action.image = #imageLiteral(resourceName: "Alarm")
-//        action.backgroundColor = .gray
-//        return action
-//    }
-    
-//    func deleteAction(at indexPath:IndexPath) -> UIContextualAction {
-//        let action = UIContextualAction(style: .destructive, title: "Delete") { (action, view, completion) in
-//            self.cekPesanan.remove(at: indexPath.row)
-//            self.pesananTableView.deleteRows(at: [indexPath], with: .automatic)
-//        }
-//        action.image = #imageLiteral(resourceName: "Trash")
-//        action.backgroundColor = #colorLiteral(red: 0.8259795904, green: 0.3191990554, blue: 0.3149974644, alpha: 1)
-//
-//        return action
-//    }
-    
     func tableView(_ tableView: UITableView, leadingSwipeActionsConfigurationForRowAt indexPath: IndexPath) -> UISwipeActionsConfiguration? {
         
       if seqmen.selectedSegmentIndex == 0{
-        moveToDone = cekPesanan[indexPath.row]
-        moveToDoneSegmen(moveToDone: moveToDone)
+        updatePesananStatus(orderID: cekPesanan[indexPath.row].orderID!, status: "ready") { (error) in
+          
+        }
+//        moveToDone = cekPesanan[indexPath.row]
+//        moveToSelesaiSegment(moveToDone: moveToDone)
       }else if seqmen.selectedSegmentIndex == 1{
-        moveToDone1 = cekSelesai[indexPath.row]
-        moveToDoneSegmen1(moveToDone1: moveToDone1)
+        updatePesananStatus(orderID: cekSelesai[indexPath.row].orderID!, status: "collected") { (error) in
+          
+        }
+//        moveToDone1 = cekSelesai[indexPath.row]
+//        moveToDiambilSegment(moveToDone1: moveToDone1)
       }
       
         let complete = completeAction(at: indexPath)
@@ -295,31 +142,17 @@ class PesananViewController: UIViewController, UITableViewDelegate, UITableViewD
         return action
     }
   
-  func moveToDoneSegmen(moveToDone: PesananModel){
-    let newSelesai = SelesaiModel(name: moveToDone.name, estimation: moveToDone.estimation, items: moveToDone.items, status: "Makanan Selesai", time: moveToDone.time, logo: moveToDone.logo)
+  func moveToSelesaiSegment(moveToDone: OrderModel){
+    let newSelesai = OrderModel(customerID: moveToDone.customerID, customerName: moveToDone.customerName, discount: moveToDone.discount, merchantID: moveToDone.merchantID, orderDetail: moveToDone.orderDetail, orderID: moveToDone.orderID, status: moveToDone.status, orderDate: moveToDone.orderDate, subtotal: moveToDone.subtotal, orderNo: moveToDone.orderNo, total: moveToDone.total, estimationTime: moveToDone.estimationTime, paymentType: moveToDone.paymentType)
     cekSelesai.append(newSelesai)
   }
   
-  func moveToDoneSegmen1(moveToDone1: SelesaiModel){
-    let newDiambil = DiambilModel(name: moveToDone1.name, estimation: moveToDone1.estimation, items: moveToDone1.items, status: "Sudah Diambil", time: moveToDone1.time
-      , logo: moveToDone1.logo)
+  func moveToDiambilSegment(moveToDone1: OrderModel){
+    let newDiambil = OrderModel(customerID: moveToDone.customerID, customerName: moveToDone.customerName, discount: moveToDone.discount, merchantID: moveToDone.customerID, orderDetail: moveToDone.orderDetail, orderID: moveToDone.orderID, status: moveToDone.status, orderDate: moveToDone.orderDate, subtotal: moveToDone.subtotal, orderNo: moveToDone.orderNo, total: moveToDone.total, estimationTime: moveToDone.estimationTime, paymentType: moveToDone.paymentType)
     cekDiambil.append(newDiambil)
   }
-    
+  
     @IBAction func UISegmentedControl(_ sender: UISegmentedControl) {
-//        switch (seqmen.selectedSegmentIndex) {
-//        case 0:
-//            let nib2 = UINib(nibName: "PesananTableViewCell", bundle: nil)
-//            self.pesananTableView.register(nib2, forCellReuseIdentifier: "pesananCell")
-//            break
-//        case 1:
-//            let nib3 = UINib(nibName: "SelesaiTableViewCell", bundle: nil)
-//            self.pesananTableView.register(nib3, forCellReuseIdentifier: "pesananCell")
-//            break
-//        default:
-//            break
-//        }
-        
         pesananTableView.reloadData()
     }
     
@@ -330,13 +163,18 @@ class PesananViewController: UIViewController, UITableViewDelegate, UITableViewD
         switch (seqmen.selectedSegmentIndex) {
         case 0:
             returnValue = cekPesanan.count
+            lblStatusDescription.text = "Pesanan Yang Perlu Disiapkan."
             break
         case 1:
             returnValue = cekSelesai.count
+            lblStatusDescription.text = "Pesanan Sudah Siap Diambil."
             break
         case 2:
             returnValue = cekDiambil.count
+            lblStatusDescription.text = "Pesanan Yang Sudah Diambil."
             break
+        case 3:
+          lblStatusDescription.text = "Transaksi yang sudah diteruskan ke Penjual."
         default:
             break
         }
@@ -345,8 +183,7 @@ class PesananViewController: UIViewController, UITableViewDelegate, UITableViewD
     }
   
   func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
- 
-       selectedIndex = indexPath.row
+      selectedIndex = indexPath.row
       performSegue(withIdentifier: "tesSegue", sender: indexPath.row)
  
   
@@ -361,61 +198,117 @@ class PesananViewController: UIViewController, UITableViewDelegate, UITableViewD
             let orders = cekPesanan[indexPath.row]
             let cell = tableView.dequeueReusableCell(withIdentifier: "pesananCell", for: indexPath) as! PesananTableViewCell
             
-            cell.lblName.text = orders.name
-            cell.lblPickupTime.text = orders.estimation
-            cell.lblItems.text = orders.items
-            cell.lblTime.text = orders.time
-            cell.imgLogo.image = UIImage(named: orders.logo)
-            return cell
+          //let date = String(orders.estimationTime?.dateValue())
+          cell.lblName.text = orders.customerName
+          cell.lblPickupTime.text = orders.orderID
+          cell.lblItems.text = orders.orderDetail![0].menuName
+          cell.lblTime.text = ""
+          cell.imgLogo.image = UIImage(named: orders.paymentType!)
+          return cell
         }else if seqmen.selectedSegmentIndex == 1{
         
             let done = cekSelesai[indexPath.row]
             
             let cell1 = tableView.dequeueReusableCell(withIdentifier: "selesaiCell", for: indexPath) as! SelesaiTableViewCell
             
-            cell1.lblName.text = done.name
-            cell1.lblItems.text = done.items
-            cell1.lblStatus.text = done.status
-            cell1.lblTime.text = done.time
-            cell1.imgLogo.image = UIImage(named: done.logo)
+          cell1.lblName.text = done.customerName
+          cell1.lblItems.text = done.orderDetail![0].menuName
+          cell1.lblStatus.text = done.status
+          cell1.lblTime.text = ""
+          cell1.imgLogo.image = UIImage(named: done.paymentType!)
         
         return cell1
-//        }else if seqmen.selectedSegmentIndex == 2{
-//         let cellz = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as! SiapCell
-//
-//          cellz.btnDone.isHidden = true
-
+          
       }
       let take = cekDiambil[indexPath.row]
       
       let cell2 = tableView.dequeueReusableCell(withIdentifier: "diambilCell", for: indexPath) as! SelesaiTableViewCell
       
-      cell2.lblName.text = take.name
-      cell2.lblItems.text = take.items
+      cell2.lblName.text = take.customerName
+      cell2.lblItems.text = take.orderDetail![0].menuName
       cell2.lblStatus.text = take.status
-      cell2.lblTime.text = take.time
-      cell2.imgLogo.image = UIImage(named: take.logo)
+      cell2.lblTime.text = ""
+      cell2.imgLogo.image = UIImage(named: take.paymentType!)
       
       return cell2
       
     }
   
 }
-  
-
 
 extension PesananViewController: doneServe{
   func delFromRow() {
     if seqmen.selectedSegmentIndex == 0{
-      moveToDoneSegmen(moveToDone: cekPesanan[self.selectedIndex!])
+      moveToSelesaiSegment(moveToDone: cekPesanan[self.selectedIndex!])
       cekPesanan.remove(at: selectedIndex!)
     }else if seqmen.selectedSegmentIndex == 1{
-      moveToDoneSegmen1(moveToDone1: cekSelesai[self.selectedIndex!])
+      moveToDiambilSegment(moveToDone1: cekSelesai[self.selectedIndex!])
       cekSelesai.remove(at: selectedIndex!)
     }
     self.pesananTableView.reloadData()
     print("deleted!")
   }
   
+}
+
+
+extension PesananViewController {
+  
+  func updatePesananStatus(orderID: String, status: String, completionHandler: @escaping (Error?) -> Void) {
+    
+    let db = Firestore.firestore()
+    let docRef = db.collection("Orders")
+   
+    docRef.document(orderID).updateData([
+      "status": status
+      ]) { err in
+      if let err = err {
+          completionHandler(err)
+      } else {
+          completionHandler(nil)
+      }
+    }
+  }
+  
+  func getPesananData(merchantID: String, completionHandler: @escaping(QuerySnapshot?, Error?) -> Void) {
+    
+    let db = Firestore.firestore()
+    let docRef = db.collection("Orders")
+    
+    docRef.whereField("merchantID", isEqualTo: merchantID)
+    .addSnapshotListener { querySnapshot, error in
+      guard let documents = querySnapshot
+        else {
+          print("Error fetching documents: \(error!)")
+          return
+        }
+      completionHandler(documents, error)
+    }
+  }
+  
+  func setPesananData(completionHandler: @escaping() -> Void) {
+    getPesananData(merchantID: "WKO01") { (querySnapshot, error) in
+      if error == nil && querySnapshot?.count != 0 {
+        guard let documents = querySnapshot?.documents else { return }
+        self.cekPesanan.removeAll()
+        self.cekSelesai.removeAll()
+        for document in documents {
+          print(document.data())
+          let order = try! FirestoreDecoder().decode(OrderModel.self, from: document.data())
+          if order.status == "waiting" {
+            self.cekPesanan.append(order)
+            print("order date : \(order.orderDate)")
+          } else if order.status == "ready" {
+            self.cekSelesai.append(order)
+            print("order date : \(order.orderDate)")
+          } else if order.status == "collected"{
+            self.cekDiambil.append(order)
+            print("order date : \(order.orderDate)")
+          }
+        }
+        completionHandler()
+      }
+    }
+  }
 }
 
