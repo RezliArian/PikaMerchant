@@ -71,7 +71,7 @@ class PushNotificationSender{
     let urlString = "https://fcm.googleapis.com/fcm/send"
     let url = NSURL(string: urlString)!
     let paramString: [String:Any] = ["to":token,
-                                     "notification":["title":title, "body":body],
+                                                                                                                   "notification":["title":title, "body":body, "sound":"notif_sound"],
                                      "data":["user":"test_id"]
     ]
     

@@ -132,7 +132,7 @@ class PesananViewController: UIViewController, UITableViewDelegate, UITableViewD
       accept.backgroundColor = .green
       
       let notip = PushNotificationSender()
-      notip.sendPushNotification(to: "cSdd9FlaY04:APA91bGhfOzEwcozodWACBtNM0B5Jg0tFumQ6ybJ2TmuaMtK9GMMH6BzLltqeax2s33M02FcAe5gqXXot4y4v3ToWwSZy2YwOybvg7kZvSVOWYr0Ix9cCo8shN8qseVU9mRJ349Ba3M8", title: "title", body: "body")
+      notip.sendPushNotification(to: "cRaXuxdiC7Q:APA91bEY3SDRdfTFKkKWFsag3UHiBVHNCh94c2DeFSyjabFbusxv1vKy0lfSJwfLKo5OrzCGftFjVigxnARlT67q-wMdb0yeH7dLZXkJkM_cr7Q7P1cB_Xa9LIMnPhgDAdg-zn1gYMBB", title: "title", body: "body")
       
       return UISwipeActionsConfiguration(actions: [accept])
     }
@@ -300,12 +300,12 @@ extension PesananViewController {
           print("Error fetching documents: \(error!)")
           return
         }
-      documents.documentChanges.forEach{ diff in
-        if (diff.type == .modified) {
-            self.playSound()
-            print("INI DATA BARU NIH")
-        }
-      }
+//      documents.documentChanges.forEach{ diff in
+//        if (diff.type == .modified) {
+//            self.playSound()
+//            print("INI DATA BARU NIH")
+//        }
+//      }
       completionHandler(documents, error)
     }
     
@@ -320,6 +320,13 @@ extension PesananViewController {
         for document in documents {
           print(document.data())
           let order = try! FirestoreDecoder().decode(OrderModel.self, from: document.data())
+          querySnapshot?.documentChanges.forEach { diff in
+            if (diff.type == .modified) {
+              if order.status == "waiting"{
+                self.playSound()
+              }
+            }
+          }
           if order.status == "waiting" {
             self.cekPesanan.append(order)
             print("order date : \(order.orderDate)")
