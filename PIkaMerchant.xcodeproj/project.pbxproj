@@ -31,6 +31,7 @@
 		F06A79EF237BD50C00E940EE /* MakananModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06A79EE237BD50C00E940EE /* MakananModel.swift */; };
 		F06A79F8237D464E00E940EE /* MenuFix.csv in Resources */ = {isa = PBXBuildFile; fileRef = F06A79F7237D464D00E940EE /* MenuFix.csv */; };
 		F0B43E9A238BAE7C008A7CE7 /* PushNotificationSender.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B43E99238BAE7C008A7CE7 /* PushNotificationSender.swift */; };
+		F0E7AE1223A774EF0033A3AD /* notif_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F0E7AE1123A774EF0033A3AD /* notif_sound.mp3 */; };
 		F0F28AE5239F41860039B45A /* Shadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F28AE4239F41860039B45A /* Shadow.swift */; };
 		F0FFAB9C239E288B007D62B0 /* DiambilModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0FFAB9B239E288B007D62B0 /* DiambilModel.swift */; };
 		F0FFAB9E239E28AA007D62B0 /* DibayarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0FFAB9D239E28AA007D62B0 /* DibayarModel.swift */; };
@@ -66,6 +67,7 @@
 		F06A79EE237BD50C00E940EE /* MakananModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakananModel.swift; sourceTree = "<group>"; };
 		F06A79F7237D464D00E940EE /* MenuFix.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = MenuFix.csv; path = ../../../Downloads/MenuFix.csv; sourceTree = "<group>"; };
 		F0B43E99238BAE7C008A7CE7 /* PushNotificationSender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushNotificationSender.swift; sourceTree = "<group>"; };
+		F0E7AE1123A774EF0033A3AD /* notif_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = notif_sound.mp3; sourceTree = "<group>"; };
 		F0F28AE4239F41860039B45A /* Shadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shadow.swift; sourceTree = "<group>"; };
 		F0FFAB9B239E288B007D62B0 /* DiambilModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiambilModel.swift; sourceTree = "<group>"; };
 		F0FFAB9D239E28AA007D62B0 /* DibayarModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DibayarModel.swift; sourceTree = "<group>"; };
@@ -137,6 +139,7 @@
 				F05015DE23796FFE00C27BDD /* Main.storyboard */,
 				F0B43E99238BAE7C008A7CE7 /* PushNotificationSender.swift */,
 				F05015E423796FFF00C27BDD /* Assets.xcassets */,
+				F0E7AE1123A774EF0033A3AD /* notif_sound.mp3 */,
 				F05015E623796FFF00C27BDD /* LaunchScreen.storyboard */,
 				F05015E923796FFF00C27BDD /* Info.plist */,
 				F05015E123796FFE00C27BDD /* PIkaMerchant.xcdatamodeld */,
@@ -248,6 +251,7 @@
 				F05015FD237A65D300C27BDD /* SelesaiTableViewCell.xib in Resources */,
 				F06A79ED237BD03000E940EE /* GoogleService-Info.plist in Resources */,
 				F05015F02379BE9200C27BDD /* SF Pro in Resources */,
+				F0E7AE1223A774EF0033A3AD /* notif_sound.mp3 in Resources */,
 				F05015E823796FFF00C27BDD /* LaunchScreen.storyboard in Resources */,
 				F0501607237BAF9500C27BDD /* MakananTableViewCell.xib in Resources */,
 				F05015E523796FFF00C27BDD /* Assets.xcassets in Resources */,

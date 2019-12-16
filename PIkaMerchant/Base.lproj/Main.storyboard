@@ -194,18 +194,9 @@
                                                             <rect key="frame" x="283" y="3" width="82" height="36"/>
                                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         </imageView>
-                                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jIS-V0-0IG">
-                                                            <rect key="frame" x="0.0" y="131" width="385" height="68"/>
-                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                            <state key="normal" image="button"/>
-                                                            <connections>
-                                                                <action selector="btnServed:" destination="kmJ-ox-zOv" eventType="touchUpInside" id="UQI-dg-FoD"/>
-                                                            </connections>
-                                                        </button>
                                                     </subviews>
                                                 </tableViewCellContentView>
                                                 <connections>
-                                                    <outlet property="btnDone" destination="jIS-V0-0IG" id="Nag-sF-GnU"/>
                                                     <outlet property="detailPembayaranLbl" destination="IvD-6t-GFz" id="Tws-DJ-1Ec"/>
                                                     <outlet property="priceLbl" destination="wu5-G5-DP3" id="1Tl-U9-EEb"/>
                                                     <outlet property="totalLbl" destination="Yj2-KH-dVE" id="Uh1-9s-V3c"/>
@@ -329,7 +320,4 @@
             <point key="canvasLocation" x="137.68115942028987" y="129.91071428571428"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="button" width="411" height="74"/>
-    </resources>
 </document>

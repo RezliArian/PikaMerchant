@@ -9,6 +9,7 @@
 import UIKit
 import Firebase
 import CodableFirebase
+import AVFoundation
 
 class PesananViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
@@ -19,6 +20,7 @@ class PesananViewController: UIViewController, UITableViewDelegate, UITableViewD
     var moveToDone: OrderModel!
     var moveToDone1: OrderModel!
     var tempFood: [OrderDetail]=[]
+    var player: AVAudioPlayer?
   
     @IBOutlet weak var pesananTableView: UITableView!
     @IBOutlet weak var seqmen: UISegmentedControl!
@@ -30,6 +32,20 @@ class PesananViewController: UIViewController, UITableViewDelegate, UITableViewD
     var selesai: UITableViewCell!
     var selectedIndex: Int?
   
+  func playSound() {
+    let url = Bundle.main.url(forResource: "notif_sound", withExtension: "mp3")!
+
+      do {
+        player = try AVAudioPlayer(contentsOf: url)
+          guard let player = player else { return }
+
+          player.prepareToPlay()
+          player.play()
+
+      } catch let error as NSError {
+          print(error.description)
+      }
+  }
   
   func getCurrentDate(){
     let formatter = DateFormatter()
@@ -101,56 +117,58 @@ class PesananViewController: UIViewController, UITableViewDelegate, UITableViewD
     
 
     func tableView(_ tableView: UITableView, leadingSwipeActionsConfigurationForRowAt indexPath: IndexPath) -> UISwipeActionsConfiguration? {
-        
-      if seqmen.selectedSegmentIndex == 0{
-        updatePesananStatus(orderID: cekPesanan[indexPath.row].orderID!, status: "ready") { (error) in
-          
-        }
-//        moveToDone = cekPesanan[indexPath.row]
-//        moveToSelesaiSegment(moveToDone: moveToDone)
-      }else if seqmen.selectedSegmentIndex == 1{
-        updatePesananStatus(orderID: cekSelesai[indexPath.row].orderID!, status: "collected") { (error) in
-          
-        }
-//        moveToDone1 = cekSelesai[indexPath.row]
-//        moveToDiambilSegment(moveToDone1: moveToDone1)
-      }
-      
-        let complete = completeAction(at: indexPath)
-        
-        return UISwipeActionsConfiguration(actions: [complete])
-    }
-    
-    func completeAction(at indexPath:IndexPath) -> UIContextualAction {
-        let action = UIContextualAction(style: .destructive, title: "Complete") {
-          (action, view, completion) in
-          if self.seqmen.selectedSegmentIndex == 0{
-            self.cekPesanan.remove(at: indexPath.row)
-            self.pesananTableView.deleteRows(at: [indexPath], with: .automatic)
-          }else if self.seqmen.selectedSegmentIndex == 1{
-            self.cekSelesai.remove(at: indexPath.row)
-            self.pesananTableView.deleteRows(at: [indexPath], with: .automatic)
+      let accept = UIContextualAction(style: .destructive, title: "Done") {
+        (action, view, nil) in
+        if self.seqmen.selectedSegmentIndex == 0{
+          self.updatePesananStatus(orderID: self.cekPesanan[indexPath.row].orderID!, status: "ready") { (error) in
+            
           }
-    
+        }else if self.seqmen.selectedSegmentIndex == 1{
+          self.updatePesananStatus(orderID: self.cekSelesai[indexPath.row].orderID!, status: "collected") { (error) in
+            
+          }
         }
-        action.image = #imageLiteral(resourceName: "Check")
-        action.backgroundColor = #colorLiteral(red: 0.3930387795, green: 0.6226156354, blue: 0.4152288437, alpha: 1)
+      }
+      accept.backgroundColor = .green
       
       let notip = PushNotificationSender()
-      notip.sendPushNotification(to: "ebT4eQF8kVs:APA91bHa4qPAVMk_KSkgRkCj9mT8mOUMnJInw77rZ-MxH5d0N_0zu4gZovgnby83FvAJa0pC6_PhWTxoFRYIH0n8w9qLMgfBmxzxBVSj68DlaqH_usnk5z6nU7qoCwd0XMWx5ojGhnCv", title: "title", body: "body")
-        
-        return action
+      notip.sendPushNotification(to: "cSdd9FlaY04:APA91bGhfOzEwcozodWACBtNM0B5Jg0tFumQ6ybJ2TmuaMtK9GMMH6BzLltqeax2s33M02FcAe5gqXXot4y4v3ToWwSZy2YwOybvg7kZvSVOWYr0Ix9cCo8shN8qseVU9mRJ349Ba3M8", title: "title", body: "body")
+      
+      return UISwipeActionsConfiguration(actions: [accept])
     }
+    
+//    func completeAction(at indexPath:IndexPath) -> UIContextualAction {
+//        let action = UIContextualAction(style: .destructive, title: "Complete") {
+//          (action, view, nil) in
+//          if self.seqmen.selectedSegmentIndex == 0{
+//            self.cekPesanan.remove(at: indexPath.row)
+//            self.pesananTableView.deleteRows(at: [indexPath], with: .automatic)
+//            completion(true)
+//          }else if self.seqmen.selectedSegmentIndex == 1{
+//            self.cekSelesai.remove(at: indexPath.row)
+//            self.pesananTableView.deleteRows(at: [indexPath], with: .automatic)
+//            completion(true)
+//          }
+//
+//        }
+//        action.image = #imageLiteral(resourceName: "Check")
+//        action.backgroundColor = #colorLiteral(red: 0.3930387795, green: 0.6226156354, blue: 0.4152288437, alpha: 1)
+//
+//      let notip = PushNotificationSender()
+//      notip.sendPushNotification(to: "cSdd9FlaY04:APA91bGhfOzEwcozodWACBtNM0B5Jg0tFumQ6ybJ2TmuaMtK9GMMH6BzLltqeax2s33M02FcAe5gqXXot4y4v3ToWwSZy2YwOybvg7kZvSVOWYr0Ix9cCo8shN8qseVU9mRJ349Ba3M8", title: "title", body: "body")
+//
+//        return action
+//    }
   
-  func moveToSelesaiSegment(moveToDone: OrderModel){
-    let newSelesai = OrderModel(customerID: moveToDone.customerID, customerName: moveToDone.customerName, discount: moveToDone.discount, merchantID: moveToDone.merchantID, orderDetail: moveToDone.orderDetail, orderID: moveToDone.orderID, status: moveToDone.status, orderDate: moveToDone.orderDate, subtotal: moveToDone.subtotal, orderNo: moveToDone.orderNo, total: moveToDone.total, estimationTime: moveToDone.estimationTime, paymentType: moveToDone.paymentType)
-    cekSelesai.append(newSelesai)
-  }
-  
-  func moveToDiambilSegment(moveToDone1: OrderModel){
-    let newDiambil = OrderModel(customerID: moveToDone.customerID, customerName: moveToDone.customerName, discount: moveToDone.discount, merchantID: moveToDone.customerID, orderDetail: moveToDone.orderDetail, orderID: moveToDone.orderID, status: moveToDone.status, orderDate: moveToDone.orderDate, subtotal: moveToDone.subtotal, orderNo: moveToDone.orderNo, total: moveToDone.total, estimationTime: moveToDone.estimationTime, paymentType: moveToDone.paymentType)
-    cekDiambil.append(newDiambil)
-  }
+//  func moveToSelesaiSegment(moveToDone: OrderModel){
+//    let newSelesai = OrderModel(customerID: moveToDone.customerID, customerName: moveToDone.customerName, discount: moveToDone.discount, merchantID: moveToDone.merchantID, orderDetail: moveToDone.orderDetail, orderID: moveToDone.orderID, status: moveToDone.status, orderDate: moveToDone.orderDate, subtotal: moveToDone.subtotal, orderNo: moveToDone.orderNo, total: moveToDone.total, estimationTime: moveToDone.estimationTime, paymentType: moveToDone.paymentType)
+//    cekSelesai.append(newSelesai)
+//  }
+//
+//  func moveToDiambilSegment(moveToDone1: OrderModel){
+//    let newDiambil = OrderModel(customerID: moveToDone.customerID, customerName: moveToDone.customerName, discount: moveToDone.discount, merchantID: moveToDone.customerID, orderDetail: moveToDone.orderDetail, orderID: moveToDone.orderID, status: moveToDone.status, orderDate: moveToDone.orderDate, subtotal: moveToDone.subtotal, orderNo: moveToDone.orderNo, total: moveToDone.total, estimationTime: moveToDone.estimationTime, paymentType: moveToDone.paymentType)
+//    cekDiambil.append(newDiambil)
+//  }
   
     @IBAction func UISegmentedControl(_ sender: UISegmentedControl) {
         pesananTableView.reloadData()
@@ -239,10 +257,10 @@ class PesananViewController: UIViewController, UITableViewDelegate, UITableViewD
 extension PesananViewController: doneServe{
   func delFromRow() {
     if seqmen.selectedSegmentIndex == 0{
-      moveToSelesaiSegment(moveToDone: cekPesanan[self.selectedIndex!])
+//      moveToSelesaiSegment(moveToDone: cekPesanan[self.selectedIndex!])
       cekPesanan.remove(at: selectedIndex!)
     }else if seqmen.selectedSegmentIndex == 1{
-      moveToDiambilSegment(moveToDone1: cekSelesai[self.selectedIndex!])
+//      moveToDiambilSegment(moveToDone1: cekSelesai[self.selectedIndex!])
       cekSelesai.remove(at: selectedIndex!)
     }
     self.pesananTableView.reloadData()
@@ -282,12 +300,19 @@ extension PesananViewController {
           print("Error fetching documents: \(error!)")
           return
         }
+      documents.documentChanges.forEach{ diff in
+        if (diff.type == .modified) {
+            self.playSound()
+            print("INI DATA BARU NIH")
+        }
+      }
       completionHandler(documents, error)
     }
+    
   }
   
   func setPesananData(completionHandler: @escaping() -> Void) {
-    getPesananData(merchantID: "WKO01") { (querySnapshot, error) in
+    getPesananData(merchantID: "KAS01") { (querySnapshot, error) in
       if error == nil && querySnapshot?.count != 0 {
         guard let documents = querySnapshot?.documents else { return }
         self.cekPesanan.removeAll()
