@@ -60,13 +60,14 @@ class MakananViewController: UIViewController, UITableViewDelegate, UITableViewD
     makananTableView.delegate = self
     makananTableView.dataSource = self
     
-    if indikator == 1{
-      nama.text = pesananModal.customerName
-    }else if indikator == 2{
-      nama.text = selesaiModal.customerName
-    }else if indikator == 3{
-      nama.text = diambilModal.customerName
-    }
+//    if indikator == 1{
+//      nama.text = pesananModal.customerName
+//    }else if indikator == 2{
+//      nama.text = selesaiModal.customerName
+//    }else if indikator == 3{
+//      nama.text = diambilModal.customerName
+//    }
+    nama.text = selesaiModal.customerName
     
     nama.font = UIFont.boldSystemFont(ofSize: 20)
     lblCaraPenyajian.font = UIFont.boldSystemFont(ofSize: 20)
@@ -126,7 +127,7 @@ class MakananViewController: UIViewController, UITableViewDelegate, UITableViewD
       
       
       return cell
-    }else if indikator == 2{
+    }
       let cell = tableView.dequeueReusableCell(withIdentifier: "siapCell",for: indexPath) as! SiapCell
       cell.priceLbl.text = "\(String(describing: selesaiModal.total!))"
 //      let orders = cekSelesai[indexPath.row]
@@ -134,10 +135,9 @@ class MakananViewController: UIViewController, UITableViewDelegate, UITableViewD
 //      cell.priceLbl.text = "\(String(describing: orders.total))"
       
       return cell
-    }
-    let cell = tableView.dequeueReusableCell(withIdentifier: "siapCell", for: indexPath)
-    
-    return cell
+//    let cell = tableView.dequeueReusableCell(withIdentifier: "siapCell", for: indexPath)
+//    
+//    return cell
   }
   
   @IBAction func btnServed(_ sender: UIButton) {

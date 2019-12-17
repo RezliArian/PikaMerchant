@@ -23,6 +23,7 @@ class PesananViewController: UIViewController, UITableViewDelegate, UITableViewD
     var player: AVAudioPlayer?
   
     var userToken: String? = nil
+  let pushNotifManager = PushNotificationManager(userID: "KAS01")
   
     @IBOutlet weak var pesananTableView: UITableView!
     @IBOutlet weak var seqmen: UISegmentedControl!
@@ -91,6 +92,7 @@ class PesananViewController: UIViewController, UITableViewDelegate, UITableViewD
         self.pesananTableView.reloadData()
         print("pesanan : \(self.cekPesanan.count), ")
       }
+      pushNotifManager.updateFirestorePushTokenIfNeeded()
 
     }
   
@@ -101,7 +103,7 @@ class PesananViewController: UIViewController, UITableViewDelegate, UITableViewD
         if seqmen.selectedSegmentIndex == 0 {
           nextVC.indikator = 1
           nextVC.setOrderModel(orderDetails: cekPesanan[selectedIndex!].orderDetail!)
-          nextVC.pesananModal = self.cekPesanan[selectedIndex!]
+          nextVC.selesaiModal = self.cekPesanan[selectedIndex!]
 //          nextVC.cekFood = self.tempFood
           nextVC.delegate = self
         }else if seqmen.selectedSegmentIndex == 1{
@@ -111,7 +113,7 @@ class PesananViewController: UIViewController, UITableViewDelegate, UITableViewD
         }else{
           nextVC.indikator = 3
           nextVC.setOrderModel(orderDetails: cekDiambil[selectedIndex!].orderDetail!)
-          nextVC.diambilModal = self.cekDiambil[selectedIndex!]
+          nextVC.selesaiModal = self.cekDiambil[selectedIndex!]
         }
       }
     }
@@ -133,16 +135,19 @@ class PesananViewController: UIViewController, UITableViewDelegate, UITableViewD
       accept.backgroundColor = .green
       
       let notip = PushNotificationSender()
-      print("customerID: \(self.cekPesanan[indexPath.row].customerID!)")
-      getUserData(userId: self.cekPesanan[indexPath.row].customerID!) { (document, err) in
-        if err == nil && document != nil{
-          let user = try! FirestoreDecoder().decode(UserModel.self, from: document.data()!)
-          notip.sendPushNotification(to: user.fcmToken, title: "title", body: "body")
-          self.userToken = user.fcmToken
-        }else{
-          print(err)
+      
+      if cekPesanan.count != 0{
+        print("customerID: \(self.cekPesanan[indexPath.row].customerID!)")
+        getUserData(userId: self.cekPesanan[indexPath.row].customerID!) { (document, err) in
+          if err == nil && document != nil{
+            let user = try! FirestoreDecoder().decode(UserModel.self, from: document.data()!)
+            notip.sendPushNotification(to: user.fcmToken, title: "title", body: "body")
+            self.userToken = user.fcmToken
+          }else{
+            print(err)
+          }
+          
         }
-        
       }
          
       

@@ -43,7 +43,7 @@ class PushNotificationManager : NSObject, MessagingDelegate, UNUserNotificationC
   
   func updateFirestorePushTokenIfNeeded(){
     if let token = Messaging.messaging().fcmToken{
-      let userRef = Firestore.firestore().collection("user_table").document(userID)   //Di Ganti dengan punya kita
+      let userRef = Firestore.firestore().collection("Merchants").document(userID)   //Di Ganti dengan punya kita
       userRef.setData(["fcmToken":token], merge: true)
     }
   }
