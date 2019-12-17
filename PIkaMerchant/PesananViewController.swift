@@ -22,6 +22,8 @@ class PesananViewController: UIViewController, UITableViewDelegate, UITableViewD
     var tempFood: [OrderDetail]=[]
     var player: AVAudioPlayer?
   
+    var userToken: String? = nil
+  
     @IBOutlet weak var pesananTableView: UITableView!
     @IBOutlet weak var seqmen: UISegmentedControl!
     @IBOutlet weak var dateLabel: UILabel!
@@ -125,14 +127,24 @@ class PesananViewController: UIViewController, UITableViewDelegate, UITableViewD
           }
         }else if self.seqmen.selectedSegmentIndex == 1{
           self.updatePesananStatus(orderID: self.cekSelesai[indexPath.row].orderID!, status: "collected") { (error) in
-            
           }
         }
       }
       accept.backgroundColor = .green
       
       let notip = PushNotificationSender()
-      notip.sendPushNotification(to: "cRaXuxdiC7Q:APA91bEY3SDRdfTFKkKWFsag3UHiBVHNCh94c2DeFSyjabFbusxv1vKy0lfSJwfLKo5OrzCGftFjVigxnARlT67q-wMdb0yeH7dLZXkJkM_cr7Q7P1cB_Xa9LIMnPhgDAdg-zn1gYMBB", title: "title", body: "body")
+      print("customerID: \(self.cekPesanan[indexPath.row].customerID!)")
+      getUserData(userId: self.cekPesanan[indexPath.row].customerID!) { (document, err) in
+        if err == nil && document != nil{
+          let user = try! FirestoreDecoder().decode(UserModel.self, from: document.data()!)
+          notip.sendPushNotification(to: user.fcmToken, title: "title", body: "body")
+          self.userToken = user.fcmToken
+        }else{
+          print(err)
+        }
+        
+      }
+         
       
       return UISwipeActionsConfiguration(actions: [accept])
     }
@@ -311,6 +323,34 @@ extension PesananViewController {
     
   }
   
+  func getUserData(userId: String, completionHandler: @escaping(DocumentSnapshot, Error?) -> Void) {
+      
+      let db = Firestore.firestore()
+    let docRef = db.collection("Customers").document(userId)
+    
+    docRef.getDocument { (document, err) in
+      if let document = document, document.exists{
+        let dataDesc = document.data().map(String.init(describing: )) ?? "nil"
+        print("Document data: \(dataDesc)")
+        completionHandler(document, err)
+      }else{
+        print("Document does not exist")
+      }
+      
+    }
+    }
+  
+  func setUserToken(_ cusId: String, _ completionHandler: @escaping() -> Void){
+    getUserData(userId: cusId) { (document, err) in
+      if err == nil && document != nil{
+        let user = try! FirestoreDecoder().decode(UserModel.self, from: document.data()!)
+        self.userToken = user.fcmToken
+      }else{
+        print(err)
+      }
+    }
+  }
+  
   func setPesananData(completionHandler: @escaping() -> Void) {
     getPesananData(merchantID: "KAS01") { (querySnapshot, error) in
       if error == nil && querySnapshot?.count != 0 {
@@ -327,6 +367,7 @@ extension PesananViewController {
               }
             }
           }
+          
           if order.status == "waiting" {
             self.cekPesanan.append(order)
             print("order date : \(order.orderDate)")

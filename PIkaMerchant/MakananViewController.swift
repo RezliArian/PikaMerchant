@@ -77,6 +77,8 @@ class MakananViewController: UIViewController, UITableViewDelegate, UITableViewD
     view1.setBorderShadow(color: .gray, shadowRadius: 8, shadowOpactiy: 0.16, shadowOffsetWidth: 0, shadowOffsetHeight: 4 )
     view2.setBorderShadow(color: .gray, shadowRadius: 8, shadowOpactiy: 0.16, shadowOffsetWidth: 0, shadowOffsetHeight: 4 )
     
+    orderId.text = selesaiModal.orderID
+    
   }
   
   func setOrderModel(orderDetails: [OrderDetail]) {
@@ -119,13 +121,17 @@ class MakananViewController: UIViewController, UITableViewDelegate, UITableViewD
       
       cell.lblMakanan.text = ngetes.menuName
       cell.lblDeskripsi.text = ngetes.note
-//      cell.lblPorsi.text = "\(String(describing: ngetes.orderDetail![0].quantity))"
+//    cell.lblPorsi.text = "\(String(describing: ngetes.orderDetail![0].quantity))"
       cell.lblPorsi.text = "\(ngetes.quantity!)"
       
       
       return cell
     }else if indikator == 2{
       let cell = tableView.dequeueReusableCell(withIdentifier: "siapCell",for: indexPath) as! SiapCell
+      cell.priceLbl.text = "\(String(describing: selesaiModal.total!))"
+//      let orders = cekSelesai[indexPath.row]
+//
+//      cell.priceLbl.text = "\(String(describing: orders.total))"
       
       return cell
     }

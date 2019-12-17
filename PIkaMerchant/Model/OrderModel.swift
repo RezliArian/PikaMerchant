@@ -30,3 +30,13 @@ struct OrderDetail: Codable {
 }
 
 extension Timestamp: TimestampType {}
+
+struct UserModel: Codable {
+  let uid: String
+  let phoneNumber: String
+  let email: String
+  let firstName: String
+  let fcmToken: String
+  let userId: String
+  var orderCounter: Int
+}
