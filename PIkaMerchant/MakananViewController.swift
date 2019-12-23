@@ -14,7 +14,6 @@ class SiapCell:UITableViewCell {
   @IBOutlet weak var totalLbl: UILabel!
   @IBOutlet weak var priceLbl: UILabel!
   @IBOutlet weak var viewMetodePembayaran: UIImageView!
-  
 }
 
 class MakananViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {

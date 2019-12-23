@@ -141,7 +141,7 @@ class PesananViewController: UIViewController, UITableViewDelegate, UITableViewD
         getUserData(userId: self.cekPesanan[indexPath.row].customerID!) { (document, err) in
           if err == nil && document != nil{
             let user = try! FirestoreDecoder().decode(UserModel.self, from: document.data()!)
-            notip.sendPushNotification(to: user.fcmToken, title: "title", body: "body")
+            notip.sendPushNotification(to: user.fcmToken, title: "PikaFood", body: "Hai, makanan-mu sudah selesai dimasak, ayo ambil pesananmu !")
             self.userToken = user.fcmToken
           }else{
             print(err)
