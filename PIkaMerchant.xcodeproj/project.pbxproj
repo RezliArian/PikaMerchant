@@ -29,6 +29,12 @@
 		F0501609237BCE3200C27BDD /* MakananViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0501608237BCE3200C27BDD /* MakananViewController.swift */; };
 		F06A79ED237BD03000E940EE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F06A79EC237BD03000E940EE /* GoogleService-Info.plist */; };
 		F06A79EF237BD50C00E940EE /* MakananModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06A79EE237BD50C00E940EE /* MakananModel.swift */; };
+		F089F1C523B0859500635CCA /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F089F1C323B0859500635CCA /* MenuTableViewCell.swift */; };
+		F089F1C623B0859500635CCA /* MenuTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F089F1C423B0859500635CCA /* MenuTableViewCell.xib */; };
+		F089F1C823B5A8FE00635CCA /* RestoranViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F089F1C723B5A8FE00635CCA /* RestoranViewController.swift */; };
+		F089F1CC23B9B9FE00635CCA /* MenuModalTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F089F1CA23B9B9FE00635CCA /* MenuModalTableViewCell.swift */; };
+		F089F1CD23B9B9FE00635CCA /* MenuModalTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F089F1CB23B9B9FE00635CCA /* MenuModalTableViewCell.xib */; };
+		F089F1CF23B9DE1200635CCA /* MenuModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F089F1CE23B9DE1200635CCA /* MenuModel.swift */; };
 		F0B43E9A238BAE7C008A7CE7 /* PushNotificationSender.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B43E99238BAE7C008A7CE7 /* PushNotificationSender.swift */; };
 		F0E7AE1223A774EF0033A3AD /* notif_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F0E7AE1123A774EF0033A3AD /* notif_sound.mp3 */; };
 		F0F28AE5239F41860039B45A /* Shadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F28AE4239F41860039B45A /* Shadow.swift */; };
@@ -64,6 +70,12 @@
 		F0501608237BCE3200C27BDD /* MakananViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakananViewController.swift; sourceTree = "<group>"; };
 		F06A79EC237BD03000E940EE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		F06A79EE237BD50C00E940EE /* MakananModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakananModel.swift; sourceTree = "<group>"; };
+		F089F1C323B0859500635CCA /* MenuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
+		F089F1C423B0859500635CCA /* MenuTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuTableViewCell.xib; sourceTree = "<group>"; };
+		F089F1C723B5A8FE00635CCA /* RestoranViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestoranViewController.swift; sourceTree = "<group>"; };
+		F089F1CA23B9B9FE00635CCA /* MenuModalTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuModalTableViewCell.swift; sourceTree = "<group>"; };
+		F089F1CB23B9B9FE00635CCA /* MenuModalTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuModalTableViewCell.xib; sourceTree = "<group>"; };
+		F089F1CE23B9DE1200635CCA /* MenuModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuModel.swift; sourceTree = "<group>"; };
 		F0B43E99238BAE7C008A7CE7 /* PushNotificationSender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushNotificationSender.swift; sourceTree = "<group>"; };
 		F0E7AE1123A774EF0033A3AD /* notif_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = notif_sound.mp3; sourceTree = "<group>"; };
 		F0F28AE4239F41860039B45A /* Shadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shadow.swift; sourceTree = "<group>"; };
@@ -127,9 +139,12 @@
 				F0501603237BAF6300C27BDD /* Makanan */,
 				F05015FF237A7D5000C27BDD /* Pesanan diproses */,
 				F05015FE237A7CFD00C27BDD /* Pesanan Selesai */,
+				F089F1C223B0853800635CCA /* RestaurantMenu */,
+				F089F1C923B9B9C400635CCA /* Menu Modal */,
 				F0501602237AA84200C27BDD /* Model */,
 				F05015F62379C79100C27BDD /* PesananViewController.swift */,
 				F0501608237BCE3200C27BDD /* MakananViewController.swift */,
+				F089F1C723B5A8FE00635CCA /* RestoranViewController.swift */,
 				F05015D823796FFE00C27BDD /* AppDelegate.swift */,
 				F05015DA23796FFE00C27BDD /* SceneDelegate.swift */,
 				F05015DC23796FFE00C27BDD /* ViewController.swift */,
@@ -172,6 +187,7 @@
 				F06A79EE237BD50C00E940EE /* MakananModel.swift */,
 				F0FFAB9B239E288B007D62B0 /* DiambilModel.swift */,
 				F0FFAB9D239E28AA007D62B0 /* DibayarModel.swift */,
+				F089F1CE23B9DE1200635CCA /* MenuModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -183,6 +199,24 @@
 				F0501605237BAF9500C27BDD /* MakananTableViewCell.xib */,
 			);
 			path = Makanan;
+			sourceTree = "<group>";
+		};
+		F089F1C223B0853800635CCA /* RestaurantMenu */ = {
+			isa = PBXGroup;
+			children = (
+				F089F1C323B0859500635CCA /* MenuTableViewCell.swift */,
+				F089F1C423B0859500635CCA /* MenuTableViewCell.xib */,
+			);
+			path = RestaurantMenu;
+			sourceTree = "<group>";
+		};
+		F089F1C923B9B9C400635CCA /* Menu Modal */ = {
+			isa = PBXGroup;
+			children = (
+				F089F1CA23B9B9FE00635CCA /* MenuModalTableViewCell.swift */,
+				F089F1CB23B9B9FE00635CCA /* MenuModalTableViewCell.xib */,
+			);
+			path = "Menu Modal";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,6 +279,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F089F1CD23B9B9FE00635CCA /* MenuModalTableViewCell.xib in Resources */,
 				F05015FD237A65D300C27BDD /* SelesaiTableViewCell.xib in Resources */,
 				F06A79ED237BD03000E940EE /* GoogleService-Info.plist in Resources */,
 				F05015F02379BE9200C27BDD /* SF Pro in Resources */,
@@ -253,6 +288,7 @@
 				F0501607237BAF9500C27BDD /* MakananTableViewCell.xib in Resources */,
 				F05015E523796FFF00C27BDD /* Assets.xcassets in Resources */,
 				F05015F42379C2C900C27BDD /* PesananTableViewCell.xib in Resources */,
+				F089F1C623B0859500635CCA /* MenuTableViewCell.xib in Resources */,
 				F05015E023796FFE00C27BDD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -310,16 +346,20 @@
 				F0501609237BCE3200C27BDD /* MakananViewController.swift in Sources */,
 				F05015E323796FFE00C27BDD /* PIkaMerchant.xcdatamodeld in Sources */,
 				F0501601237A892D00C27BDD /* SelesaiModel.swift in Sources */,
+				F089F1CC23B9B9FE00635CCA /* MenuModalTableViewCell.swift in Sources */,
 				F05015DD23796FFE00C27BDD /* ViewController.swift in Sources */,
 				F0FFAB9C239E288B007D62B0 /* DiambilModel.swift in Sources */,
 				F05015F92379D55F00C27BDD /* PesananModel.swift in Sources */,
 				F06A79EF237BD50C00E940EE /* MakananModel.swift in Sources */,
 				F05015D923796FFE00C27BDD /* AppDelegate.swift in Sources */,
+				F089F1C823B5A8FE00635CCA /* RestoranViewController.swift in Sources */,
 				F0501606237BAF9500C27BDD /* MakananTableViewCell.swift in Sources */,
 				F05015F32379C2C900C27BDD /* PesananTableViewCell.swift in Sources */,
 				F0B43E9A238BAE7C008A7CE7 /* PushNotificationSender.swift in Sources */,
 				F05015DB23796FFE00C27BDD /* SceneDelegate.swift in Sources */,
 				F05015FC237A65D300C27BDD /* SelesaiTableViewCell.swift in Sources */,
+				F089F1C523B0859500635CCA /* MenuTableViewCell.swift in Sources */,
+				F089F1CF23B9DE1200635CCA /* MenuModel.swift in Sources */,
 				F0F28AE5239F41860039B45A /* Shadow.swift in Sources */,
 				F05015F72379C79100C27BDD /* PesananViewController.swift in Sources */,
 				F0FFAB9E239E28AA007D62B0 /* DibayarModel.swift in Sources */,
