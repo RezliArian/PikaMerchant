@@ -30,9 +30,15 @@ class MenuModalTableViewCell: UITableViewCell {
     view1.setBorderShadow(color: .gray, shadowRadius: 8, shadowOpactiy: 0.16, shadowOffsetWidth: 0, shadowOffsetHeight: 4 )
     }
 
-    override func setSelected(_ selected: Bool, animated: Bool) {
+  override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
 
         // Configure the view for the selected state
     }
+  
+//  func setMenuModel(menuDetails:[Menu]) {
+//    for menuDetail in menuDetails {
+//      dataMenu.append(menuDetail)
+//    }
+//  }
 }

@@ -17,7 +17,7 @@ class RestoranViewController: UIViewController, UITableViewDelegate, UITableView
   @IBOutlet weak var lblStatusRestoran: UILabel!
   @IBOutlet weak var switchStatus: UISwitch!
   
-  var merchantID: String = ""
+  var merchantID: String = "LAD01"
   var dataMenu: [Menu]=[]
   
     override func viewDidLoad() {
@@ -33,12 +33,22 @@ class RestoranViewController: UIViewController, UITableViewDelegate, UITableView
       
       menuTableView.delegate = self
       menuTableView.dataSource = self
+      menuTableView.rowHeight = 100
       
       self.setMenuByMerchant(merchantID: self.merchantID){
         self.menuTableView.reloadData()
       }
       
     }
+  
+//  override func prepare(for segue:UIStoryboardSegue, sender: Any?){
+//    if segue.identifier == "tesSegue"{
+//      if let detailVC = segue.destination as? MenuModalTableViewCell{
+//        
+//      }
+//    }
+//    
+//  }
   
   func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
     if section == 0{
@@ -55,6 +65,7 @@ class RestoranViewController: UIViewController, UITableViewDelegate, UITableView
       cell.lblMenuName.text = orders.menuName
       if (orders.recommended){
         cell.lblStatus.text = "Tersedia"
+        cell.lblStatus.textColor = .init(cgColor: #colorLiteral(red: 0.4745098039, green: 0.7098039216, blue: 0.08235294118, alpha: 1))
       }else {
         cell.lblStatus.text = "Tidak tersedia"
       }
@@ -75,8 +86,10 @@ class RestoranViewController: UIViewController, UITableViewDelegate, UITableView
   @IBAction func switchFunction(_ sender: Any) {
     if switchStatus.isOn{
       lblStatusRestoran.text = "Buka"
+      menuTableView.isHidden = false
     }else {
       lblStatusRestoran.text = "Tutup"
+      menuTableView.isHidden = true
     }
   }
 }
