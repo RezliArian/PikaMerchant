@@ -10,15 +10,13 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="230" id="KGk-i7-Jjw" customClass="MenuModalTableViewCell" customModule="PikaMerchant" customModuleProvider="target">
-            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+        <viewController id="x0V-Wb-kKV">
+            <view key="view" contentMode="scaleToFill" id="cry-yd-oh1">
                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                <autoresizingMask key="autoresizingMask"/>
+                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                 <subviews>
                     <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cAQ-Vs-cRU">
-                        <rect key="frame" x="0.0" y="628" width="414" height="275"/>
+                        <rect key="frame" x="0.0" y="621" width="414" height="275"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dtz-4Z-0kj">
@@ -56,7 +54,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Siomay Bandung" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xmb-R2-OzE">
-                                <rect key="frame" x="125" y="71" width="176" height="21"/>
+                                <rect key="frame" x="125" y="71" width="281" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                 <nil key="textColor"/>
@@ -105,20 +103,19 @@
                         </userDefinedRuntimeAttributes>
                     </view>
                 </subviews>
-            </tableViewCellContentView>
-            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <viewLayoutGuide key="safeArea" id="wgo-1d-1VR"/>
+            </view>
             <connections>
-                <outlet property="imgFood" destination="dtz-4Z-0kj" id="bzR-Wo-JI1"/>
-                <outlet property="lblDescription" destination="lFr-G9-gOu" id="gid-k3-ssd"/>
-                <outlet property="lblName" destination="Xmb-R2-OzE" id="PDW-LF-2Zt"/>
-                <outlet property="lblPrice" destination="c3m-hK-A2d" id="hPj-ha-S02"/>
-                <outlet property="lblRate" destination="V4j-fg-IkG" id="dpP-XN-7FV"/>
-                <outlet property="lblTime" destination="ZH6-VZ-mst" id="FhT-rq-Ovh"/>
-                <outlet property="view1" destination="cAQ-Vs-cRU" id="McM-Qm-2Zd"/>
+                <outlet property="imageView" destination="dtz-4Z-0kj" id="1RO-qt-EA0"/>
+                <outlet property="labelDescription" destination="lFr-G9-gOu" id="XIG-yL-Xf3"/>
+                <outlet property="labelDistance" destination="ZH6-VZ-mst" id="DNy-yQ-oh2"/>
+                <outlet property="labelMenuName" destination="Xmb-R2-OzE" id="yya-rv-4qs"/>
+                <outlet property="labelPrice" destination="c3m-hK-A2d" id="UfX-lk-uAa"/>
+                <outlet property="labelRate" destination="V4j-fg-IkG" id="gg2-xY-ozX"/>
             </connections>
-            <point key="canvasLocation" x="137.68115942028987" y="214.95535714285714"/>
-        </tableViewCell>
+            <point key="canvasLocation" x="8888" y="401"/>
+        </viewController>
     </objects>
     <resources>
         <image name="dinner" width="500" height="288"/>

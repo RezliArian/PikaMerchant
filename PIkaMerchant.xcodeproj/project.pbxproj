@@ -32,10 +32,12 @@
 		F089F1C523B0859500635CCA /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F089F1C323B0859500635CCA /* MenuTableViewCell.swift */; };
 		F089F1C623B0859500635CCA /* MenuTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F089F1C423B0859500635CCA /* MenuTableViewCell.xib */; };
 		F089F1C823B5A8FE00635CCA /* RestoranViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F089F1C723B5A8FE00635CCA /* RestoranViewController.swift */; };
-		F089F1CC23B9B9FE00635CCA /* MenuModalTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F089F1CA23B9B9FE00635CCA /* MenuModalTableViewCell.swift */; };
-		F089F1CD23B9B9FE00635CCA /* MenuModalTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F089F1CB23B9B9FE00635CCA /* MenuModalTableViewCell.xib */; };
+		F089F1CC23B9B9FE00635CCA /* MenuModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F089F1CA23B9B9FE00635CCA /* MenuModalViewController.swift */; };
 		F089F1CF23B9DE1200635CCA /* MenuModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F089F1CE23B9DE1200635CCA /* MenuModel.swift */; };
 		F0B43E9A238BAE7C008A7CE7 /* PushNotificationSender.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B43E99238BAE7C008A7CE7 /* PushNotificationSender.swift */; };
+		F0C2F0F323BEDF3500AC8477 /* LaporanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C2F0F223BEDF3500AC8477 /* LaporanViewController.swift */; };
+		F0C2F0F723BEEAD500AC8477 /* PendapatanTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C2F0F523BEEAD500AC8477 /* PendapatanTableViewCell.swift */; };
+		F0C2F0F823BEEAD500AC8477 /* PendapatanTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0C2F0F623BEEAD500AC8477 /* PendapatanTableViewCell.xib */; };
 		F0E7AE1223A774EF0033A3AD /* notif_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F0E7AE1123A774EF0033A3AD /* notif_sound.mp3 */; };
 		F0F28AE5239F41860039B45A /* Shadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F28AE4239F41860039B45A /* Shadow.swift */; };
 		F0FFAB9C239E288B007D62B0 /* DiambilModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0FFAB9B239E288B007D62B0 /* DiambilModel.swift */; };
@@ -73,10 +75,12 @@
 		F089F1C323B0859500635CCA /* MenuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
 		F089F1C423B0859500635CCA /* MenuTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuTableViewCell.xib; sourceTree = "<group>"; };
 		F089F1C723B5A8FE00635CCA /* RestoranViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestoranViewController.swift; sourceTree = "<group>"; };
-		F089F1CA23B9B9FE00635CCA /* MenuModalTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuModalTableViewCell.swift; sourceTree = "<group>"; };
-		F089F1CB23B9B9FE00635CCA /* MenuModalTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuModalTableViewCell.xib; sourceTree = "<group>"; };
+		F089F1CA23B9B9FE00635CCA /* MenuModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuModalViewController.swift; sourceTree = "<group>"; };
 		F089F1CE23B9DE1200635CCA /* MenuModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuModel.swift; sourceTree = "<group>"; };
 		F0B43E99238BAE7C008A7CE7 /* PushNotificationSender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushNotificationSender.swift; sourceTree = "<group>"; };
+		F0C2F0F223BEDF3500AC8477 /* LaporanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaporanViewController.swift; sourceTree = "<group>"; };
+		F0C2F0F523BEEAD500AC8477 /* PendapatanTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PendapatanTableViewCell.swift; sourceTree = "<group>"; };
+		F0C2F0F623BEEAD500AC8477 /* PendapatanTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PendapatanTableViewCell.xib; sourceTree = "<group>"; };
 		F0E7AE1123A774EF0033A3AD /* notif_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = notif_sound.mp3; sourceTree = "<group>"; };
 		F0F28AE4239F41860039B45A /* Shadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shadow.swift; sourceTree = "<group>"; };
 		F0FFAB9B239E288B007D62B0 /* DiambilModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiambilModel.swift; sourceTree = "<group>"; };
@@ -134,17 +138,19 @@
 		F05015D723796FFE00C27BDD /* PIkaMerchant */ = {
 			isa = PBXGroup;
 			children = (
+				F0C2F0F423BEE9E700AC8477 /* Income Report */,
 				F00950B6238BCEFA00043C93 /* PikaMerchant.entitlements */,
 				F06A79EC237BD03000E940EE /* GoogleService-Info.plist */,
-				F0501603237BAF6300C27BDD /* Makanan */,
-				F05015FF237A7D5000C27BDD /* Pesanan diproses */,
-				F05015FE237A7CFD00C27BDD /* Pesanan Selesai */,
-				F089F1C223B0853800635CCA /* RestaurantMenu */,
+				F0501603237BAF6300C27BDD /* Makanan Modal */,
+				F05015FF237A7D5000C27BDD /* Proses Pesanan */,
+				F05015FE237A7CFD00C27BDD /* Selesai Pesanan */,
+				F089F1C223B0853800635CCA /* Menu Restoran */,
 				F089F1C923B9B9C400635CCA /* Menu Modal */,
 				F0501602237AA84200C27BDD /* Model */,
 				F05015F62379C79100C27BDD /* PesananViewController.swift */,
 				F0501608237BCE3200C27BDD /* MakananViewController.swift */,
 				F089F1C723B5A8FE00635CCA /* RestoranViewController.swift */,
+				F0C2F0F223BEDF3500AC8477 /* LaporanViewController.swift */,
 				F05015D823796FFE00C27BDD /* AppDelegate.swift */,
 				F05015DA23796FFE00C27BDD /* SceneDelegate.swift */,
 				F05015DC23796FFE00C27BDD /* ViewController.swift */,
@@ -160,22 +166,22 @@
 			path = PIkaMerchant;
 			sourceTree = "<group>";
 		};
-		F05015FE237A7CFD00C27BDD /* Pesanan Selesai */ = {
+		F05015FE237A7CFD00C27BDD /* Selesai Pesanan */ = {
 			isa = PBXGroup;
 			children = (
 				F05015FA237A65D300C27BDD /* SelesaiTableViewCell.swift */,
 				F05015FB237A65D300C27BDD /* SelesaiTableViewCell.xib */,
 			);
-			path = "Pesanan Selesai";
+			path = "Selesai Pesanan";
 			sourceTree = "<group>";
 		};
-		F05015FF237A7D5000C27BDD /* Pesanan diproses */ = {
+		F05015FF237A7D5000C27BDD /* Proses Pesanan */ = {
 			isa = PBXGroup;
 			children = (
 				F05015F12379C2C900C27BDD /* PesananTableViewCell.swift */,
 				F05015F22379C2C900C27BDD /* PesananTableViewCell.xib */,
 			);
-			path = "Pesanan diproses";
+			path = "Proses Pesanan";
 			sourceTree = "<group>";
 		};
 		F0501602237AA84200C27BDD /* Model */ = {
@@ -192,31 +198,39 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		F0501603237BAF6300C27BDD /* Makanan */ = {
+		F0501603237BAF6300C27BDD /* Makanan Modal */ = {
 			isa = PBXGroup;
 			children = (
 				F0501604237BAF9500C27BDD /* MakananTableViewCell.swift */,
 				F0501605237BAF9500C27BDD /* MakananTableViewCell.xib */,
 			);
-			path = Makanan;
+			path = "Makanan Modal";
 			sourceTree = "<group>";
 		};
-		F089F1C223B0853800635CCA /* RestaurantMenu */ = {
+		F089F1C223B0853800635CCA /* Menu Restoran */ = {
 			isa = PBXGroup;
 			children = (
 				F089F1C323B0859500635CCA /* MenuTableViewCell.swift */,
 				F089F1C423B0859500635CCA /* MenuTableViewCell.xib */,
 			);
-			path = RestaurantMenu;
+			path = "Menu Restoran";
 			sourceTree = "<group>";
 		};
 		F089F1C923B9B9C400635CCA /* Menu Modal */ = {
 			isa = PBXGroup;
 			children = (
-				F089F1CA23B9B9FE00635CCA /* MenuModalTableViewCell.swift */,
-				F089F1CB23B9B9FE00635CCA /* MenuModalTableViewCell.xib */,
+				F089F1CA23B9B9FE00635CCA /* MenuModalViewController.swift */,
 			);
 			path = "Menu Modal";
+			sourceTree = "<group>";
+		};
+		F0C2F0F423BEE9E700AC8477 /* Income Report */ = {
+			isa = PBXGroup;
+			children = (
+				F0C2F0F523BEEAD500AC8477 /* PendapatanTableViewCell.swift */,
+				F0C2F0F623BEEAD500AC8477 /* PendapatanTableViewCell.xib */,
+			);
+			path = "Income Report";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,9 +293,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F089F1CD23B9B9FE00635CCA /* MenuModalTableViewCell.xib in Resources */,
 				F05015FD237A65D300C27BDD /* SelesaiTableViewCell.xib in Resources */,
 				F06A79ED237BD03000E940EE /* GoogleService-Info.plist in Resources */,
+				F0C2F0F823BEEAD500AC8477 /* PendapatanTableViewCell.xib in Resources */,
 				F05015F02379BE9200C27BDD /* SF Pro in Resources */,
 				F0E7AE1223A774EF0033A3AD /* notif_sound.mp3 in Resources */,
 				F05015E823796FFF00C27BDD /* LaunchScreen.storyboard in Resources */,
@@ -346,7 +360,8 @@
 				F0501609237BCE3200C27BDD /* MakananViewController.swift in Sources */,
 				F05015E323796FFE00C27BDD /* PIkaMerchant.xcdatamodeld in Sources */,
 				F0501601237A892D00C27BDD /* SelesaiModel.swift in Sources */,
-				F089F1CC23B9B9FE00635CCA /* MenuModalTableViewCell.swift in Sources */,
+				F0C2F0F723BEEAD500AC8477 /* PendapatanTableViewCell.swift in Sources */,
+				F089F1CC23B9B9FE00635CCA /* MenuModalViewController.swift in Sources */,
 				F05015DD23796FFE00C27BDD /* ViewController.swift in Sources */,
 				F0FFAB9C239E288B007D62B0 /* DiambilModel.swift in Sources */,
 				F05015F92379D55F00C27BDD /* PesananModel.swift in Sources */,
@@ -362,6 +377,7 @@
 				F089F1CF23B9DE1200635CCA /* MenuModel.swift in Sources */,
 				F0F28AE5239F41860039B45A /* Shadow.swift in Sources */,
 				F05015F72379C79100C27BDD /* PesananViewController.swift in Sources */,
+				F0C2F0F323BEDF3500AC8477 /* LaporanViewController.swift in Sources */,
 				F0FFAB9E239E28AA007D62B0 /* DibayarModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

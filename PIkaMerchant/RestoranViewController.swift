@@ -19,6 +19,7 @@ class RestoranViewController: UIViewController, UITableViewDelegate, UITableView
   
   var merchantID: String = "LAD01"
   var dataMenu: [Menu]=[]
+  var selectedIndex: Int?
   
     override func viewDidLoad() {
       super.viewDidLoad()
@@ -41,14 +42,26 @@ class RestoranViewController: UIViewController, UITableViewDelegate, UITableView
       
     }
   
-//  override func prepare(for segue:UIStoryboardSegue, sender: Any?){
+  override func prepare(for segue:UIStoryboardSegue, sender: Any?){
 //    if segue.identifier == "tesSegue"{
 //      if let detailVC = segue.destination as? MenuModalTableViewCell{
-//        
+//
+//        detailVC.setMenuModel(menuDetails: [dataMenu[selectedIndex!]].self)
+//        detailVC.menuModal = self.dataMenu[selectedIndex!]
 //      }
 //    }
-//    
-//  }
+  }
+  
+  func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+    
+    selectedIndex = indexPath.row
+    let storyboard = UIStoryboard(name: "Main", bundle: nil)
+    let menuDetailViewController = storyboard.instantiateViewController(withIdentifier: "menuModalVC") as! MenuModalViewController
+    menuDetailViewController.setMenuModel(menuModel: dataMenu[selectedIndex!])
+    
+    self.present(menuDetailViewController, animated: true, completion: nil)
+//    performSegue(withIdentifier: "tesSegue", sender: indexPath.row)
+  }
   
   func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
     if section == 0{
@@ -71,16 +84,20 @@ class RestoranViewController: UIViewController, UITableViewDelegate, UITableView
       }
       return cell
     }
-    let detailOrders = dataMenu[indexPath.row]
-    let cell = tableView.dequeueReusableCell(withIdentifier: "detailMenuCell", for: indexPath) as! MenuModalTableViewCell
-    
-    cell.lblName.text = detailOrders.menuName
-    cell.lblDescription.text = detailOrders.description
-    cell.lblPrice.text = "\(detailOrders.price)"
-    cell.lblTime.text = "\(detailOrders.distance)"
-    cell.imgFood.image = UIImage(named: detailOrders.imageUrl!)
-    
-    return cell
+    else {
+      let cell = tableView.dequeueReusableCell(withIdentifier: "menuCell", for: indexPath) as! MenuTableViewCell
+      return cell
+    }
+//    let detailOrders = dataMenu[indexPath.row]
+//    let cell = tableView.dequeueReusableCell(withIdentifier: "detailMenuCell", for: indexPath) as! MenuModalTableViewCell
+//
+//    cell.lblName.text = detailOrders.menuName
+//    cell.lblDescription.text = detailOrders.description
+//    cell.lblPrice.text = "\(detailOrders.price)"
+//    cell.lblTime.text = "\(detailOrders.distance)"
+//    cell.imgFood.image = UIImage(named: detailOrders.imageUrl!)
+//
+//    return cell
   }
   
   @IBAction func switchFunction(_ sender: Any) {
