@@ -142,8 +142,6 @@
 		F05015D723796FFE00C27BDD /* PIkaMerchant */ = {
 			isa = PBXGroup;
 			children = (
-				F0C2F0F923C2D94B00AC8477 /* Imburse Report */,
-				F0C2F0F423BEE9E700AC8477 /* Income Report */,
 				F00950B6238BCEFA00043C93 /* PikaMerchant.entitlements */,
 				F06A79EC237BD03000E940EE /* GoogleService-Info.plist */,
 				F0501603237BAF6300C27BDD /* Makanan Modal */,
@@ -151,6 +149,8 @@
 				F05015FE237A7CFD00C27BDD /* Selesai Pesanan */,
 				F089F1C223B0853800635CCA /* Menu Restoran */,
 				F089F1C923B9B9C400635CCA /* Menu Modal */,
+				F0C2F0F423BEE9E700AC8477 /* Income Report */,
+				F0C2F0F923C2D94B00AC8477 /* Imburse Report */,
 				F0501602237AA84200C27BDD /* Model */,
 				F05015F62379C79100C27BDD /* PesananViewController.swift */,
 				F0501608237BCE3200C27BDD /* MakananViewController.swift */,

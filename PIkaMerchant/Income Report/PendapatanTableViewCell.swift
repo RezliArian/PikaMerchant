@@ -9,6 +9,14 @@
 import UIKit
 
 class PendapatanTableViewCell: UITableViewCell {
+  
+  
+  @IBOutlet weak var lblTime: UILabel!
+  @IBOutlet weak var lblName: UILabel!
+  @IBOutlet weak var lblOrders: UILabel!
+  @IBOutlet weak var lblPrice: UILabel!
+  @IBOutlet weak var imgPayment: UIImageView!
+  
 
     override func awakeFromNib() {
         super.awakeFromNib()

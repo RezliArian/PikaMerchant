@@ -18,7 +18,7 @@
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="16:20" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IXd-4R-kob">
-                        <rect key="frame" x="77" y="18" width="46" height="18"/>
+                        <rect key="frame" x="77" y="18" width="61" height="18"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                         <nil key="textColor"/>
@@ -39,7 +39,7 @@
                         <nil key="highlightedColor"/>
                     </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="+ Rp 30.000" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="axn-ZJ-6CF">
-                        <rect key="frame" x="296" y="59" width="98" height="16"/>
+                        <rect key="frame" x="296" y="60" width="98" height="16"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <fontDescription key="fontDescription" type="boldSystem" pointSize="13"/>
                         <nil key="textColor"/>
@@ -49,7 +49,7 @@
                         <rect key="frame" x="340" y="18" width="52" height="39"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     </imageView>
-                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jWI-iB-LxB">
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="income" translatesAutoresizingMaskIntoConstraints="NO" id="jWI-iB-LxB">
                         <rect key="frame" x="20" y="27" width="41.5" height="34.5"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     </imageView>
@@ -61,7 +61,17 @@
                 </subviews>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="imgPayment" destination="HDt-cb-PD4" id="fcc-cN-u5b"/>
+                <outlet property="lblName" destination="Aqh-xJ-4p9" id="BDM-CU-Yfo"/>
+                <outlet property="lblOrders" destination="w9N-kH-Pju" id="ZjB-Q3-gqT"/>
+                <outlet property="lblPrice" destination="axn-ZJ-6CF" id="rUe-Ph-D7G"/>
+                <outlet property="lblTime" destination="IXd-4R-kob" id="k1M-JY-fsX"/>
+            </connections>
             <point key="canvasLocation" x="186.95652173913044" y="167.07589285714286"/>
         </tableViewCell>
     </objects>
+    <resources>
+        <image name="income" width="192" height="160"/>
+    </resources>
 </document>

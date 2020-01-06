@@ -10,6 +10,11 @@ import UIKit
 
 class PencairanTableViewCell: UITableViewCell {
 
+  @IBOutlet weak var imgImburse: UIImageView!
+  @IBOutlet weak var lblTime: UILabel!
+  @IBOutlet weak var lblStatus: UILabel!
+  @IBOutlet weak var lblPrice: UILabel!
+  
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
