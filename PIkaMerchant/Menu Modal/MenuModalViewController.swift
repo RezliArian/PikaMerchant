@@ -28,6 +28,10 @@ class MenuModalViewController: UIViewController {
   
   var menuModal: Menu!
   
+  var dataMenu: [Menu]=[]
+  
+  @IBOutlet weak var switchStats: UISwitch!
+  
   override func viewDidLoad() {
     super.viewDidLoad()
     
@@ -63,7 +67,26 @@ class MenuModalViewController: UIViewController {
     imageView.image = UIImage(named: menuModal.imageUrl!)
   }
   
-//  init(menuModel: Menu) {
+//  func databaseSwitchStatus(indexPath: IndexPath){
+//    let orders = dataMenu[indexPath.row]
+//
+//    if (orders.recommended){
+//      switchStats.isOn = true
+//    }else {
+//      switchStats.isOn = false
+//    }
+//  }
+  
+  @IBAction func switchStatus(_ sender: Any) {
+//    let orders =
+    
+    if switchStats.isOn{
+      
+    }else{
+      
+    }
+  }
+  //  init(menuModel: Menu) {
 //    menuModal = menuModel
 //
 //   super.init(nibName: nil, bundle: nil)

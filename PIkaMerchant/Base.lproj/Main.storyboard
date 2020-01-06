@@ -443,6 +443,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="Laporan pemasukan" id="xJp-Lc-nEf"/>
                     <connections>
+                        <outlet property="tableView" destination="hvi-86-aBd" id="evu-9E-5k9"/>
                         <outlet property="viewBalance" destination="HTl-z5-yLP" id="UUG-Je-PDt"/>
                     </connections>
                 </viewController>
@@ -603,6 +604,9 @@
                                         <rect key="frame" x="341" y="199" width="49" height="31"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="onTintColor" red="0.99768477680000001" green="0.871557951" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <connections>
+                                            <action selector="switchStatus:" destination="D1r-2T-GKN" eventType="valueChanged" id="dYk-Vk-NRq"/>
+                                        </connections>
                                     </switch>
                                     <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1PC-yQ-CR5">
                                         <rect key="frame" x="184" y="8" width="46" height="5"/>
@@ -633,6 +637,7 @@
                         <outlet property="labelMenuName" destination="BzK-Zj-iqA" id="hFO-lE-321"/>
                         <outlet property="labelPrice" destination="r0R-yd-WRq" id="KRP-zr-IRl"/>
                         <outlet property="labelRate" destination="HWT-ES-zh6" id="7II-KM-Etd"/>
+                        <outlet property="switchStats" destination="fbx-zh-zoz" id="llw-na-RzA"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="k8V-aa-SFo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

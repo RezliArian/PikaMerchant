@@ -11,6 +11,7 @@ import UIKit
 class LaporanViewController: UIViewController {
   
   @IBOutlet weak var viewBalance: UIView!
+  @IBOutlet weak var tableView: UITableView!
   
   override func viewDidLoad() {
     super.viewDidLoad()

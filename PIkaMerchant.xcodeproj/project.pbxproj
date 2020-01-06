@@ -38,6 +38,8 @@
 		F0C2F0F323BEDF3500AC8477 /* LaporanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C2F0F223BEDF3500AC8477 /* LaporanViewController.swift */; };
 		F0C2F0F723BEEAD500AC8477 /* PendapatanTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C2F0F523BEEAD500AC8477 /* PendapatanTableViewCell.swift */; };
 		F0C2F0F823BEEAD500AC8477 /* PendapatanTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0C2F0F623BEEAD500AC8477 /* PendapatanTableViewCell.xib */; };
+		F0C2F0FC23C2DCBA00AC8477 /* PencairanTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C2F0FA23C2DCBA00AC8477 /* PencairanTableViewCell.swift */; };
+		F0C2F0FD23C2DCBA00AC8477 /* PencairanTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0C2F0FB23C2DCBA00AC8477 /* PencairanTableViewCell.xib */; };
 		F0E7AE1223A774EF0033A3AD /* notif_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F0E7AE1123A774EF0033A3AD /* notif_sound.mp3 */; };
 		F0F28AE5239F41860039B45A /* Shadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F28AE4239F41860039B45A /* Shadow.swift */; };
 		F0FFAB9C239E288B007D62B0 /* DiambilModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0FFAB9B239E288B007D62B0 /* DiambilModel.swift */; };
@@ -81,6 +83,8 @@
 		F0C2F0F223BEDF3500AC8477 /* LaporanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaporanViewController.swift; sourceTree = "<group>"; };
 		F0C2F0F523BEEAD500AC8477 /* PendapatanTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PendapatanTableViewCell.swift; sourceTree = "<group>"; };
 		F0C2F0F623BEEAD500AC8477 /* PendapatanTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PendapatanTableViewCell.xib; sourceTree = "<group>"; };
+		F0C2F0FA23C2DCBA00AC8477 /* PencairanTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PencairanTableViewCell.swift; sourceTree = "<group>"; };
+		F0C2F0FB23C2DCBA00AC8477 /* PencairanTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PencairanTableViewCell.xib; sourceTree = "<group>"; };
 		F0E7AE1123A774EF0033A3AD /* notif_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = notif_sound.mp3; sourceTree = "<group>"; };
 		F0F28AE4239F41860039B45A /* Shadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shadow.swift; sourceTree = "<group>"; };
 		F0FFAB9B239E288B007D62B0 /* DiambilModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiambilModel.swift; sourceTree = "<group>"; };
@@ -138,6 +142,7 @@
 		F05015D723796FFE00C27BDD /* PIkaMerchant */ = {
 			isa = PBXGroup;
 			children = (
+				F0C2F0F923C2D94B00AC8477 /* Imburse Report */,
 				F0C2F0F423BEE9E700AC8477 /* Income Report */,
 				F00950B6238BCEFA00043C93 /* PikaMerchant.entitlements */,
 				F06A79EC237BD03000E940EE /* GoogleService-Info.plist */,
@@ -233,6 +238,15 @@
 			path = "Income Report";
 			sourceTree = "<group>";
 		};
+		F0C2F0F923C2D94B00AC8477 /* Imburse Report */ = {
+			isa = PBXGroup;
+			children = (
+				F0C2F0FA23C2DCBA00AC8477 /* PencairanTableViewCell.swift */,
+				F0C2F0FB23C2DCBA00AC8477 /* PencairanTableViewCell.xib */,
+			);
+			path = "Imburse Report";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -300,6 +314,7 @@
 				F0E7AE1223A774EF0033A3AD /* notif_sound.mp3 in Resources */,
 				F05015E823796FFF00C27BDD /* LaunchScreen.storyboard in Resources */,
 				F0501607237BAF9500C27BDD /* MakananTableViewCell.xib in Resources */,
+				F0C2F0FD23C2DCBA00AC8477 /* PencairanTableViewCell.xib in Resources */,
 				F05015E523796FFF00C27BDD /* Assets.xcassets in Resources */,
 				F05015F42379C2C900C27BDD /* PesananTableViewCell.xib in Resources */,
 				F089F1C623B0859500635CCA /* MenuTableViewCell.xib in Resources */,
@@ -359,6 +374,7 @@
 				F04B025923A0931000E9806F /* OrderModel.swift in Sources */,
 				F0501609237BCE3200C27BDD /* MakananViewController.swift in Sources */,
 				F05015E323796FFE00C27BDD /* PIkaMerchant.xcdatamodeld in Sources */,
+				F0C2F0FC23C2DCBA00AC8477 /* PencairanTableViewCell.swift in Sources */,
 				F0501601237A892D00C27BDD /* SelesaiModel.swift in Sources */,
 				F0C2F0F723BEEAD500AC8477 /* PendapatanTableViewCell.swift in Sources */,
 				F089F1CC23B9B9FE00635CCA /* MenuModalViewController.swift in Sources */,
