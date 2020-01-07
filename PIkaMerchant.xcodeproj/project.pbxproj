@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D66F11E23C4804200169C27 /* MerchantModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D66F11D23C4804200169C27 /* MerchantModel.swift */; };
 		0EFEB944D2C41BC9974B1B70 /* Pods_PIkaMerchant.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 464D5731EB42EECCF92D062E /* Pods_PIkaMerchant.framework */; };
 		F04B025923A0931000E9806F /* OrderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04B025823A0930F00E9806F /* OrderModel.swift */; };
 		F05015D923796FFE00C27BDD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05015D823796FFE00C27BDD /* AppDelegate.swift */; };
@@ -47,6 +48,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0D66F11D23C4804200169C27 /* MerchantModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MerchantModel.swift; sourceTree = "<group>"; };
 		464D5731EB42EECCF92D062E /* Pods_PIkaMerchant.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PIkaMerchant.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D7C79A1A7F37D9184AC8A22 /* Pods-PIkaMerchant.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PIkaMerchant.debug.xcconfig"; path = "Target Support Files/Pods-PIkaMerchant/Pods-PIkaMerchant.debug.xcconfig"; sourceTree = "<group>"; };
 		DFC4D6CEE0DF5D8ECFCB4427 /* Pods-PIkaMerchant.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PIkaMerchant.release.xcconfig"; path = "Target Support Files/Pods-PIkaMerchant/Pods-PIkaMerchant.release.xcconfig"; sourceTree = "<group>"; };
@@ -199,6 +201,7 @@
 				F0FFAB9B239E288B007D62B0 /* DiambilModel.swift */,
 				F0FFAB9D239E28AA007D62B0 /* DibayarModel.swift */,
 				F089F1CE23B9DE1200635CCA /* MenuModel.swift */,
+				0D66F11D23C4804200169C27 /* MerchantModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -381,6 +384,7 @@
 				F05015DD23796FFE00C27BDD /* ViewController.swift in Sources */,
 				F0FFAB9C239E288B007D62B0 /* DiambilModel.swift in Sources */,
 				F05015F92379D55F00C27BDD /* PesananModel.swift in Sources */,
+				0D66F11E23C4804200169C27 /* MerchantModel.swift in Sources */,
 				F06A79EF237BD50C00E940EE /* MakananModel.swift in Sources */,
 				F05015D923796FFE00C27BDD /* AppDelegate.swift in Sources */,
 				F089F1C823B5A8FE00635CCA /* RestoranViewController.swift in Sources */,

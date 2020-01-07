@@ -13,27 +13,28 @@ import AVFoundation
 
 class PesananViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
-    var cekPesanan:[OrderModel]=[]
-    var cekSelesai:[OrderModel]=[]
-    var cekDiambil:[OrderModel]=[]
-    var cekDibayar:[OrderModel]=[]
-    var moveToDone: OrderModel!
-    var moveToDone1: OrderModel!
-    var tempFood: [OrderDetail]=[]
-    var player: AVAudioPlayer?
+  var merchantModel:Merchant!
   
-    var userToken: String? = nil
-  let pushNotifManager = PushNotificationManager(userID: "KAS01")
+  var cekPesanan:[OrderModel]=[]
+  var cekSelesai:[OrderModel]=[]
+  var cekDiambil:[OrderModel]=[]
+  var cekDibayar:[OrderModel]=[]
+  var moveToDone: OrderModel!
+  var moveToDone1: OrderModel!
+  var tempFood: [OrderDetail]=[]
+  var player: AVAudioPlayer?
+
+  var userToken: String? = nil
+  var pushNotifManager: PushNotificationManager?
+
+  @IBOutlet weak var pesananTableView: UITableView!
+  @IBOutlet weak var seqmen: UISegmentedControl!
+  @IBOutlet weak var dateLabel: UILabel!
+  @IBOutlet weak var lblStatusDescription: UILabel!
   
-    @IBOutlet weak var pesananTableView: UITableView!
-    @IBOutlet weak var seqmen: UISegmentedControl!
-    @IBOutlet weak var dateLabel: UILabel!
-    @IBOutlet weak var lblStatusDescription: UILabel!
-  
-  
-    var proses: UITableViewCell!
-    var selesai: UITableViewCell!
-    var selectedIndex: Int?
+  var proses: UITableViewCell!
+  var selesai: UITableViewCell!
+  var selectedIndex: Int?
   
   func playSound() {
     let url = Bundle.main.url(forResource: "notif_sound", withExtension: "mp3")!
@@ -57,44 +58,47 @@ class PesananViewController: UIViewController, UITableViewDelegate, UITableViewD
     dateLabel.text = str
   }
   
-  func addDocument(alamat: String, menuID:String, merchantID: String, merchantName: String, menuName: String, price: Int,category:String, description: String, latitude: Double, longitude: Double) {
+  override func viewDidLoad() {
+      
+    super.viewDidLoad()
 
-//    let db = Firestore.firestore()
-//    let menuRef = db.collection("Menus_rezli")
-    
-    print("Masuk Database")
-}
-    
-    override func viewDidLoad() {
-        
-        super.viewDidLoad()
-      
-        getCurrentDate()
-    
-        
-        let nib2 = UINib(nibName: "PesananTableViewCell", bundle: nil)
-        self.pesananTableView.register(nib2, forCellReuseIdentifier: "pesananCell")
+    getCurrentDate()
 
-        let nib3 = UINib(nibName: "SelesaiTableViewCell", bundle: nil)
-        self.pesananTableView.register(nib3, forCellReuseIdentifier: "selesaiCell")
-      
-        let nib4 = UINib(nibName: "SelesaiTableViewCell", bundle: nil)
-        self.pesananTableView.register(nib4, forCellReuseIdentifier: "diambilCell")
-      
-        let nib5 = UINib(nibName: "SelesaiTableViewCell", bundle: nil)
-        self.pesananTableView.register(nib5, forCellReuseIdentifier: "dibayarCell")
+        
+    let nib2 = UINib(nibName: "PesananTableViewCell", bundle: nil)
+    self.pesananTableView.register(nib2, forCellReuseIdentifier: "pesananCell")
+
+    let nib3 = UINib(nibName: "SelesaiTableViewCell", bundle: nil)
+    self.pesananTableView.register(nib3, forCellReuseIdentifier: "selesaiCell")
+  
+    let nib4 = UINib(nibName: "SelesaiTableViewCell", bundle: nil)
+    self.pesananTableView.register(nib4, forCellReuseIdentifier: "diambilCell")
+  
+    let nib5 = UINib(nibName: "SelesaiTableViewCell", bundle: nil)
+    self.pesananTableView.register(nib5, forCellReuseIdentifier: "dibayarCell")
         
         
-        pesananTableView.delegate = self
-        pesananTableView.dataSource = self
+    pesananTableView.delegate = self
+    pesananTableView.dataSource = self
       
-      setPesananData {
-        self.pesananTableView.reloadData()
-        print("pesanan : \(self.cekPesanan.count), ")
+    
+    MerchantProfileCache.getMerchantFromFirestore(merchantID: "KAS01") { (merchant) in
+      if let merchant = merchant {
+        MerchantProfileCache.save(merchant)
+        self.merchantModel = MerchantProfileCache.get()
+        self.setPesananData {
+          self.pesananTableView.reloadData()
+          print("pesanan : \(self.cekPesanan.count), ")
+        }
+        
+        self.pushNotifManager = PushNotificationManager(userID: self.merchantModel.merchantID)
+        self.pushNotifManager!.updateFirestorePushTokenIfNeeded()
       }
-      pushNotifManager.updateFirestorePushTokenIfNeeded()
-
     }
+
+    
+
+  }
   
   
   override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
@@ -357,7 +361,7 @@ extension PesananViewController {
   }
   
   func setPesananData(completionHandler: @escaping() -> Void) {
-    getPesananData(merchantID: "KAS01") { (querySnapshot, error) in
+    getPesananData(merchantID: merchantModel.merchantID) { (querySnapshot, error) in
       if error == nil && querySnapshot?.count != 0 {
         guard let documents = querySnapshot?.documents else { return }
         self.cekPesanan.removeAll()

@@ -17,12 +17,14 @@ class RestoranViewController: UIViewController, UITableViewDelegate, UITableView
   @IBOutlet weak var lblStatusRestoran: UILabel!
   @IBOutlet weak var switchStatus: UISwitch!
   
-  var merchantID: String = "LAD01"
+  var merchant: Merchant!
   var dataMenu: [Menu]=[]
   var selectedIndex: Int?
   
     override func viewDidLoad() {
       super.viewDidLoad()
+      
+      merchant = MerchantProfileCache.get()
       
       view1.setBorderShadow(color: .gray, shadowRadius: 8, shadowOpactiy: 0.16, shadowOffsetWidth: 0, shadowOffsetHeight: 4 )
       
@@ -36,7 +38,13 @@ class RestoranViewController: UIViewController, UITableViewDelegate, UITableView
       menuTableView.dataSource = self
       menuTableView.rowHeight = 100
       
-      self.setMenuByMerchant(merchantID: self.merchantID){
+      self.setMenuByMerchant(merchantID: merchant.merchantID) {
+        self.switchStatus.isOn = self.merchant.isMerchantOpen
+        if self.switchStatus.isOn {
+          self.menuTableView.isHidden = false
+        } else {
+          self.menuTableView.isHidden = true
+        }
         self.menuTableView.reloadData()
       }
       
@@ -102,11 +110,21 @@ class RestoranViewController: UIViewController, UITableViewDelegate, UITableView
   
   @IBAction func switchFunction(_ sender: Any) {
     if switchStatus.isOn{
-      lblStatusRestoran.text = "Buka"
-      menuTableView.isHidden = false
+      merchantStatus(isOpen: true, labelStatus: "Buka")
     }else {
-      lblStatusRestoran.text = "Tutup"
-      menuTableView.isHidden = true
+      merchantStatus(isOpen: false, labelStatus: "Tutup")
+    }
+  }
+  
+  func merchantStatus(isOpen: Bool, labelStatus: String) {
+    merchant.isMerchantOpen = isOpen
+    MerchantProfileCache.updateToFirestore(merchant) { (error) in
+      if let error = error {
+        
+      } else {
+        self.lblStatusRestoran.text = labelStatus
+        self.menuTableView.isHidden = !isOpen
+      }
     }
   }
 }
