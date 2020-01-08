@@ -78,9 +78,12 @@ struct OrderCache {
           err = error
           return
         }
+      orders.removeAll()
       for document in documents {
         let order = try! FirestoreDecoder().decode(OrderModel.self, from: document.data())
-        orders.append(order)
+        if order.status != "pending" {
+          orders.append(order)
+        }
       }
       DispatchQueue.main.async {
         completionHandler(orders, err)

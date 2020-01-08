@@ -16,8 +16,12 @@ class LaporanViewController: UIViewController, UITableViewDelegate, UITableViewD
   @IBOutlet weak var dateLabel: UILabel!
   @IBOutlet weak var laporanTableView: UITableView!
   
+  @IBOutlet weak var totalAmountLabel: UILabel!
+  
   var merchant: Merchant!
   var dataIncome: [OrderModel]=[]
+  
+  var totalAmount: Int = 0
   
   override func viewDidLoad() {
     super.viewDidLoad()
@@ -40,10 +44,16 @@ class LaporanViewController: UIViewController, UITableViewDelegate, UITableViewD
         
       } else {
         guard let orders = orders else {return}
+        self.dataIncome.removeAll()
+        self.totalAmount = 0
         for order in orders {
           self.dataIncome.append(order)
+          self.totalAmount += order.total!
         }
         
+        let x = self.totalAmount.formattedWithSeparator
+
+        self.totalAmountLabel.text = "Rp \(x)"
         self.laporanTableView.reloadData()
       }
     }
@@ -63,15 +73,24 @@ class LaporanViewController: UIViewController, UITableViewDelegate, UITableViewD
 
   func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
     
-      let orders = dataIncome[indexPath.row]
-      let cell = laporanTableView.dequeueReusableCell(withIdentifier: "incomeCell", for: indexPath) as! PendapatanTableViewCell
-      
-      cell.lblName.text = orders.customerName
-      cell.lblTime.text = "06:40"
-      cell.imgPayment.image = UIImage(named: orders.paymentType!)
-      cell.lblPrice.text = "\(orders.total!)"
-      cell.lblOrders.text = "\((orders.orderDetail?.count)!) Macam Hidangan"
-      
-      return cell
+    let orders = dataIncome[indexPath.row]
+    let cell = laporanTableView.dequeueReusableCell(withIdentifier: "incomeCell", for: indexPath) as! PendapatanTableViewCell
+    
+    cell.lblName.text = orders.customerName
+    
+    var date = ""
+    let seconds = orders.orderDate?.seconds
+    if let seconds = seconds {
+      date = Formatter.dateFormatter(seconds: Int(seconds), needDate: false)
+    }
+    cell.lblTime.text = "\(date)"
+    cell.imgPayment.image = UIImage(named: orders.paymentType!)
+    
+    let x = orders.total!.formattedWithSeparator
+
+    cell.lblPrice.text = "+ Rp \(x)"
+    cell.lblOrders.text = "\((orders.orderDetail?.count)!) Macam Hidangan"
+    
+    return cell
   }
 }

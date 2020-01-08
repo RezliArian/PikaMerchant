@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D366C1D23C64CC100639862 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D366C1C23C64CC100639862 /* Extensions.swift */; };
 		0D66F11E23C4804200169C27 /* MerchantModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D66F11D23C4804200169C27 /* MerchantModel.swift */; };
 		0EFEB944D2C41BC9974B1B70 /* Pods_PIkaMerchant.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 464D5731EB42EECCF92D062E /* Pods_PIkaMerchant.framework */; };
 		F04B025923A0931000E9806F /* OrderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04B025823A0930F00E9806F /* OrderModel.swift */; };
@@ -48,6 +49,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0D366C1C23C64CC100639862 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		0D66F11D23C4804200169C27 /* MerchantModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MerchantModel.swift; sourceTree = "<group>"; };
 		464D5731EB42EECCF92D062E /* Pods_PIkaMerchant.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PIkaMerchant.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D7C79A1A7F37D9184AC8A22 /* Pods-PIkaMerchant.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PIkaMerchant.debug.xcconfig"; path = "Target Support Files/Pods-PIkaMerchant/Pods-PIkaMerchant.debug.xcconfig"; sourceTree = "<group>"; };
@@ -169,6 +171,7 @@
 				F05015E923796FFF00C27BDD /* Info.plist */,
 				F05015E123796FFE00C27BDD /* PIkaMerchant.xcdatamodeld */,
 				F0F28AE4239F41860039B45A /* Shadow.swift */,
+				0D366C1C23C64CC100639862 /* Extensions.swift */,
 			);
 			path = PIkaMerchant;
 			sourceTree = "<group>";
@@ -395,6 +398,7 @@
 				F05015FC237A65D300C27BDD /* SelesaiTableViewCell.swift in Sources */,
 				F089F1C523B0859500635CCA /* MenuTableViewCell.swift in Sources */,
 				F089F1CF23B9DE1200635CCA /* MenuModel.swift in Sources */,
+				0D366C1D23C64CC100639862 /* Extensions.swift in Sources */,
 				F0F28AE5239F41860039B45A /* Shadow.swift in Sources */,
 				F05015F72379C79100C27BDD /* PesananViewController.swift in Sources */,
 				F0C2F0F323BEDF3500AC8477 /* LaporanViewController.swift in Sources */,
