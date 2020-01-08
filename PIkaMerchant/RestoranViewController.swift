@@ -21,34 +21,34 @@ class RestoranViewController: UIViewController, UITableViewDelegate, UITableView
   var dataMenu: [Menu]=[]
   var selectedIndex: Int?
   
-    override func viewDidLoad() {
-      super.viewDidLoad()
-      
-      merchant = MerchantProfileCache.get()
-      
-      view1.setBorderShadow(color: .gray, shadowRadius: 8, shadowOpactiy: 0.16, shadowOffsetWidth: 0, shadowOffsetHeight: 4 )
-      
-      let nib = UINib(nibName: "MenuTableViewCell", bundle: nil)
-      self.menuTableView.register(nib, forCellReuseIdentifier: "menuCell")
-      
-      let nib2 = UINib(nibName: "MenuModalTableViewCell", bundle: nil)
-      self.menuTableView.register(nib2, forCellReuseIdentifier: "detailMenuCell")
-      
-      menuTableView.delegate = self
-      menuTableView.dataSource = self
-      menuTableView.rowHeight = 100
-      
-      self.setMenuByMerchant(merchantID: merchant.merchantID) {
-        self.switchStatus.isOn = self.merchant.isMerchantOpen
-        if self.switchStatus.isOn {
-          self.menuTableView.isHidden = false
-        } else {
-          self.menuTableView.isHidden = true
-        }
-        self.menuTableView.reloadData()
+  override func viewDidLoad() {
+    super.viewDidLoad()
+    
+    merchant = MerchantProfileCache.get()
+    
+    view1.setBorderShadow(color: .gray, shadowRadius: 8, shadowOpactiy: 0.16, shadowOffsetWidth: 0, shadowOffsetHeight: 4 )
+    
+    let nib = UINib(nibName: "MenuTableViewCell", bundle: nil)
+    self.menuTableView.register(nib, forCellReuseIdentifier: "menuCell")
+    
+    let nib2 = UINib(nibName: "MenuModalTableViewCell", bundle: nil)
+    self.menuTableView.register(nib2, forCellReuseIdentifier: "detailMenuCell")
+    
+    menuTableView.delegate = self
+    menuTableView.dataSource = self
+    menuTableView.rowHeight = 100
+    
+    self.setMenuByMerchant(merchantID: merchant.merchantID) {
+      self.switchStatus.isOn = self.merchant.isMerchantOpen
+      if self.switchStatus.isOn {
+        self.menuTableView.isHidden = false
+      } else {
+        self.menuTableView.isHidden = true
       }
-      
+      self.menuTableView.reloadData()
     }
+    
+  }
   
   override func prepare(for segue:UIStoryboardSegue, sender: Any?){
 //    if segue.identifier == "tesSegue"{
@@ -84,11 +84,12 @@ class RestoranViewController: UIViewController, UITableViewDelegate, UITableView
       let cell = tableView.dequeueReusableCell(withIdentifier: "menuCell", for: indexPath) as! MenuTableViewCell
       
       cell.lblMenuName.text = orders.menuName
-      if (orders.recommended){
+      if (orders.isAvailable == true){
         cell.lblStatus.text = "Tersedia"
         cell.lblStatus.textColor = .init(cgColor: #colorLiteral(red: 0.4745098039, green: 0.7098039216, blue: 0.08235294118, alpha: 1))
       }else {
         cell.lblStatus.text = "Tidak tersedia"
+        cell.lblStatus.textColor = .init(cgColor: #colorLiteral(red: 0.7450980544, green: 0.1568627506, blue: 0.07450980693, alpha: 1))
       }
       return cell
     }
@@ -135,20 +136,31 @@ extension RestoranViewController {
     let db = Firestore.firestore()
 
     let docRef = db.collection("Menus")
-    let query = docRef.whereField("merchantID", isEqualTo: merchantID)
+//    let query = docRef.whereField("merchantID", isEqualTo: merchantID)
     
-    query.getDocuments { (querySnapshot, err) in
-      if let err = err {
-        completionHandler(nil, err)
-        
-      } else {
-        completionHandler(querySnapshot, nil)
-      }
+//    query.addSnapshotListener { (querySnapshot, err) in
+//      if let err = err {
+//        completionHandler(nil, err)
+//
+//      } else {
+//        completionHandler(querySnapshot, nil)
+//      }
+//    }
+    
+    docRef.whereField("merchantID", isEqualTo: merchantID)
+    .addSnapshotListener { querySnapshot, error in
+      guard let documents = querySnapshot
+        else {
+          print("Error fetching documents: \(error!)")
+          return
+        }
+      completionHandler(documents, error)
     }
   }
   func setMenuByMerchant(merchantID: String, completionHandler: @escaping() -> Void) {
     getMenuByMerchant(merchantID: merchantID) { (querySnapshot, error) in
       if error == nil && querySnapshot?.count != 0 {
+        self.dataMenu.removeAll()
         for document in querySnapshot!.documents {
           let menu = try! FirestoreDecoder().decode(Menu.self, from: document.data())
           self.dataMenu.append(menu)

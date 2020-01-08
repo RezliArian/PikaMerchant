@@ -355,12 +355,6 @@ extension PesananViewController {
           print("Error fetching documents: \(error!)")
           return
         }
-//      documents.documentChanges.forEach{ diff in
-//        if (diff.type == .modified) {
-//            self.playSound()
-//            print("INI DATA BARU NIH")
-//        }
-//      }
       completionHandler(documents, error)
     }
     

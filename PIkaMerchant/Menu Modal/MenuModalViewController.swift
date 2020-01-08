@@ -39,6 +39,7 @@ class MenuModalViewController: UIViewController {
   
   override func viewWillAppear(_ animated: Bool) {
     setMenu()
+    
   }
 
 
@@ -65,6 +66,11 @@ class MenuModalViewController: UIViewController {
     labelPrice.text = "\(menuModal.price)"
     labelDistance.text = "\(menuModal.distance)"
     imageView.image = UIImage(named: menuModal.imageUrl!)
+    if menuModal.isAvailable == true {
+      switchStats.isOn = true
+    } else {
+      switchStats.isOn = false
+    }
   }
   
 //  func databaseSwitchStatus(indexPath: IndexPath){
@@ -81,15 +87,20 @@ class MenuModalViewController: UIViewController {
 //    let orders =
     
     if switchStats.isOn{
-      
-    }else{
-      
+      menuStatus(isOpen: true)
+    } else {
+      menuStatus(isOpen: false)
     }
   }
-  //  init(menuModel: Menu) {
-//    menuModal = menuModel
-//
-//   super.init(nibName: nil, bundle: nil)
-//  }
   
+  func menuStatus(isOpen: Bool) {
+    menuModal.isAvailable = isOpen
+    MenuProfileCache.updateToFirestore(menuModal) { (error) in
+      if let error = error {
+        
+      } else {
+        
+      }
+    }
+  }
 }

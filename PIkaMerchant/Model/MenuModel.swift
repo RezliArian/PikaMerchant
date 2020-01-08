@@ -29,7 +29,26 @@ struct Menu: Codable {
   let location: GeoPoint
   let menuRating: Float?
   let queue: Int?
+  var isAvailable: Bool?
   //var favorite: Bool = false
 }
 
 extension GeoPoint: GeoPointType {}
+
+struct MenuProfileCache {
+  static func updateToFirestore(_ value: Menu!, completionHandler: @escaping (Error?) -> Void) {
+    let menuData: Menu! = value
+    let db = Firestore.firestore()
+    
+    let customerRef = db.collection("Menus")
+    customerRef.document(menuData.menuID!).updateData([
+      "isAvailable": menuData.isAvailable
+      ]) { err in
+      if let err = err {
+          completionHandler(err)
+      } else {
+          completionHandler(nil)
+      }
+    }
+  }
+}
