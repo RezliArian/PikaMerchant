@@ -70,7 +70,7 @@ class LaporanViewController: UIViewController, UITableViewDelegate, UITableViewD
       cell.lblTime.text = "06:40"
       cell.imgPayment.image = UIImage(named: orders.paymentType!)
       cell.lblPrice.text = "\(orders.total!)"
-      cell.lblOrders.text = "\(orders.customerName?.count)"
+      cell.lblOrders.text = "\((orders.orderDetail?.count)!) Macam Hidangan"
       
       return cell
   }
