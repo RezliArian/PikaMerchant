@@ -16,10 +16,13 @@ class LaporanViewController: UIViewController, UITableViewDelegate, UITableViewD
   @IBOutlet weak var dateLabel: UILabel!
   @IBOutlet weak var laporanTableView: UITableView!
   
+  var merchant: Merchant!
   var dataIncome: [OrderModel]=[]
   
   override func viewDidLoad() {
     super.viewDidLoad()
+    
+    merchant = MerchantProfileCache.get()
     
     viewBalance.setBorderShadow(color: .gray, shadowRadius: 8, shadowOpactiy: 0.16, shadowOffsetWidth: 0, shadowOffsetHeight: 4 )
     
@@ -31,6 +34,19 @@ class LaporanViewController: UIViewController, UITableViewDelegate, UITableViewD
     laporanTableView.delegate = self
     laporanTableView.dataSource = self
     laporanTableView.rowHeight = 100
+    
+    OrderCache.getOrderDataByDate(merchantID: merchant.merchantID) { (orders, error) in
+      if let error = error {
+        
+      } else {
+        guard let orders = orders else {return}
+        for order in orders {
+          self.dataIncome.append(order)
+        }
+        
+        self.laporanTableView.reloadData()
+      }
+    }
     
   }
   

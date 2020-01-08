@@ -362,7 +362,7 @@ extension PesananViewController {
   
   func getUserData(userId: String, completionHandler: @escaping(DocumentSnapshot, Error?) -> Void) {
       
-      let db = Firestore.firestore()
+    let db = Firestore.firestore()
     let docRef = db.collection("Customers").document(userId)
     
     docRef.getDocument { (document, err) in
@@ -375,7 +375,7 @@ extension PesananViewController {
       }
       
     }
-    }
+  }
   
   func setUserToken(_ cusId: String, _ completionHandler: @escaping() -> Void){
     getUserData(userId: cusId) { (document, err) in
