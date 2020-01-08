@@ -494,7 +494,7 @@
         <scene sceneID="V3c-Ug-S1c">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="CoK-P8-hI7" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Pesanan" id="NVZ-gb-lgH"/>
+                    <tabBarItem key="tabBarItem" title="Pesanan" image="Pesanan_Inactive" selectedImage="Pesanan_Active" id="NVZ-gb-lgH"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="LCb-Kf-pbu">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -667,6 +667,8 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Pesanan_Active" width="21" height="25"/>
+        <image name="Pesanan_Inactive" width="21" height="25"/>
         <image name="dinner" width="500" height="288"/>
         <image name="star.fill" catalog="system" width="64" height="58"/>
     </resources>

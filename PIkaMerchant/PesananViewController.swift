@@ -96,7 +96,8 @@ class PesananViewController: UIViewController, UITableViewDelegate, UITableViewD
       }
     }
 
-    
+    self.tabBarItem.image = UIImage(named: "Pesanan_Inactive")
+    self.tabBarItem.selectedImage = UIImage(named: "Pesanan_Active")
 
   }
   
