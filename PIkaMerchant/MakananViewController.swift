@@ -116,7 +116,7 @@ class MakananViewController: UIViewController, UITableViewDelegate, UITableViewD
   func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
 //    let ngetes = cekMakanan[indexPath.row]
     let ngetes = cekFood[indexPath.row]
-    if indexPath.section == 0{
+    if indexPath.section == 0 {
       let cell = tableView.dequeueReusableCell(withIdentifier: "makananCell", for: indexPath) as! MakananTableViewCell
       
       cell.lblMakanan.text = ngetes.menuName

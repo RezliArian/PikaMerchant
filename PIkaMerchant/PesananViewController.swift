@@ -122,6 +122,20 @@ class PesananViewController: UIViewController, UITableViewDelegate, UITableViewD
       }
     }
   }
+  
+  func dateFormatter(seconds: Int) -> String {
+    let dateFormatter = DateFormatter()
+    dateFormatter.timeStyle = DateFormatter.Style.short //Set time style
+    dateFormatter.dateStyle = DateFormatter.Style.none //Set date style
+    dateFormatter.timeZone = TimeZone.current
+    
+    let dateString = "\(String(describing: seconds))"
+    let newDate = NSDate.init(timeIntervalSince1970: Double(dateString)!)
+ 
+    let currentDate = dateFormatter.string(from: newDate as Date)
+    
+    return currentDate
+  }
     
 
     func tableView(_ tableView: UITableView, leadingSwipeActionsConfigurationForRowAt indexPath: IndexPath) -> UISwipeActionsConfiguration? {
@@ -241,7 +255,13 @@ class PesananViewController: UIViewController, UITableViewDelegate, UITableViewD
           cell.lblName.text = orders.customerName
           cell.lblPickupTime.text = orders.orderID
           cell.lblItems.text = orders.orderDetail![0].menuName
-          cell.lblTime.text = ""
+          
+          var date = ""
+          let seconds = orders.orderDate?.seconds
+          if let seconds = seconds {
+            date = dateFormatter(seconds: Int(seconds))
+          }
+          cell.lblTime.text = "\(date)"
           cell.imgLogo.image = UIImage(named: orders.paymentType!)
           return cell
         }else if seqmen.selectedSegmentIndex == 1{
@@ -297,16 +317,30 @@ extension PesananViewController {
     
     let db = Firestore.firestore()
     let docRef = db.collection("Orders")
-   
-    docRef.document(orderID).updateData([
-      "status": status
-      ]) { err in
-      if let err = err {
-          completionHandler(err)
-      } else {
-          completionHandler(nil)
+    if status == "ready" {
+      docRef.document(orderID).updateData([
+        "status": status,
+        "readyDate": FieldValue.serverTimestamp()
+        ]) { err in
+        if let err = err {
+            completionHandler(err)
+        } else {
+            completionHandler(nil)
+        }
+      }
+    } else if status == "collected" {
+      docRef.document(orderID).updateData([
+        "status": status,
+        "collectedDate": FieldValue.serverTimestamp()
+        ]) { err in
+        if let err = err {
+            completionHandler(err)
+        } else {
+            completionHandler(nil)
+        }
       }
     }
+    
   }
   
   func getPesananData(merchantID: String, completionHandler: @escaping(QuerySnapshot?, Error?) -> Void) {
@@ -366,6 +400,7 @@ extension PesananViewController {
         guard let documents = querySnapshot?.documents else { return }
         self.cekPesanan.removeAll()
         self.cekSelesai.removeAll()
+        self.cekDiambil.removeAll()
         for document in documents {
           print(document.data())
           let order = try! FirestoreDecoder().decode(OrderModel.self, from: document.data())
