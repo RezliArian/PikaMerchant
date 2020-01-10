@@ -81,7 +81,7 @@ struct OrderCache {
       orders.removeAll()
       for document in documents {
         let order = try! FirestoreDecoder().decode(OrderModel.self, from: document.data())
-        if order.status != "pending" {
+        if order.status != "pending" || order.status != "cancelled" {
           orders.append(order)
         }
       }
