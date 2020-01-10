@@ -30,6 +30,7 @@ struct Menu: Codable {
   let menuRating: Float?
   let queue: Int?
   var isAvailable: Bool?
+  var isMerchantOpen: Bool?
   //var favorite: Bool = false
 }
 
@@ -50,5 +51,22 @@ struct MenuProfileCache {
           completionHandler(nil)
       }
     }
+  }
+  
+  static func updateIsMerchantOpenToFirestore(_ value: Menu, completionHandler: @escaping (Error?) -> Void) {
+    let menuData: Menu = value
+    let db = Firestore.firestore()
+    
+    let customerRef = db.collection("Menus")
+    customerRef.document(menuData.menuID!).updateData([
+      "isMerchantOpen": menuData.isMerchantOpen
+      ]) { err in
+      if let err = err {
+          completionHandler(err)
+      } else {
+          completionHandler(nil)
+      }
+    }
+    
   }
 }

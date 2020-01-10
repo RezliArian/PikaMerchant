@@ -26,6 +26,7 @@ class RestoranViewController: UIViewController, UITableViewDelegate, UITableView
     
     merchant = MerchantProfileCache.get()
     
+    self.title = merchant.merchantName
     view1.setBorderShadow(color: .gray, shadowRadius: 8, shadowOpactiy: 0.16, shadowOffsetWidth: 0, shadowOffsetHeight: 4 )
     
     let nib = UINib(nibName: "MenuTableViewCell", bundle: nil)
@@ -119,10 +120,19 @@ class RestoranViewController: UIViewController, UITableViewDelegate, UITableView
   
   func merchantStatus(isOpen: Bool, labelStatus: String) {
     merchant.isMerchantOpen = isOpen
+    for var menu in dataMenu {
+      menu.isMerchantOpen = isOpen
+      MenuProfileCache.updateIsMerchantOpenToFirestore(menu) { (err) in
+        if let err = err {
+          
+        }
+      }
+    }
     MerchantProfileCache.updateToFirestore(merchant) { (error) in
       if let error = error {
         
       } else {
+        
         self.lblStatusRestoran.text = labelStatus
         self.menuTableView.isHidden = !isOpen
       }
