@@ -82,7 +82,7 @@ class PesananViewController: UIViewController, UITableViewDelegate, UITableViewD
     pesananTableView.dataSource = self
       
     
-    MerchantProfileCache.getMerchantFromFirestore(merchantID: "KAS01") { (merchant) in
+    MerchantProfileCache.getMerchantFromFirestore(merchantID: "WKO01") { (merchant) in
       if let merchant = merchant {
         MerchantProfileCache.save(merchant)
         self.merchantModel = MerchantProfileCache.get()
@@ -95,9 +95,6 @@ class PesananViewController: UIViewController, UITableViewDelegate, UITableViewD
         self.pushNotifManager!.updateFirestorePushTokenIfNeeded()
       }
     }
-
-    self.tabBarItem.image = UIImage(named: "Pesanan_Inactive")
-    self.tabBarItem.selectedImage = UIImage(named: "Pesanan_Active")
 
   }
   
@@ -228,6 +225,7 @@ class PesananViewController: UIViewController, UITableViewDelegate, UITableViewD
             lblStatusDescription.text = "Pesanan Yang Sudah Diambil."
             break
         case 3:
+          returnValue = cekDibayar.count
           lblStatusDescription.text = "Transaksi yang sudah diteruskan ke Penjual."
         default:
             break
@@ -279,18 +277,41 @@ class PesananViewController: UIViewController, UITableViewDelegate, UITableViewD
         
         return cell1
           
+        }else if seqmen.selectedSegmentIndex == 2{
+          let take = cekDiambil[indexPath.row]
+          
+          let cell2 = tableView.dequeueReusableCell(withIdentifier: "diambilCell", for: indexPath) as! SelesaiTableViewCell
+          
+          cell2.lblName.text = take.customerName
+          cell2.lblItems.text = take.orderDetail![0].menuName
+          cell2.lblStatus.text = take.status
+          cell2.lblTime.text = ""
+          cell2.imgLogo.image = UIImage(named: take.paymentType!)
+          
+          return cell2
       }
-      let take = cekDiambil[indexPath.row]
+      let paid = cekDibayar[indexPath.row]
       
-      let cell2 = tableView.dequeueReusableCell(withIdentifier: "diambilCell", for: indexPath) as! SelesaiTableViewCell
+      let cell3 = tableView.dequeueReusableCell(withIdentifier: "dibayarCell", for: indexPath) as! SelesaiTableViewCell
       
-      cell2.lblName.text = take.customerName
-      cell2.lblItems.text = take.orderDetail![0].menuName
-      cell2.lblStatus.text = take.status
-      cell2.lblTime.text = ""
-      cell2.imgLogo.image = UIImage(named: take.paymentType!)
+      cell3.lblName.text = paid.customerName
+      cell3.lblItems.text = paid.orderDetail![0].menuName
+      cell3.lblStatus.text = paid.status
+      cell3.lblTime.text = ""
+      cell3.imgLogo.image = UIImage(named: paid.paymentType!)
       
-      return cell2
+      return cell3
+//      let take = cekDiambil[indexPath.row]
+//
+//      let cell2 = tableView.dequeueReusableCell(withIdentifier: "diambilCell", for: indexPath) as! SelesaiTableViewCell
+//
+//      cell2.lblName.text = take.customerName
+//      cell2.lblItems.text = take.orderDetail![0].menuName
+//      cell2.lblStatus.text = take.status
+//      cell2.lblTime.text = ""
+//      cell2.imgLogo.image = UIImage(named: take.paymentType!)
+//
+//      return cell2
       
     }
   
@@ -396,6 +417,7 @@ extension PesananViewController {
         self.cekPesanan.removeAll()
         self.cekSelesai.removeAll()
         self.cekDiambil.removeAll()
+        self.cekDibayar.removeAll()
         for document in documents {
           print(document.data())
           let order = try! FirestoreDecoder().decode(OrderModel.self, from: document.data())
@@ -416,6 +438,8 @@ extension PesananViewController {
           } else if order.status == "collected"{
             self.cekDiambil.append(order)
             print("order date : \(order.orderDate)")
+          } else if order.status == "paid"{
+            self.cekDibayar.append(order)
           }
         }
         completionHandler()

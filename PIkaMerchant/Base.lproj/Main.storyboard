@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="mzr-E8-l8o">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="mzr-E8-l8o">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -303,7 +303,7 @@
             </objects>
             <point key="canvasLocation" x="4710.144927536232" y="129.91071428571428"/>
         </scene>
-        <!--Restoran-->
+        <!--Warung Kokoh-->
         <scene sceneID="VdF-w8-8qg">
             <objects>
                 <viewController id="WWN-BL-mH9" customClass="RestoranViewController" customModule="PikaMerchant" customModuleProvider="target" sceneMemberID="viewController">
@@ -372,7 +372,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="e5s-S6-0EX"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Restoran" id="psj-Pd-BxY"/>
+                    <navigationItem key="navigationItem" title="Warung Kokoh" id="psj-Pd-BxY"/>
                     <connections>
                         <outlet property="lblStatusRestoran" destination="MVX-99-Zwb" id="Lih-4h-f5G"/>
                         <outlet property="menuTableView" destination="wEf-CG-fXU" id="FlE-Tq-vmP"/>
@@ -519,6 +519,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="selectedImageTintColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </tabBar>
                     <connections>
                         <segue destination="CoK-P8-hI7" kind="relationship" relationship="viewControllers" id="LUf-uQ-X1z"/>
@@ -534,7 +535,7 @@
         <scene sceneID="taJ-uG-a6D">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="tKn-Uy-dFQ" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Laporan" image="Restaurant_Inactive" id="6rT-Xe-xdz"/>
+                    <tabBarItem key="tabBarItem" title="Laporan" image="Laporan_Inactive" selectedImage="Laporan_Active" id="6rT-Xe-xdz"/>
                     <toolbarItems/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="FsU-Ag-Wd9">
@@ -668,6 +669,8 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Laporan_Active" width="19" height="25"/>
+        <image name="Laporan_Inactive" width="19" height="25"/>
         <image name="Pesanan_Active" width="21" height="25"/>
         <image name="Pesanan_Inactive" width="21" height="25"/>
         <image name="Restaurant_Active" width="25" height="22"/>
