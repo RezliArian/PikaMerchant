@@ -82,7 +82,7 @@ class PesananViewController: UIViewController, UITableViewDelegate, UITableViewD
     pesananTableView.dataSource = self
       
     
-    MerchantProfileCache.getMerchantFromFirestore(merchantID: "WKO01") { (merchant) in
+    MerchantProfileCache.getMerchantFromFirestore(merchantID: "LAD01") { (merchant) in
       if let merchant = merchant {
         MerchantProfileCache.save(merchant)
         self.merchantModel = MerchantProfileCache.get()
@@ -105,17 +105,21 @@ class PesananViewController: UIViewController, UITableViewDelegate, UITableViewD
         if seqmen.selectedSegmentIndex == 0 {
           nextVC.indikator = 1
           nextVC.setOrderModel(orderDetails: cekPesanan[selectedIndex!].orderDetail!)
-          nextVC.selesaiModal = self.cekPesanan[selectedIndex!]
+          nextVC.orderModal = self.cekPesanan[selectedIndex!]
 //          nextVC.cekFood = self.tempFood
           nextVC.delegate = self
-        }else if seqmen.selectedSegmentIndex == 1{
+        }else if seqmen.selectedSegmentIndex == 1 {
           nextVC.indikator = 2
           nextVC.setOrderModel(orderDetails: cekSelesai[selectedIndex!].orderDetail!)
-          nextVC.selesaiModal = self.cekSelesai[selectedIndex!]
-        }else{
+          nextVC.orderModal = self.cekSelesai[selectedIndex!]
+        }else if seqmen.selectedSegmentIndex == 2 {
           nextVC.indikator = 3
           nextVC.setOrderModel(orderDetails: cekDiambil[selectedIndex!].orderDetail!)
-          nextVC.selesaiModal = self.cekDiambil[selectedIndex!]
+          nextVC.orderModal = self.cekDiambil[selectedIndex!]
+        } else if seqmen.selectedSegmentIndex == 3 {
+          nextVC.indikator = 4
+          nextVC.setOrderModel(orderDetails: cekDibayar[selectedIndex!].orderDetail!)
+          nextVC.orderModal = self.cekDibayar[selectedIndex!]
         }
       }
     }
@@ -169,39 +173,6 @@ class PesananViewController: UIViewController, UITableViewDelegate, UITableViewD
       
       return UISwipeActionsConfiguration(actions: [accept])
     }
-    
-//    func completeAction(at indexPath:IndexPath) -> UIContextualAction {
-//        let action = UIContextualAction(style: .destructive, title: "Complete") {
-//          (action, view, nil) in
-//          if self.seqmen.selectedSegmentIndex == 0{
-//            self.cekPesanan.remove(at: indexPath.row)
-//            self.pesananTableView.deleteRows(at: [indexPath], with: .automatic)
-//            completion(true)
-//          }else if self.seqmen.selectedSegmentIndex == 1{
-//            self.cekSelesai.remove(at: indexPath.row)
-//            self.pesananTableView.deleteRows(at: [indexPath], with: .automatic)
-//            completion(true)
-//          }
-//
-//        }
-//        action.image = #imageLiteral(resourceName: "Check")
-//        action.backgroundColor = #colorLiteral(red: 0.3930387795, green: 0.6226156354, blue: 0.4152288437, alpha: 1)
-//
-//      let notip = PushNotificationSender()
-//      notip.sendPushNotification(to: "cSdd9FlaY04:APA91bGhfOzEwcozodWACBtNM0B5Jg0tFumQ6ybJ2TmuaMtK9GMMH6BzLltqeax2s33M02FcAe5gqXXot4y4v3ToWwSZy2YwOybvg7kZvSVOWYr0Ix9cCo8shN8qseVU9mRJ349Ba3M8", title: "title", body: "body")
-//
-//        return action
-//    }
-  
-//  func moveToSelesaiSegment(moveToDone: OrderModel){
-//    let newSelesai = OrderModel(customerID: moveToDone.customerID, customerName: moveToDone.customerName, discount: moveToDone.discount, merchantID: moveToDone.merchantID, orderDetail: moveToDone.orderDetail, orderID: moveToDone.orderID, status: moveToDone.status, orderDate: moveToDone.orderDate, subtotal: moveToDone.subtotal, orderNo: moveToDone.orderNo, total: moveToDone.total, estimationTime: moveToDone.estimationTime, paymentType: moveToDone.paymentType)
-//    cekSelesai.append(newSelesai)
-//  }
-//
-//  func moveToDiambilSegment(moveToDone1: OrderModel){
-//    let newDiambil = OrderModel(customerID: moveToDone.customerID, customerName: moveToDone.customerName, discount: moveToDone.discount, merchantID: moveToDone.customerID, orderDetail: moveToDone.orderDetail, orderID: moveToDone.orderID, status: moveToDone.status, orderDate: moveToDone.orderDate, subtotal: moveToDone.subtotal, orderNo: moveToDone.orderNo, total: moveToDone.total, estimationTime: moveToDone.estimationTime, paymentType: moveToDone.paymentType)
-//    cekDiambil.append(newDiambil)
-//  }
   
     @IBAction func UISegmentedControl(_ sender: UISegmentedControl) {
         pesananTableView.reloadData()
@@ -235,61 +206,59 @@ class PesananViewController: UIViewController, UITableViewDelegate, UITableViewD
     }
   
   func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-      selectedIndex = indexPath.row
-      performSegue(withIdentifier: "tesSegue", sender: indexPath.row)
- 
-  
+    selectedIndex = indexPath.row
+    performSegue(withIdentifier: "tesSegue", sender: indexPath.row)
   }
     
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        tableView.clearsContextBeforeDrawing = true
-        tableView.rowHeight = 100
+  func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+    tableView.clearsContextBeforeDrawing = true
+    tableView.rowHeight = 100
         
-        if seqmen.selectedSegmentIndex == 0 {
+    if seqmen.selectedSegmentIndex == 0 {
        
-            let orders = cekPesanan[indexPath.row]
-            let cell = tableView.dequeueReusableCell(withIdentifier: "pesananCell", for: indexPath) as! PesananTableViewCell
-            
-          //let date = String(orders.estimationTime?.dateValue())
-          cell.lblName.text = orders.customerName
-          cell.lblPickupTime.text = orders.orderID
-          cell.lblItems.text = orders.orderDetail![0].menuName
+      let orders = cekPesanan[indexPath.row]
+      let cell = tableView.dequeueReusableCell(withIdentifier: "pesananCell", for: indexPath) as! PesananTableViewCell
+    
+      cell.lblName.text = orders.customerName
+      cell.lblPickupTime.text = orders.orderID
+      cell.lblItems.text = orders.orderDetail![0].menuName
           
-          var date = ""
-          let seconds = orders.orderDate?.seconds
-          if let seconds = seconds {
-            date = dateFormatter(seconds: Int(seconds))
-          }
-          cell.lblTime.text = "\(date)"
-          cell.imgLogo.image = UIImage(named: orders.paymentType!)
-          return cell
-        }else if seqmen.selectedSegmentIndex == 1{
-        
-            let done = cekSelesai[indexPath.row]
-            
-            let cell1 = tableView.dequeueReusableCell(withIdentifier: "selesaiCell", for: indexPath) as! SelesaiTableViewCell
-            
-          cell1.lblName.text = done.customerName
-          cell1.lblItems.text = done.orderDetail![0].menuName
-          cell1.lblStatus.text = done.status
-          cell1.lblTime.text = ""
-          cell1.imgLogo.image = UIImage(named: done.paymentType!)
-        
-        return cell1
-          
-        }else if seqmen.selectedSegmentIndex == 2{
-          let take = cekDiambil[indexPath.row]
-          
-          let cell2 = tableView.dequeueReusableCell(withIdentifier: "diambilCell", for: indexPath) as! SelesaiTableViewCell
-          
-          cell2.lblName.text = take.customerName
-          cell2.lblItems.text = take.orderDetail![0].menuName
-          cell2.lblStatus.text = take.status
-          cell2.lblTime.text = ""
-          cell2.imgLogo.image = UIImage(named: take.paymentType!)
-          
-          return cell2
+      var date = ""
+      let seconds = orders.orderDate?.seconds
+      if let seconds = seconds {
+        date = dateFormatter(seconds: Int(seconds))
       }
+      cell.lblTime.text = "\(date)"
+      cell.imgLogo.image = UIImage(named: orders.paymentType!)
+      return cell
+      
+    } else if seqmen.selectedSegmentIndex == 1 {
+        
+      let done = cekSelesai[indexPath.row]
+      
+      let cell1 = tableView.dequeueReusableCell(withIdentifier: "selesaiCell", for: indexPath) as! SelesaiTableViewCell
+            
+      cell1.lblName.text = done.customerName
+      cell1.lblItems.text = done.orderDetail![0].menuName
+      cell1.lblStatus.text = done.status
+      cell1.lblTime.text = ""
+      cell1.imgLogo.image = UIImage(named: done.paymentType!)
+        
+      return cell1
+          
+    } else if seqmen.selectedSegmentIndex == 2 {
+      let take = cekDiambil[indexPath.row]
+      
+      let cell2 = tableView.dequeueReusableCell(withIdentifier: "diambilCell", for: indexPath) as! SelesaiTableViewCell
+      
+      cell2.lblName.text = take.customerName
+      cell2.lblItems.text = take.orderDetail![0].menuName
+      cell2.lblStatus.text = take.status
+      cell2.lblTime.text = ""
+      cell2.imgLogo.image = UIImage(named: take.paymentType!)
+      
+      return cell2
+    }
       let paid = cekDibayar[indexPath.row]
       
       let cell3 = tableView.dequeueReusableCell(withIdentifier: "dibayarCell", for: indexPath) as! SelesaiTableViewCell
@@ -301,17 +270,6 @@ class PesananViewController: UIViewController, UITableViewDelegate, UITableViewD
       cell3.imgLogo.image = UIImage(named: paid.paymentType!)
       
       return cell3
-//      let take = cekDiambil[indexPath.row]
-//
-//      let cell2 = tableView.dequeueReusableCell(withIdentifier: "diambilCell", for: indexPath) as! SelesaiTableViewCell
-//
-//      cell2.lblName.text = take.customerName
-//      cell2.lblItems.text = take.orderDetail![0].menuName
-//      cell2.lblStatus.text = take.status
-//      cell2.lblTime.text = ""
-//      cell2.imgLogo.image = UIImage(named: take.paymentType!)
-//
-//      return cell2
       
     }
   
@@ -367,10 +325,28 @@ extension PesananViewController {
   
   func getPesananData(merchantID: String, completionHandler: @escaping(QuerySnapshot?, Error?) -> Void) {
     
+    let formatter = DateFormatter()
+    formatter.dateFormat = "MMMM dd, yyyy"
+    
+    let result = formatter.string(from: Date())
+
+    let startDate = result + " " + "00:00:00"
+    let endDate = result + " " + "23:59:00"
+
+    formatter.dateFormat = "MMMM dd, yyyy HH:mm:ss"
+    
+    let startTime: Date = formatter.date(from: startDate)!
+    let startTimestamp: Timestamp = Timestamp(date: startTime)
+
+    let endTime: Date = formatter.date(from: endDate) ?? Date()
+    let endTimestamp: Timestamp = Timestamp(date: endTime)
+    
     let db = Firestore.firestore()
     let docRef = db.collection("Orders")
     
     docRef.whereField("merchantID", isEqualTo: merchantID)
+    .whereField("orderDate", isGreaterThanOrEqualTo: startTimestamp)
+    .whereField("orderDate", isLessThanOrEqualTo: endTimestamp)
     .addSnapshotListener { querySnapshot, error in
       guard let documents = querySnapshot
         else {

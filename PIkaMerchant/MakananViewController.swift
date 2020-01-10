@@ -25,7 +25,6 @@ class MakananViewController: UIViewController, UITableViewDelegate, UITableViewD
   
   @IBOutlet weak var nama: UILabel!
   @IBOutlet weak var orderId: UILabel!
-  @IBOutlet weak var jam: UILabel!
   @IBOutlet weak var caraPenyajian: UILabel!
   @IBOutlet weak var lblCaraPenyajian: UILabel!
   @IBOutlet weak var estimasi: UILabel!
@@ -39,10 +38,7 @@ class MakananViewController: UIViewController, UITableViewDelegate, UITableViewD
   var delegate:doneServe?
   
   
-  var pesananModal: OrderModel!
-  var selesaiModal: OrderModel!
-  var diambilModal: OrderModel!
-  var makananModal: OrderModel!
+  var orderModal: OrderModel!
   var makan: OrderDetail!
   var indikator:Int!
   
@@ -66,7 +62,7 @@ class MakananViewController: UIViewController, UITableViewDelegate, UITableViewD
 //    }else if indikator == 3{
 //      nama.text = diambilModal.customerName
 //    }
-    nama.text = selesaiModal.customerName
+    nama.text = orderModal.customerName
     
     nama.font = UIFont.boldSystemFont(ofSize: 20)
     lblCaraPenyajian.font = UIFont.boldSystemFont(ofSize: 20)
@@ -77,7 +73,7 @@ class MakananViewController: UIViewController, UITableViewDelegate, UITableViewD
     view1.setBorderShadow(color: .gray, shadowRadius: 8, shadowOpactiy: 0.16, shadowOffsetWidth: 0, shadowOffsetHeight: 4 )
     view2.setBorderShadow(color: .gray, shadowRadius: 8, shadowOpactiy: 0.16, shadowOffsetWidth: 0, shadowOffsetHeight: 4 )
     
-    orderId.text = selesaiModal.orderID
+    orderId.text = orderModal.orderID
     
   }
   
@@ -88,10 +84,12 @@ class MakananViewController: UIViewController, UITableViewDelegate, UITableViewD
   }
   
   func getCurrentDate(){
-    let formatter = DateFormatter()
-    formatter.dateFormat = "dd MMMM yyyy"
-    let str = formatter.string(from: Date())
-    dateModal.text = str
+    var date = ""
+    let seconds = orderModal.orderDate?.seconds
+    if let seconds = seconds {
+      date = Formatter.dateFormatter(seconds: Int(seconds), needDate: true)
+    }
+    dateModal.text = "\(date)"
   }
   
   func numberOfSections(in tableView: UITableView) -> Int {
@@ -114,29 +112,25 @@ class MakananViewController: UIViewController, UITableViewDelegate, UITableViewD
   }
 
   func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-//    let ngetes = cekMakanan[indexPath.row]
-    let ngetes = cekFood[indexPath.row]
+
+    let menu = cekFood[indexPath.row]
     if indexPath.section == 0 {
       let cell = tableView.dequeueReusableCell(withIdentifier: "makananCell", for: indexPath) as! MakananTableViewCell
       
-      cell.lblMakanan.text = ngetes.menuName
-      cell.lblDeskripsi.text = ngetes.note
-//    cell.lblPorsi.text = "\(String(describing: ngetes.orderDetail![0].quantity))"
-      cell.lblPorsi.text = "\(ngetes.quantity!)"
-      
-      
+      cell.lblMakanan.text = menu.menuName
+      cell.lblDeskripsi.text = menu.note
+      cell.lblPorsi.text = "\(menu.quantity!)"
+
       return cell
     }
-      let cell = tableView.dequeueReusableCell(withIdentifier: "siapCell",for: indexPath) as! SiapCell
-      cell.priceLbl.text = "\(String(describing: selesaiModal.total!))"
-//      let orders = cekSelesai[indexPath.row]
-//
-//      cell.priceLbl.text = "\(String(describing: orders.total))"
+    let cell = tableView.dequeueReusableCell(withIdentifier: "siapCell",for: indexPath) as! SiapCell
+    
+    let x = orderModal.total!.formattedWithSeparator
+
+    cell.priceLbl.text = "Rp \(x)"
+
       
-      return cell
-//    let cell = tableView.dequeueReusableCell(withIdentifier: "siapCell", for: indexPath)
-//    
-//    return cell
+    return cell
   }
   
   @IBAction func btnServed(_ sender: UIButton) {
